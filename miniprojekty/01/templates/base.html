@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Flask App{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .navbar-custom {
+        background-color: #36393f; /* Grayish background */
+      }
+      .navbar-custom .navbar-brand {
+        color: #ffbe1b;
+        font-weight: bold;
+      }
+      .navbar-custom .nav-link {
+        color: #ffbe1b;
+        margin-right: 15px;
+      }
+      .navbar-custom .btn-sign-in {
+        background-color: transparent;
+        color: white;
+        border: 2px solid #ffbe1b; /* Light purple border */
+        border-radius: 25px;
+        padding: 8px 20px;
+        margin-right: 10px;
+      }
+      .navbar-custom .btn-sign-up {
+        background-color: #ffbe1b; /* Teal background */
+        color: white;
+        border: none;
+        border-radius: 25px;
+        padding: 8px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="{{ url_for('dash.dashboard') }}"
+
+          >Dashboard 3</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">TBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TBD</a>
+            </li>
+          </ul>
+          <a href="{{ url_for('login') }}" class="btn btn-sign-in">Login</a>
+          <a href="{{ url_for('register') }}" class="btn btn-sign-up"
+            >Register</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">{% block content %}{% endblock %}</div>
+  </body>
+</html>
