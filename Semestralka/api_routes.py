@@ -22,15 +22,14 @@ from db import (
     insert_data_into_db,
     fetch_all_data_by_order,
 )
-from typing import Dict
+from typing import Dict, Any
 from extensions import jsonify_data, logged_in
 import base64
 from datetime import datetime
 import logging
 import queue
 import time
-from typing import Any
-
+from utills import message_queue
 
 logging.basicConfig(
     level=logging.INFO,  # Set the logging level to DEBUG
@@ -50,7 +49,6 @@ creds = Blueprint("creds", __name__)
 data_manipulation = Blueprint("data_manipulation", __name__)
 dash = Blueprint("dash", __name__)
 terminal_bp = Blueprint("terminal_bp", __name__)
-message_queue = queue.Queue()  # type: ignore
 
 
 @creds.route("/login", methods=["GET", "POST"])
@@ -254,12 +252,23 @@ def terminal_page():
 def receive_mqtt_message():
     data = request.json
     if data and "topic" in data and "payload" in data:
-        logging.info(f"Flask received message: {data['topic']} {data['payload']}")
-        message_queue.put(data)
-        return jsonify(status="success", message="Message received"), 200
+        logging.info(
+            f"Flask received message via HTTP POST: {data['topic']} {data['payload']}"
+        )
+        # Use the message_queue from extensions
+        message_queue.put(
+            {
+                "topic": data["topic"],
+                "payload": data["payload"],
+                "qos": data.get("qos", 0),
+            }
+        )
+        return jsonify(status="success", message="Message received by HTTP POST"), 200
     else:
-        logging.warning("Flask received invalid message format")
-        return jsonify(status="error", message="Invalid message format"), 400
+        logging.warning("Flask received invalid message format via HTTP POST")
+        return jsonify(
+            status="error", message="Invalid message format for HTTP POST"
+        ), 400
 
 
 @terminal_bp.route("/terminal-stream")

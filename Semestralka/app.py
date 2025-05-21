@@ -4,12 +4,9 @@ from flask import Flask, redirect, request, jsonify, Response
 import os
 import logging
 import threading
-from mqtt import Mqtt
-import time
-import queue
+from utills import mqtt_client_handler
 
 ssl_context = ("./cert/certificate.pem", "./cert/key.pem")
-message_queue = queue.Queue()  # type: ignore
 
 
 class Config:
@@ -62,7 +59,7 @@ def ratelimit_handler(e):
 if __name__ == "__main__":
     logging.info("App started")
     threads = [
-        threading.Thread(target=Mqtt().connect),
+        threading.Thread(target=mqtt_client_handler.connect),
         threading.Thread(
             target=app.run,
             kwargs={
