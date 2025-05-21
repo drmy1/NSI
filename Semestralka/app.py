@@ -1,12 +1,15 @@
-from api_routes import creds, data_manipulation, dash, terminal
+from api_routes import creds, data_manipulation, dash, terminal_bp
 from extensions import limiter
-from flask import Flask, redirect, request, jsonify
+from flask import Flask, redirect, request, jsonify, Response
 import os
 import logging
 import threading
 from mqtt import Mqtt
+import time
+import queue
 
 ssl_context = ("./cert/certificate.pem", "./cert/key.pem")
+message_queue = queue.Queue()  # type: ignore
 
 
 class Config:
@@ -25,16 +28,15 @@ app.secret_key = os.urandom(1)
 app.register_blueprint(creds, url_prefix="/api")
 app.register_blueprint(data_manipulation, url_prefix="/api")
 app.register_blueprint(dash, url_prefix="/api")
-app.register_blueprint(terminal, url_prefix="/api")
+app.register_blueprint(terminal_bp, url_prefix="/api")
 
 
 logging.basicConfig(
-    level=logging.INFO,  # Set the logging level to DEBUG
+    level=logging.INFO,
     # level=logging.DEBUG,
     # Define the format of log messages
     format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="app.log",  # Specify the file to write logs to
-    # Specify the file writing mode ('w' for overwrite, 'a' for append)
+    filename="app.log",
     filemode="a",
     encoding="utf8",
 )

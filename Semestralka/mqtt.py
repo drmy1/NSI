@@ -3,15 +3,14 @@ import logging
 import os
 from extensions import is_valid_ipv4
 from dotenv import load_dotenv
-
+import requests  # type: ignore
 
 logging.basicConfig(
-    level=logging.INFO,  # Set the logging level to DEBUG
+    level=logging.INFO,
     # level=logging.DEBUG,
     # Define the format of log messages
     format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="app.log",  # Specify the file to write logs to
-    # Specify the file writing mode ('w' for overwrite, 'a' for append)
+    filename="app.log",
     filemode="a",
     encoding="utf8",
 )
@@ -89,6 +88,7 @@ class Env:
 
 class Mqtt:
     subscribed = False
+    FLASK_MESSAGE_ENDPOINT = "https://127.0.0.1:5000/api/mqtt-message"
 
     def __init__(self):
         self.client = mqtt.Client(clean_session=True, client_id="NSI_semestralka")
@@ -102,7 +102,7 @@ class Mqtt:
         self.password = env_settings.getpassword
         self.host = env_settings.gethost
         self.port = env_settings.getport
-        self.topics_to_subscribe = [("#", 0)]
+        self.topics_to_subscribe = [("#", 2)]
 
     @classmethod
     def setsub(cls) -> None:
@@ -113,7 +113,7 @@ class Mqtt:
         if rc == 0:
             logging.info(f"Subscribing to topics: {self.topics_to_subscribe}")
             client.subscribe(self.topics_to_subscribe)
-            print(f"Connected with result code {rc}")
+            # print(f"Connected with result code {rc}")
 
         else:
             logging.error(f"Connection failed, not subscribing. Result code: {rc}")
@@ -122,8 +122,24 @@ class Mqtt:
     def on_message(self, client, userdata, msg):
         match self.subscribed:
             case True:
-                logging.info(f"Message received: {msg.topic} {msg.payload.decode()}")
-                print(f"Message received: {msg.topic} {msg.payload.decode()}")
+                message_content = msg.payload.decode()
+                topic = msg.topic
+                logging.info(f"Message received: {topic} {message_content}")
+                # print(f"Message received: {topic} {message_content}")
+                try:
+                    requests.post(
+                        self.FLASK_MESSAGE_ENDPOINT,
+                        json={
+                            "topic": topic,
+                            "payload": message_content,
+                            "qos": msg.qos,
+                        },
+                        verify=False,
+                    )
+                    logging.info(f"Message sent to Flask: {topic} {message_content}")
+                except requests.exceptions.RequestException as e:
+                    logging.error(f"Error sending message to Flask: {e}")
+                    print(f"Error sending message to Flask: {e}")
             case False:
                 logging.info("Program started configuting subscription...")
                 self.setsub()
@@ -153,9 +169,6 @@ class Mqtt:
         except Exception as e:
             logging.error(f"An error occurred: {e}")
             print(f"An error occurred: {e}")
-        finally:
-            logging.info("Cleaning up and exiting.")
-            print("Cleaning up and exiting.")
         self.client.loop_start()
         logging.info(f"Connected to MQTT broker at {self.host}:{self.port}")
-        print(f"Connected to MQTT broker at {self.host}:{self.port}")
+        # print(f"Connected to MQTT broker at {self.host}:{self.port}")

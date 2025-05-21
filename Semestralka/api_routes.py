@@ -6,6 +6,7 @@ from flask import (
     url_for,
     jsonify,
     session,
+    Response,
 )
 import json
 from db import (
@@ -26,6 +27,9 @@ from extensions import jsonify_data, logged_in
 import base64
 from datetime import datetime
 import logging
+import queue
+import time
+from typing import Any
 
 
 logging.basicConfig(
@@ -45,7 +49,8 @@ NOT_LOGGED_IN = "User not logged in - redirecting to login"
 creds = Blueprint("creds", __name__)
 data_manipulation = Blueprint("data_manipulation", __name__)
 dash = Blueprint("dash", __name__)
-terminal = Blueprint("terminal", __name__)
+terminal_bp = Blueprint("terminal_bp", __name__)
+message_queue = queue.Queue()  # type: ignore
 
 
 @creds.route("/login", methods=["GET", "POST"])
@@ -236,10 +241,40 @@ def register():
     return render_template("register.html")
 
 
-@terminal.route("/terminal", methods=["GET", "POST"])
+@terminal_bp.route("/terminal", methods=["GET", "POST"])
 def terminal_page():
     if not logged_in():
         logging.info(NOT_LOGGED_IN)
         return redirect("/api/login")
     logging.info("Displaying terminal page")
     return render_template("terminal.html")
+
+
+@terminal_bp.route("/mqtt-message", methods=["POST"])
+def receive_mqtt_message():
+    data = request.json
+    if data and "topic" in data and "payload" in data:
+        logging.info(f"Flask received message: {data['topic']} {data['payload']}")
+        message_queue.put(data)
+        return jsonify(status="success", message="Message received"), 200
+    else:
+        logging.warning("Flask received invalid message format")
+        return jsonify(status="error", message="Invalid message format"), 400
+
+
+@terminal_bp.route("/terminal-stream")
+def terminal_stream():
+    def event_stream():
+        while True:
+            try:
+                message = message_queue.get(timeout=0.1)
+                formatted_message = f" QoS: {message['qos']} || topic: {message['topic']} || message: {message['payload']}"
+                # Send data in SSE format
+                yield f"data: {formatted_message}\n\n"
+                message_queue.task_done()
+            except queue.Empty:
+                # Send a comment to keep the connection alive if no message
+                yield ": keepalive\n\n"
+            time.sleep(0.1)
+
+    return Response(event_stream(), mimetype="text/event-stream")

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
+    <title>Dashboard Terminal</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,13 +23,78 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script src="js/input-numspin.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/input-numspin.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <style>
+      #terminal-output {
+        background-color: #333333;
+        color: #ffbe1b;
+        font-family: monospace;
+        white-space: pre-wrap;
+        padding: 15px;
+        border-radius: 5px;
+        height: 400px;
+        overflow-y: scroll;
+        border: 1px solid #ffbe1b;
+      }
+      #terminal-output .message-time {
+        color: #f05959;
+        margin-right: 10px;
+      }
+    </style>
   </head>
   <body class="container mt-5" data-bs-theme="dark">
-    <h2 class="mb-4">Dashboard</h2>
-    {% extends "base.html" %} {% block title %}Dashboard{% endblock %} {% block
-    content %}{% endblock %}
+    {% extends "base.html" %} {% block title %}Terminal{% endblock %} {% block
+    content %}
+    <h2 class="mb-4">Terminal</h2>
+    <div id="terminal-output">
+      <p>Waiting for messages...</p>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const terminalOutput = document.getElementById("terminal-output");
+        // Clear the initial "Waiting for messages..."
+        let firstMessage = true;
+        const eventSource = new EventSource("/api/terminal-stream");
+
+        eventSource.onopen = function () {
+          if (firstMessage) {
+            terminalOutput.innerHTML = "";
+            firstMessage = false;
+          }
+          const connectMsg = document.createElement("p");
+          connectMsg.textContent = `[${new Date().toLocaleTimeString()}] Connected to message stream.`;
+          connectMsg.style.color = "#00c5c7"; // A different color for system messages
+          terminalOutput.appendChild(connectMsg);
+          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Scroll to bottom
+        };
+
+        eventSource.onmessage = function (event) {
+          if (firstMessage) {
+            terminalOutput.innerHTML = "";
+            firstMessage = false;
+          }
+          const messageElement = document.createElement("p");
+          const timestamp = `<span class="message-time">[${new Date().toLocaleTimeString()}]</span>`;
+          messageElement.innerHTML = `${timestamp}${event.data}`;
+          terminalOutput.appendChild(messageElement);
+          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Auto-scroll to the latest message
+        };
+
+        eventSource.onerror = function (err) {
+          if (firstMessage) {
+            terminalOutput.innerHTML = "";
+            firstMessage = false;
+          }
+          console.error("EventSource failed:", err);
+          const errorMsg = document.createElement("p");
+          errorMsg.textContent = `[${new Date().toLocaleTimeString()}] Connection error. Attempting to reconnect...`;
+          errorMsg.style.color = "red";
+          terminalOutput.appendChild(errorMsg);
+          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Scroll to bottom
+        };
+      });
+    </script>
+    {% endblock %}
   </body>
 </html>
