@@ -22,7 +22,7 @@ from db import (
     insert_data_into_db,
     fetch_all_data_by_order,
 )
-from typing import Dict, Any
+from typing import Dict
 from extensions import jsonify_data, logged_in
 import base64
 from datetime import datetime

@@ -1,6 +1,6 @@
 from api_routes import creds, data_manipulation, dash, terminal_bp
 from extensions import limiter
-from flask import Flask, redirect, request, jsonify, Response
+from flask import Flask, redirect, request, jsonify
 import os
 import logging
 import threading

@@ -1,8 +1,8 @@
 from typing import Dict
 import json
 import pandas as pd
-from db import insert_data_into_db, create_data_table, fetch_max_id_from_users
-from flask import session, redirect
+from db import insert_data_into_db, create_data_table
+from flask import session
 import ipaddress
 import logging
 from flask_limiter import Limiter
