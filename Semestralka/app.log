@@ -8883,3 +8883,5 @@ TypeError: 'NoneType' object is not subscriptable
 2025-05-21 19:26:20,784 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "[36mGET /api/terminal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
 2025-05-21 19:26:20,785 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "[36mGET /api/terminal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
 2025-05-21 19:26:20,823 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "GET /api/terminal?__debugger__=yes&cmd=resource&f=console.png&s=kppn8HgIgEggbbKn3EOH HTTP/1.1" 200 -
+2025-05-21 19:27:06,054 - INFO - Log: Sending PINGREQ
+2025-05-21 19:27:06,077 - INFO - Log: Received PINGRESP
