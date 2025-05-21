@@ -3322,8 +3322,1693 @@
 2025-05-17 18:54:50,120 - INFO - Max ID from users table fetched
 2025-05-17 18:54:50,129 - INFO - 127.0.0.1 - - [17/May/2025 18:54:50] "GET /api/login HTTP/1.1" 200 -
 2025-05-17 18:54:50,390 - INFO - 127.0.0.1 - - [17/May/2025 18:54:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2025-05-21 17:16:40,245 - INFO - NumExpr defaulting to 16 threads.
-2025-05-21 17:16:40,756 - INFO - App started
-2025-05-21 17:16:40,852 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-05-21 13:23:05,267 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:23:06,172 - INFO - App started
+2025-05-21 13:23:18,706 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:23:19,324 - INFO - App started
+2025-05-21 13:24:31,407 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:24:32,147 - INFO - App started
+2025-05-21 13:24:32,149 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:24:32,149 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:24:32,149 - INFO - Cleaning up and exiting.
+2025-05-21 13:24:32,150 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:24:32,151 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:24:32,151 - INFO - Cleaning up and exiting.
+2025-05-21 13:24:32,167 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:24:32,167 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:25:16,692 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:25:17,177 - INFO - App started
+2025-05-21 13:25:17,193 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:25:17,193 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:25:17,193 - INFO - Cleaning up and exiting.
+2025-05-21 13:25:17,196 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:25:17,198 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:25:17,198 - INFO - Cleaning up and exiting.
+2025-05-21 13:25:17,209 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:25:17,209 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:27:25,552 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:27:26,076 - INFO - App started
+2025-05-21 13:27:26,076 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:27:26,076 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:27:26,076 - INFO - Cleaning up and exiting.
+2025-05-21 13:27:26,083 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:27:26,084 - ERROR - An error occurred: '<=' not supported between instances of 'str' and 'int'
+2025-05-21 13:27:26,085 - INFO - Cleaning up and exiting.
+2025-05-21 13:27:26,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:27:26,096 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:28:03,719 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:28:04,211 - INFO - App started
+2025-05-21 13:28:04,213 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:28:04,213 - ERROR - An error occurred: invalid literal for int() with base 10: '192.168.88.155'
+2025-05-21 13:28:04,213 - INFO - Cleaning up and exiting.
+2025-05-21 13:28:04,214 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:28:04,215 - ERROR - An error occurred: invalid literal for int() with base 10: '192.168.88.155'
+2025-05-21 13:28:04,215 - INFO - Cleaning up and exiting.
+2025-05-21 13:28:04,232 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:28:04,232 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:28:24,662 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:28:25,163 - INFO - App started
+2025-05-21 13:28:25,163 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:28:25,188 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 13:28:56,459 - INFO - Cleaning up and exiting.
+2025-05-21 13:28:59,374 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:28:59,859 - INFO - App started
+2025-05-21 13:28:59,860 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:28:59,900 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 13:29:31,146 - INFO - Cleaning up and exiting.
+2025-05-21 13:29:44,309 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:29:44,989 - INFO - App started
+2025-05-21 13:29:44,991 - INFO - Connecting to MQTT broker at 192.168.88.155:1883 with user username
+2025-05-21 13:29:45,009 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:29:45,009 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:29:45,012 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 13:57:16,711 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:57:17,356 - INFO - App started
+2025-05-21 13:57:17,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:57:17,389 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 13:59:39,789 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 13:59:40,403 - INFO - App started
+2025-05-21 13:59:40,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 13:59:40,421 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:08:04,095 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:08:04,837 - INFO - App started
+2025-05-21 14:08:04,861 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:08:04,861 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:11:02,187 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:11:02,873 - INFO - App started
+2025-05-21 14:11:02,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:11:02,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:11:32,061 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:11:32,601 - INFO - App started
+2025-05-21 14:12:03,800 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:12:04,322 - INFO - App started
+2025-05-21 14:13:52,082 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:13:52,776 - INFO - App started
+2025-05-21 14:13:52,796 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:13:52,796 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:16:05,845 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:16:06,529 - INFO - App started
+2025-05-21 14:16:06,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:16:06,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:17:05,051 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:17:05,549 - INFO - App started
+2025-05-21 14:17:05,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:17:05,564 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:22:27,323 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:22:28,018 - INFO - App started
+2025-05-21 14:22:28,039 - INFO - Cleaning up and exiting.
+2025-05-21 14:22:28,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:22:28,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:28:45,840 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:28:47,030 - INFO - App started
+2025-05-21 14:28:47,055 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:28:47,055 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:28:52,044 - ERROR - An error occurred: timed out
+2025-05-21 14:28:52,045 - INFO - Cleaning up and exiting.
+2025-05-21 14:28:52,050 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:30:22,416 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:30:23,827 - INFO - App started
+2025-05-21 14:30:23,856 - INFO - Cleaning up and exiting.
+2025-05-21 14:30:23,865 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:30:23,868 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:30:23,868 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:30:59,248 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:30:59,984 - INFO - App started
+2025-05-21 14:31:00,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:31:00,006 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:31:00,012 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 14:31:00,012 - INFO - Cleaning up and exiting.
+2025-05-21 14:31:00,014 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:31:00,033 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 14:31:00,033 - INFO - Connected with result code 0
+2025-05-21 14:36:14,225 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:36:15,307 - INFO - App started
+2025-05-21 14:36:15,331 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:36:15,331 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:36:15,331 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 14:36:15,333 - INFO - Cleaning up and exiting.
+2025-05-21 14:36:15,336 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:36:15,349 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 14:36:15,349 - INFO - Connected with result code 0
+2025-05-21 14:37:15,811 - INFO - Log: Sending PINGREQ
+2025-05-21 14:37:15,827 - INFO - Log: Received PINGRESP
+2025-05-21 14:37:40,022 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:37:40,945 - INFO - App started
+2025-05-21 14:37:40,969 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:37:40,969 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:37:40,978 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 14:37:40,979 - INFO - Cleaning up and exiting.
+2025-05-21 14:37:40,981 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:37:40,996 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 14:37:40,996 - INFO - Connected with result code 0
+2025-05-21 14:38:33,668 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:38:34,591 - INFO - App started
+2025-05-21 14:38:34,616 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 14:38:34,616 - INFO - Cleaning up and exiting.
+2025-05-21 14:38:34,623 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:38:34,623 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:38:34,624 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:38:34,633 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 14:38:34,633 - INFO - Connected with result code 0
+2025-05-21 14:39:35,112 - INFO - Log: Sending PINGREQ
+2025-05-21 14:39:35,130 - INFO - Log: Received PINGRESP
+2025-05-21 14:40:35,605 - INFO - Log: Sending PINGREQ
+2025-05-21 14:40:35,625 - INFO - Log: Received PINGRESP
+2025-05-21 14:41:36,122 - INFO - Log: Sending PINGREQ
+2025-05-21 14:41:36,150 - INFO - Log: Received PINGRESP
+2025-05-21 14:42:36,571 - INFO - Log: Sending PINGREQ
+2025-05-21 14:42:36,633 - INFO - Log: Received PINGRESP
+2025-05-21 14:43:37,106 - INFO - Log: Sending PINGREQ
+2025-05-21 14:43:37,125 - INFO - Log: Received PINGRESP
+2025-05-21 14:44:37,623 - INFO - Log: Sending PINGREQ
+2025-05-21 14:44:37,641 - INFO - Log: Received PINGRESP
+2025-05-21 14:45:38,095 - INFO - Log: Sending PINGREQ
+2025-05-21 14:45:38,112 - INFO - Log: Received PINGRESP
+2025-05-21 14:46:08,067 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 14:46:09,162 - INFO - App started
+2025-05-21 14:46:09,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 14:46:09,200 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 14:46:09,200 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 14:46:09,200 - INFO - Cleaning up and exiting.
+2025-05-21 14:46:09,204 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 14:46:09,214 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 14:46:09,214 - INFO - Connected with result code 0
+2025-05-21 14:46:09,214 - INFO - Log: Caught exception in on_connect: not enough values to unpack (expected 2, got 1)
+2025-05-21 15:47:00,323 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 15:47:01,069 - INFO - App started
+2025-05-21 15:47:01,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 15:47:01,088 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 15:47:01,089 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 15:47:01,089 - INFO - Cleaning up and exiting.
+2025-05-21 15:47:01,091 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 15:47:01,103 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 15:47:01,103 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 15:47:01,103 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 15:47:01,104 - INFO - Connected with result code 0
+2025-05-21 15:47:01,117 - INFO - Log: Received SUBACK
+2025-05-21 15:47:01,117 - INFO - Subscribed: 1 (0,)
+2025-05-21 15:47:01,174 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:47:01,175 - INFO - Message received: /test2 ssssss
+2025-05-21 15:47:13,296 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:47:13,296 - INFO - Message received: /test2 ssssss
+2025-05-21 15:47:14,156 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:47:14,156 - INFO - Message received: /test2 ssssss
+2025-05-21 15:47:15,149 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:47:15,150 - INFO - Message received: /test2 ssssss
+2025-05-21 15:47:17,720 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test', ...  (6 bytes)
+2025-05-21 15:47:17,720 - INFO - Message received: /test ssssss
+2025-05-21 15:47:22,601 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test/1', ...  (6 bytes)
+2025-05-21 15:47:22,601 - INFO - Message received: /test/1 ssssss
+2025-05-21 15:48:01,934 - INFO - Log: Sending PINGREQ
+2025-05-21 15:48:01,948 - INFO - Log: Received PINGRESP
+2025-05-21 15:48:29,230 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 15:48:29,681 - INFO - App started
+2025-05-21 15:48:29,711 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 15:48:29,711 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 15:48:29,733 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 15:48:29,733 - INFO - Cleaning up and exiting.
+2025-05-21 15:48:29,734 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 15:48:29,741 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 15:48:29,741 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 15:48:29,741 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 15:48:29,741 - INFO - Connected with result code 0
+2025-05-21 15:48:29,757 - INFO - Log: Received SUBACK
+2025-05-21 15:48:29,757 - INFO - Subscribed: 1 (0,)
+2025-05-21 15:48:29,831 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:48:29,831 - INFO - Message received: /test2 ssssss
+2025-05-21 15:48:34,377 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test/1', ...  (6 bytes)
+2025-05-21 15:48:34,377 - INFO - Message received: /test/1 ssssss
+2025-05-21 15:48:35,101 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test/1', ...  (6 bytes)
+2025-05-21 15:48:35,102 - INFO - Message received: /test/1 ssssss
+2025-05-21 15:48:35,612 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/test/1', ...  (6 bytes)
+2025-05-21 15:48:35,612 - INFO - Message received: /test/1 ssssss
+2025-05-21 15:49:30,049 - INFO - Log: Sending PINGREQ
+2025-05-21 15:49:30,064 - INFO - Log: Received PINGRESP
+2025-05-21 15:50:30,444 - INFO - Log: Sending PINGREQ
+2025-05-21 15:50:30,444 - INFO - Log: Received PINGRESP
+2025-05-21 15:51:03,843 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:51:03,843 - INFO - Message received: / ssssss
+2025-05-21 15:51:31,031 - INFO - Log: Sending PINGREQ
+2025-05-21 15:51:31,031 - INFO - Log: Received PINGRESP
+2025-05-21 15:52:31,600 - INFO - Log: Sending PINGREQ
+2025-05-21 15:52:31,616 - INFO - Log: Received PINGRESP
+2025-05-21 15:53:24,458 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), 'ss', ...  (6 bytes)
+2025-05-21 15:53:24,459 - INFO - Message received: ss ssssss
+2025-05-21 15:53:32,507 - INFO - Log: Sending PINGREQ
+2025-05-21 15:53:32,523 - INFO - Log: Received PINGRESP
+2025-05-21 15:53:36,237 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:36,237 - INFO - Message received: / ssssss
+2025-05-21 15:53:36,398 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:36,399 - INFO - Message received: / ssssss
+2025-05-21 15:53:36,621 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:36,621 - INFO - Message received: / ssssss
+2025-05-21 15:53:36,690 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:36,690 - INFO - Message received: / ssssss
+2025-05-21 15:53:36,983 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:36,983 - INFO - Message received: / ssssss
+2025-05-21 15:53:37,051 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:37,052 - INFO - Message received: / ssssss
+2025-05-21 15:53:37,111 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:37,111 - INFO - Message received: / ssssss
+2025-05-21 15:53:37,244 - INFO - Log: Received PUBLISH (d0, q0, r0, m0), '/', ...  (6 bytes)
+2025-05-21 15:53:37,244 - INFO - Message received: / ssssss
+2025-05-21 15:57:15,509 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 15:57:16,200 - INFO - App started
+2025-05-21 15:57:16,216 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 15:57:16,216 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 15:57:16,220 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 15:57:16,221 - INFO - Cleaning up and exiting.
+2025-05-21 15:57:16,222 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 15:57:16,236 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 15:57:16,238 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 15:57:16,238 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 15:57:16,238 - INFO - Connected with result code 0
+2025-05-21 15:57:16,254 - INFO - Log: Received SUBACK
+2025-05-21 15:57:16,254 - INFO - Subscribed: 1 (0,)
+2025-05-21 15:57:16,305 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:57:16,305 - INFO - Message received: /test2 ssssss
+2025-05-21 15:57:16,305 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 15:57:16,305 - INFO - Message received: / ssssss
+2025-05-21 15:57:16,305 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 15:57:16,305 - INFO - Message received: ss ssssss
+2025-05-21 15:58:16,832 - INFO - Log: Sending PINGREQ
+2025-05-21 15:58:16,843 - INFO - Log: Received PINGRESP
+2025-05-21 15:59:17,360 - INFO - Log: Sending PINGREQ
+2025-05-21 15:59:17,376 - INFO - Log: Received PINGRESP
+2025-05-21 15:59:42,928 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 15:59:43,426 - INFO - App started
+2025-05-21 15:59:43,442 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 15:59:43,442 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 15:59:43,446 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 15:59:43,446 - INFO - Cleaning up and exiting.
+2025-05-21 15:59:43,448 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 15:59:43,462 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 15:59:43,462 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 15:59:43,462 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 15:59:43,463 - INFO - Connected with result code 0
+2025-05-21 15:59:43,478 - INFO - Log: Received SUBACK
+2025-05-21 15:59:43,478 - INFO - Subscribed: 1 (0,)
+2025-05-21 15:59:43,549 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 15:59:43,550 - INFO - Program started configuting subscription...
+2025-05-21 15:59:43,550 - INFO - Setting subscription to True
+2025-05-21 15:59:43,550 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 15:59:43,550 - INFO - Message received: / ssssss
+2025-05-21 15:59:43,550 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 15:59:43,550 - INFO - Message received: ss ssssss
+2025-05-21 16:00:24,808 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:00:25,275 - INFO - App started
+2025-05-21 16:00:25,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:00:25,305 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:00:25,329 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 16:00:25,329 - INFO - Cleaning up and exiting.
+2025-05-21 16:00:25,332 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:00:25,336 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:00:25,336 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:00:25,336 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:00:25,336 - INFO - Connected with result code 0
+2025-05-21 16:00:25,358 - INFO - Log: Received SUBACK
+2025-05-21 16:00:25,359 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:00:25,414 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:00:25,414 - INFO - Program started configuting subscription...
+2025-05-21 16:00:25,414 - INFO - Setting subscription to True
+2025-05-21 16:00:25,414 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:00:25,414 - INFO - Message received: / ssssss
+2025-05-21 16:00:25,414 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:00:25,414 - INFO - Message received: ss ssssss
+2025-05-21 16:01:09,922 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:01:10,440 - INFO - App started
+2025-05-21 16:01:10,459 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:01:10,459 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:01:10,471 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b''
+2025-05-21 16:01:10,471 - INFO - Cleaning up and exiting.
+2025-05-21 16:01:10,479 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:01:10,581 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:01:10,581 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:01:10,582 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:01:10,582 - INFO - Connected with result code 0
+2025-05-21 16:01:10,663 - INFO - Log: Received SUBACK
+2025-05-21 16:01:10,663 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:01:10,782 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:01:10,782 - INFO - Program started configuting subscription...
+2025-05-21 16:01:10,782 - INFO - Setting subscription to True
+2025-05-21 16:01:10,782 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:01:10,782 - INFO - Message received: / ssssss
+2025-05-21 16:01:10,782 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:01:10,782 - INFO - Message received: ss ssssss
+2025-05-21 16:02:11,312 - INFO - Log: Sending PINGREQ
+2025-05-21 16:02:11,328 - INFO - Log: Received PINGRESP
+2025-05-21 16:02:57,575 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:02:58,164 - INFO - App started
+2025-05-21 16:02:58,180 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:02:58,180 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:02:58,198 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:02:58,198 - INFO - Cleaning up and exiting.
+2025-05-21 16:02:58,200 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:02:58,215 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:02:58,216 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:02:58,216 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:02:58,216 - INFO - Connected with result code 0
+2025-05-21 16:02:58,231 - INFO - Log: Received SUBACK
+2025-05-21 16:02:58,231 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:02:58,287 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:02:58,288 - INFO - Program started configuting subscription...
+2025-05-21 16:02:58,288 - INFO - Setting subscription to True
+2025-05-21 16:02:58,288 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:02:58,288 - INFO - Message received: / ssssss
+2025-05-21 16:02:58,288 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:02:58,288 - INFO - Message received: ss ssssss
+2025-05-21 16:03:58,804 - INFO - Log: Sending PINGREQ
+2025-05-21 16:03:58,819 - INFO - Log: Received PINGRESP
+2025-05-21 16:04:59,321 - INFO - Log: Sending PINGREQ
+2025-05-21 16:04:59,336 - INFO - Log: Received PINGRESP
+2025-05-21 16:05:59,851 - INFO - Log: Sending PINGREQ
+2025-05-21 16:05:59,865 - INFO - Log: Received PINGRESP
+2025-05-21 16:07:00,308 - INFO - Log: Sending PINGREQ
+2025-05-21 16:07:00,326 - INFO - Log: Received PINGRESP
+2025-05-21 16:07:22,801 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:07:23,462 - INFO - App started
+2025-05-21 16:07:23,473 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:07:23,473 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:07:23,484 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:07:23,484 - INFO - Cleaning up and exiting.
+2025-05-21 16:07:23,484 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:07:23,502 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:07:23,502 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:07:23,502 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:07:23,502 - INFO - Connected with result code 0
+2025-05-21 16:07:23,518 - INFO - Log: Received SUBACK
+2025-05-21 16:07:23,518 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:07:23,575 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:07:23,575 - INFO - Program started configuting subscription...
+2025-05-21 16:07:23,575 - INFO - Setting subscription to True
+2025-05-21 16:07:23,575 - INFO - Log: Caught exception in on_message: 'Client' object has no attribute 'clear_retained_message'
+2025-05-21 16:07:52,151 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:07:52,619 - INFO - App started
+2025-05-21 16:07:52,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:07:52,642 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:07:52,654 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:07:52,654 - INFO - Cleaning up and exiting.
+2025-05-21 16:07:52,656 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:07:52,674 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:07:52,675 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:07:52,675 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:07:52,676 - INFO - Connected with result code 0
+2025-05-21 16:07:52,693 - INFO - Log: Received SUBACK
+2025-05-21 16:07:52,694 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:07:52,765 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:07:52,765 - INFO - Program started configuting subscription...
+2025-05-21 16:07:52,765 - INFO - Setting subscription to True
+2025-05-21 16:07:52,765 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:07:52,765 - INFO - Message received: / ssssss
+2025-05-21 16:07:52,766 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:07:52,766 - INFO - Message received: ss ssssss
+2025-05-21 16:08:53,243 - INFO - Log: Sending PINGREQ
+2025-05-21 16:08:53,256 - INFO - Log: Received PINGRESP
+2025-05-21 16:09:40,283 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:09:40,800 - INFO - App started
+2025-05-21 16:09:40,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:09:40,814 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:09:40,819 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:09:40,821 - INFO - Cleaning up and exiting.
+2025-05-21 16:09:40,822 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:09:40,835 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:09:40,835 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:09:40,835 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:09:40,835 - INFO - Connected with result code 0
+2025-05-21 16:09:40,848 - INFO - Log: Received SUBACK
+2025-05-21 16:09:40,848 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:09:40,917 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:09:40,917 - INFO - Program started configuting subscription...
+2025-05-21 16:09:40,917 - INFO - Setting subscription to True
+2025-05-21 16:09:40,917 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:09:40,917 - INFO - Message received: / ssssss
+2025-05-21 16:09:40,917 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:09:40,917 - INFO - Message received: ss ssssss
+2025-05-21 16:15:32,274 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:15:32,986 - INFO - App started
+2025-05-21 16:15:33,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:15:33,005 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:15:33,027 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:15:33,027 - INFO - Cleaning up and exiting.
+2025-05-21 16:15:33,027 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:15:33,044 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:15:33,045 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:15:33,045 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:15:33,046 - INFO - Connected with result code 0
+2025-05-21 16:15:33,059 - INFO - Log: Received SUBACK
+2025-05-21 16:15:33,060 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:15:33,133 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:15:33,134 - INFO - Program started configuting subscription...
+2025-05-21 16:15:33,134 - INFO - Setting subscription to True
+2025-05-21 16:15:33,134 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:15:33,134 - INFO - Message received: / ssssss
+2025-05-21 16:15:33,134 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:15:33,135 - INFO - Message received: ss ssssss
+2025-05-21 16:15:41,675 - ERROR - 127.0.0.1 - - [21/May/2025 16:15:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03')
+2025-05-21 16:15:41,676 - INFO - 127.0.0.1 - - [21/May/2025 16:15:41] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x1eG4f¹b_\x02[0m" 400 -
+2025-05-21 16:15:41,697 - ERROR - 127.0.0.1 - - [21/May/2025 16:15:41] code 400, message Bad request version ('\x96\x05\x10\x04$\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:15:41,697 - INFO - 127.0.0.1 - - [21/May/2025 16:15:41] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x18ì8qXð\x0cp$?%ÃK\x89\\ÈYø`\x07à\x03¹Àfëªyo\x0bô  r^\x96\x07_O[Ëï.S\x16aêF\x0eg_¿Æ¦©b"\x88s\x1d\x96\x05\x10\x04$\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:15:44,755 - ERROR - 127.0.0.1 - - [21/May/2025 16:15:44] code 400, message Bad request syntax ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x97Dºôgo')
+2025-05-21 16:15:44,755 - INFO - 127.0.0.1 - - [21/May/2025 16:15:44] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x97Dºôgo[0m" 400 -
+2025-05-21 16:15:44,771 - ERROR - 127.0.0.1 - - [21/May/2025 16:15:44] code 400, message Bad request version ('#\'·\x02¯)ÖÖ\x16\x99\\}&(Ä\x02ÂÿGÌÐ\x14C27\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:15:44,771 - INFO - 127.0.0.1 - - [21/May/2025 16:15:44] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03v$\x90úëgN\x05\x04\x90K­z­\x00@\x83Ã!©\x02\x9c>À=H\x85\x04D/ï\x05 Ðô\x84~iÐ\x1e#'·\x02¯)ÖÖ\x16\x99\\}&(Ä\x02ÂÿGÌÐ\x14C27\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:16:33,583 - INFO - Log: Sending PINGREQ
+2025-05-21 16:16:33,596 - INFO - Log: Received PINGRESP
+2025-05-21 16:16:46,567 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:46] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:16:46,568 - INFO - 127.0.0.1 - - [21/May/2025 16:16:46] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03¹`J\x1ay¢®/\x91åá$×\x8ah\x12Ø\x04Í(àu\\\x1a\x88i¹wi.\x82\x0e \x13s½×Pò Ï`E&J!«\x13%ý\x01ÎöÖK§ÁI²kâKyû\x09\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:16:46,571 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:46] code 400, message Bad request version ('eh\xadBZ\x88\x9bpQ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:16:46,571 - INFO - 127.0.0.1 - - [21/May/2025 16:16:46] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03L%Ò¥T\x8c[\x04Ij\x14úXC\x02\x15Íe9noÜ\x05H\x03E\x95\x18.\x13Õá ¦Ë\x9dB\x96"}\x81Ê4HB\x9aÝßôÁ&_Í<\x18\x1deh­BZ\x88\x9bpQ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:16:47,630 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:47] code 400, message Bad request version ('àP\x14j°ÚGóºt=W*ö4\x96\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:16:47,630 - INFO - 127.0.0.1 - - [21/May/2025 16:16:47] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03Ó¿3\x04*¸ýl\x18\x1aìîkª._ÄpÄVF*m¬ÇºÉ\x1aÓÌ>b -ì\x1f#M\x05\x02n\x86 \x8czå\x8f½\x1càP\x14j°ÚGóºt=W*ö4\x96\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:16:47,645 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:47] code 400, message Bad request version ('Q±\x83d<')
+2025-05-21 16:16:47,646 - INFO - 127.0.0.1 - - [21/May/2025 16:16:47] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03c\x05$\x80\x96kãRÁþ±D"\x82 \x98¹ ×8\x16\x91Ù\x99\x9cW1`ÒáØÎ ½ÂæfügJ\x9c][\x0cPrô\x14¬e\x05Ü\x14*»\x94-É Q±\x83d<[0m" 400 -
+2025-05-21 16:16:55,717 - INFO - 127.0.0.1 - - [21/May/2025 16:16:55] "[32mGET / HTTP/1.1[0m" 301 -
+2025-05-21 16:16:55,738 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:55] code 400, message Bad request version ('ÉÌ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:16:55,738 - INFO - 127.0.0.1 - - [21/May/2025 16:16:55] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03P=4äð_.í\x9e\x82O²Ä)\x80-Ôï+ååoÛ\x0dW\x05\x1f¼\x89-©\x03 ªç\x1bÿïN|i\x07\x89Ø\x8aNw÷$øç\x12÷ÜK&3\x8a\x8f®jó ÉÌ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:16:55,751 - ERROR - 127.0.0.1 - - [21/May/2025 16:16:55] code 400, message Bad request version ('\x8e\x86?\x96\xad\\~\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:16:55,752 - INFO - 127.0.0.1 - - [21/May/2025 16:16:55] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x96Å\x9d[eìµü{\x16¯ª«ó+\x97B{¼û"Þ\x95á¢\x09ø¹W\x17¯" ðµR­\x12þ³¯*@ï\x99D7bù;¶rm\x8fm\x02ã\x85\x8e\x86?\x96­\\~\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:17:45,142 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 16:17:45,811 - INFO - App started
+2025-05-21 16:17:45,832 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 16:17:45,832 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 16:17:45,833 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 16:17:45,833 - INFO - Cleaning up and exiting.
+2025-05-21 16:17:45,835 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 16:17:45,851 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 16:17:45,851 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 16:17:45,851 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 16:17:45,852 - INFO - Connected with result code 0
+2025-05-21 16:17:45,867 - INFO - Log: Received SUBACK
+2025-05-21 16:17:45,867 - INFO - Subscribed: 1 (0,)
+2025-05-21 16:17:45,933 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 16:17:45,933 - INFO - Program started configuting subscription...
+2025-05-21 16:17:45,933 - INFO - Setting subscription to True
+2025-05-21 16:17:45,934 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 16:17:45,934 - INFO - Message received: / ssssss
+2025-05-21 16:17:45,934 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 16:17:45,934 - INFO - Message received: ss ssssss
+2025-05-21 16:17:51,158 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:51] code 400, message Bad request syntax ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03§\x01\x89ìo\t')
+2025-05-21 16:17:51,159 - INFO - 127.0.0.1 - - [21/May/2025 16:17:51] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03§\x01\x89ìo\x09[0m" 400 -
+2025-05-21 16:17:51,162 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:51] code 400, message Bad request version ('Â2qi\'o\x0e:´<`\x0f\x04á§w9\x86\x82þn\x86ÀE\x8c\x81\x16ãHuÓ]\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:17:51,162 - INFO - 127.0.0.1 - - [21/May/2025 16:17:51] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03hp?ø¾H\x9f,z\x88$¯õÝÆÐÂMü|p\x18:\x85Gõ\x95Íe-^\x8a Â2qi'o\x0e:´<`\x0f\x04á§w9\x86\x82þn\x86ÀE\x8c\x81\x16ãHuÓ]\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:17:55,411 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:55] code 400, message Bad request version ('ÆÒú*\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:17:55,411 - INFO - 127.0.0.1 - - [21/May/2025 16:17:55] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03ÆGÇ÷\x91ÂySßïe±úC\x91í>d\x1b\x09»=¤ü\x9b\x10UÜ©\x0c(0  g.%¶xñD#\x12w("eöã!\x85 ©d¡EAÜìA\x1dÆÒú*\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:17:55,413 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:55] code 400, message Bad request version ('Ãf\x8fÂÕì#\x9cóø8\x87å®ýv\x83\x7f\x87"ýK±\x15¨Kñ*%¾<\x04\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:17:55,413 - INFO - 127.0.0.1 - - [21/May/2025 16:17:55] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03i£)3\x13\x177yW\x05@O^ÉOy\x0dü\x08\x9bÛNfd\x93£¦9û\x99~È Ãf\x8fÂÕì#\x9cóø8\x87å®ýv\x83\x7f\x87"ýK±\x15¨Kñ*%¾<\x04\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:17:58,618 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:58] code 400, message Bad request version ('=\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 16:17:58,618 - INFO - 127.0.0.1 - - [21/May/2025 16:17:58] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x034\x0c T¦\x00<\x82[A\x06.ùùæ\x9a\x06ÉK_#"\x8fÃT7L\x86¬vZ  \x8e\x9a:\x8e44pòM\x8e\x94Â»´\x9a4:\x03N­Ðò\x81D\x98Ï\x1b¡MÃ\x1d=\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 16:17:58,631 - ERROR - 127.0.0.1 - - [21/May/2025 16:17:58] code 400, message Bad request syntax ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x04ê6Çb{\x05(%:\x96âi£þ\x98')
+2025-05-21 16:17:58,632 - INFO - 127.0.0.1 - - [21/May/2025 16:17:58] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x04ê6Çb{\x05(%:\x96âi£þ\x98[0m" 400 -
+2025-05-21 17:04:06,616 - INFO - Log: Sending PINGREQ
+2025-05-21 17:04:07,300 - INFO - Log: failed to receive on socket: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-05-21 17:04:13,637 - INFO - Log: Connection failed, retrying
+2025-05-21 17:04:20,657 - INFO - Log: Connection failed, retrying
+2025-05-21 17:04:29,677 - INFO - Log: Connection failed, retrying
+2025-05-21 17:04:42,697 - INFO - Log: Connection failed, retrying
+2025-05-21 17:05:03,697 - INFO - Log: Connection failed, retrying
+2025-05-21 17:05:35,748 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:05:35,817 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:05:35,820 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:05:35,823 - INFO - Log: Sending SUBSCRIBE (d0, m2) [(b'#', 0)]
+2025-05-21 17:05:35,824 - INFO - Connected with result code 0
+2025-05-21 17:05:36,044 - INFO - Log: Received SUBACK
+2025-05-21 17:05:36,044 - INFO - Subscribed: 2 (0,)
+2025-05-21 17:05:36,331 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:05:36,338 - INFO - Message received: /test2 ssssss
+2025-05-21 17:05:36,339 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:05:36,339 - INFO - Message received: / ssssss
+2025-05-21 17:05:36,340 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:05:36,340 - INFO - Message received: ss ssssss
+2025-05-21 17:06:28,057 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:06:28,861 - INFO - App started
+2025-05-21 17:06:28,901 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:06:28,901 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:06:28,955 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:06:28,955 - INFO - Cleaning up and exiting.
+2025-05-21 17:06:28,959 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:06:28,989 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:06:28,989 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:06:28,989 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:06:28,989 - INFO - Connected with result code 0
+2025-05-21 17:06:29,026 - INFO - Log: Received SUBACK
+2025-05-21 17:06:29,026 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:06:29,140 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:06:29,140 - INFO - Program started configuting subscription...
+2025-05-21 17:06:29,140 - INFO - Setting subscription to True
+2025-05-21 17:06:29,140 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:06:29,140 - INFO - Message received: / ssssss
+2025-05-21 17:06:29,141 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:06:29,141 - INFO - Message received: ss ssssss
+2025-05-21 17:06:33,185 - ERROR - 127.0.0.1 - - [21/May/2025 17:06:33] code 400, message Bad request syntax ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03sÇîðl¾*R\x03®h\x0fBûô\x04:<çú~\x7fÅ\x1b')
+2025-05-21 17:06:33,185 - INFO - 127.0.0.1 - - [21/May/2025 17:06:33] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03sÇîðl¾*R\x03®h\x0fBûô\x04:<çú~\x7fÅ\x1b[0m" 400 -
+2025-05-21 17:06:33,185 - ERROR - 127.0.0.1 - - [21/May/2025 17:06:33] code 400, message Bad request version ('\x94\x10¹\x9e\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:06:33,185 - INFO - 127.0.0.1 - - [21/May/2025 17:06:33] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03 ÎÅÜëÎÌ½Ù<\x8aÎá.´OH±Ó\x81ù(\x06À\x18í\x1d\x05\x0f|©å úÈ\x8diT"î«\x84ÀJ\x18ù'Û*r#öwp\x98\x9e^vc\x80\x85\x94\x10¹\x9e\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:06:37,918 - ERROR - 127.0.0.1 - - [21/May/2025 17:06:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03.¥=|Ôø^x>PÅ¢YÌÆÈéº\x83\x16\x07\x18J\x7flfÇ\x12Ó¯û\x8b')
+2025-05-21 17:06:37,918 - INFO - 127.0.0.1 - - [21/May/2025 17:06:37] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03.¥=|Ôø^x>PÅ¢YÌÆÈéº\x83\x16\x07\x18J\x7flfÇ\x12Ó¯û\x8b \x88-jæº²\x10\x88Æ\x16Û}Ö¢h0\x19ÓVls\x8bÕTÀ&íÿÒ\x81|\x07\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:06:37,931 - ERROR - 127.0.0.1 - - [21/May/2025 17:06:37] code 400, message Bad request version ('¬ÏÄ\x07«\x07þÿ\x18\x9eÇ1G^Þ-N\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:06:37,931 - INFO - 127.0.0.1 - - [21/May/2025 17:06:37] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03þF¹{Hx\x83\x07yñ\x1dzåà=\x8d#õC¤\\÷\x01\x19\x86)j\x16\x17\x80O! X\x9eWÒ\x1a\x92\x15\x1c\x95\x86£\x1d\x02â\x1f¬ÏÄ\x07«\x07þÿ\x18\x9eÇ1G^Þ-N\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:29,647 - INFO - Log: Sending PINGREQ
+2025-05-21 17:07:29,801 - INFO - Log: Received PINGRESP
+2025-05-21 17:07:39,296 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:07:39,773 - INFO - App started
+2025-05-21 17:07:39,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:07:39,794 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:07:39,832 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:07:39,832 - INFO - Cleaning up and exiting.
+2025-05-21 17:07:39,847 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:07:39,890 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:07:39,890 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:07:39,890 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:07:39,890 - INFO - Connected with result code 0
+2025-05-21 17:07:39,921 - INFO - Log: Received SUBACK
+2025-05-21 17:07:39,921 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:07:40,036 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:07:40,036 - INFO - Program started configuting subscription...
+2025-05-21 17:07:40,036 - INFO - Setting subscription to True
+2025-05-21 17:07:40,036 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:07:40,036 - INFO - Message received: / ssssss
+2025-05-21 17:07:40,036 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:07:40,036 - INFO - Message received: ss ssssss
+2025-05-21 17:07:44,000 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:44] code 400, message Bad request version ('xÕÅ\x84h\x8f]ôÝ¡g(\x15»È¢î¯\x12W\x11rA\x93¦PÅMR\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:44,000 - INFO - 127.0.0.1 - - [21/May/2025 17:07:44] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03¹\x13ùY]ð¿ä'Î\x97éÄÆÁí¦\x0dÚLÁcEºaÏR\x13ªu\x88\x05 \x13&\x1fxÕÅ\x84h\x8f]ôÝ¡g(\x15»È¢î¯\x12W\x11rA\x93¦PÅMR\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:44,016 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:44] code 400, message Bad request version ('v\x9b\x88\x94\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:44,016 - INFO - 127.0.0.1 - - [21/May/2025 17:07:44] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03÷ö\x18ìü9\x03\x1e¤Pñ\x7f\x9f\\ZÚ\x19\x84_·\x87l}eÈ\x15~\x05Z%í\x0c QG_KG\x80\x83¡E\x95\x86\x05¤\x00Z4MÑ0çnÚW¼\x84\x99\x17\x1cv\x9b\x88\x94\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:44,668 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:44] code 400, message Bad request syntax ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03L¯>soÞ½Õ\x8bóîiÖ')
+2025-05-21 17:07:44,668 - INFO - 127.0.0.1 - - [21/May/2025 17:07:44] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03L¯>soÞ½Õ\x8bóîiÖ[0m" 400 -
+2025-05-21 17:07:44,668 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:44] code 400, message Bad request version ('ñ[¥ø\x893§ê\x1a?\xadº5¬÷4fÃP\x97ÝÔ§\xadr¡\x91´\x05ûÞÄ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:44,668 - INFO - 127.0.0.1 - - [21/May/2025 17:07:44] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x97jJS\x91ªtC0%n\x0d{wK=2]\x8dGF÷Ó\x06Å/ð#Qöãæ ñ[¥ø\x893§ê\x1a?­º5¬÷4fÃP\x97ÝÔ§­r¡\x91´\x05ûÞÄ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,001 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('+Vi\x00uÒ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,001 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03 u\x10\x1e\x9f\x942ªL\x8b»©y\x8b\x87\x12\x04\x1aº\x00b×\x15 \x87L\x0e+\x13\x97u] úo\x7f\x9d<Ð\x02¬ø\x83>ç`ër\x84\x88¢\\\\¾\x95ªJÑ\x1d+Vi\x00uÒ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,018 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('^Ze\x9ei2%úç¨\x1a:Pß\x03<©\x04*×8ÌûZH7¾{Å\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,018 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03Ï\x8aZQü\x0b9ËÉóÕíÁr \x16\x8f$9m[&­a\x94/_îï\x87½J )³\x0d^Ze\x9ei2%úç¨\x1a:Pß\x03<©\x04*×8ÌûZH7¾{Å\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,161 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('#=¤¿õ£ª\x1b*û÷JU\x84\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,161 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x11Àº\x85¢ÑÊ\x12ì0X:\x15O\x89Õ!Õ\x04\x1ag\x1b6®\x07q\x0fÑüS\x0b/ k+åj\x0cÝ§¹¥Õ-g|ËT)J\x1f#=¤¿õ£ª\x1b*û÷JU\x84\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,167 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,167 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03=^ªLY»:¸ë\x98«\x9aBI¤\x9b¢Ù)9\x1dvÖüÕ\x0cZ9t¯áH \x97õ\x9fëDÿ9ñÜt\x1f¹ûDè\x83%þ'`}óÉÅ\x9a¦\x009­\\=\x85\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,287 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('ÁØ&Kvg\x8d\x88ÿ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,287 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03S>ùï·\x0c¼âÈI\x81/%Â\x8c@3ðûQ}\x84ó¶\x17N%+ñ&ûw ­ëäÓ\x8a\x96R4üEÆõ\x1aÜh¨ÛËÆ\x17\x94\x18\x0bÁØ&Kvg\x8d\x88ÿ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,303 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request syntax ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03Y')
+2025-05-21 17:07:45,303 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03Y[0m" 400 -
+2025-05-21 17:07:45,445 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('\x16³¸°\x9e\x03Î?ý+\x8cì\x88')
+2025-05-21 17:07:45,445 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03Äø\x9d\x05øîeËq¾.a`\x9c\x82%\x9c\x07\x8c>\x1c²\x1bÓ\x10Ù\x89\x9f í>æ \x1e\x16³¸°\x9e\x03Î?ý+\x8cì\x88[0m" 400 -
+2025-05-21 17:07:45,445 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('*Uo]r¡Þûa\x02q\x00·\x16}2\x19Ru5\x99©\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,445 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x05<\x17ñ\x18\x8c~sU\x8f\x0e+\x1aî\x15/=\x1df¡o\x8f·_gµç9#Àd\x10 _\x9b²£»GÅ8\x8d\x1c*Uo]r¡Þûa\x02q\x00·\x16}2\x19Ru5\x99©\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,619 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('\x02MºEx²\x94&³Ãa\x82\x9c\x19*.ù^p~Ëå\x9c\x83%Ôè_\x89^\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,620 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x94.æKm\x8b3:â\x92\x8d\x10\x9e!\x1a}\x11\x04Ëe\x12\x0eM\x1a·ç¢¯\x14w*Õ î\x1c\x02MºEx²\x94&³Ãa\x82\x9c\x19*.ù^p~Ëå\x9c\x83%Ôè_\x89^\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:45,622 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:45] code 400, message Bad request version ('èû#Ð\x12ØÂþ\\¦¹n\x10ÊÊS¤\x9d÷\x067\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:45,622 - INFO - 127.0.0.1 - - [21/May/2025 17:07:45] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x01N\x98¡#üÀÙ\x85Q°È\x13(­BÆê<^J\x13µ¢º\x00\x89QùZ\x0f1 [©Aâ\x05\x01Á\x9a\x1fp èû#Ð\x12ØÂþ\\¦¹n\x10ÊÊS¤\x9d÷\x067\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:46,239 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ('8üyÄq8owîßUf\x84#²¥9Ä\x90÷\x84g\x02\x1aÄ7Ì\x8f^u\x8f[\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:46,239 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03ÞÄ}K­Ç7\x08wñv\x11\x1e\x9f\x8fó\x94\x8bÌg\x8dã\x9b\x18ªs\x95ÃÏ\x17\x1aÌ 8üyÄq8owîßUf\x84#²¥9Ä\x90÷\x84g\x02\x1aÄ7Ì\x8f^u\x8f[\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:46,272 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ('\x07âE')
+2025-05-21 17:07:46,272 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03÷w\x98\x80bq\x8e_gÛcÅ"\x13 E*\x7fç\x08äÜ¡ùui\x91|æ%\x0bü QÈ`àB³A \x07âE[0m" 400 -
+2025-05-21 17:07:46,365 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:46,365 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03nªmNÍ¦(û~âý\x18ÈDIK\x9c\x07F-r\x08\x0bÄ³\x8e\x81\x89âZjõ Èrß-ú ÈÃA# 8\x00D\x8dØt{Áî`hs7êxù\x82d¾(\x1d\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:46,382 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ("\x96´\x90C°Pë·¶\x13U¢\x8a\x89ý'»-Å\x12\x9fh\x90g\x02áùå")
+2025-05-21 17:07:46,382 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03<\x1eÜ³m \x9bÌÿ]BMèÿt*\x94r\x98M\x8dÉ(×\x9bß\x18ì%LÎ9 \x96´\x90C°Pë·¶\x13U¢\x8a\x89ý'»-Å\x12\x9fh\x90g\x02áùå[0m" 400 -
+2025-05-21 17:07:46,526 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ('b\x9dL`h&©±\x95£`ñ\'mÙÏÂw\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:46,526 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03§\x8a\x95\x8c¦\x0c­3×Y\x0b\x10\x0e\x09Â;¯\x14\x08¾\x83\x08ä\x0e½\x916Flöóµ \x01\x8b ¬R^\x0b>\x15ny\x89\x97 b\x9dL`h&©±\x95£`ñ'mÙÏÂw\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:07:46,557 - ERROR - 127.0.0.1 - - [21/May/2025 17:07:46] code 400, message Bad request version ('TÒ\x93Ý&?QKý"E\x0fãà!zE±Ã¿fuÉI\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:07:46,557 - INFO - 127.0.0.1 - - [21/May/2025 17:07:46] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x01\x1dFB\x08'4¦K~ÁJI\x19\x12ú²%#ÊÔýAYËl\x12ü§\x0fT\x80 [x¾\x00\x08/c\x09TÒ\x93Ý&?QKý"E\x0fãà!zE±Ã¿fuÉI\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:08:40,497 - INFO - Log: Sending PINGREQ
+2025-05-21 17:08:40,582 - INFO - Log: Received PINGRESP
+2025-05-21 17:08:57,149 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:08:57,616 - INFO - App started
+2025-05-21 17:08:57,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:08:57,627 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:08:57,649 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:08:57,649 - INFO - Cleaning up and exiting.
+2025-05-21 17:08:57,650 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:08:57,732 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:08:57,733 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:08:57,733 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:08:57,733 - INFO - Connected with result code 0
+2025-05-21 17:08:57,811 - INFO - Log: Received SUBACK
+2025-05-21 17:08:57,811 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:08:57,940 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:08:57,940 - INFO - Program started configuting subscription...
+2025-05-21 17:08:57,940 - INFO - Setting subscription to True
+2025-05-21 17:08:57,941 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:08:57,941 - INFO - Message received: / ssssss
+2025-05-21 17:08:57,942 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:08:57,942 - INFO - Message received: ss ssssss
+2025-05-21 17:09:01,588 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:01] code 400, message Bad request version ('úú%¯ÇqV\x94\x9dD\x13ø.\x05óvs(´ÛÇc<½\x16çª¯ºq¬\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:01,589 - INFO - 127.0.0.1 - - [21/May/2025 17:09:01] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03²î\x00+\x8a\x18ªå>\x09§Ïå6×î\x83ýµ\x8c'ì\x9cÙ\x81YÑÃ\x05\x0b·; \x0cúú%¯ÇqV\x94\x9dD\x13ø.\x05óvs(´ÛÇc<½\x16çª¯ºq¬\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:01,616 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:01] code 400, message Bad request version ('W\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:01,616 - INFO - 127.0.0.1 - - [21/May/2025 17:09:01] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03?\x90$\x02;\x1d\x9f\x02\x9c¶Ð\x85N\x84Hãù\x0d­àý=Tí\x9eÖÁ¼\x80\x1a\x97; \x99)MO\x8a§FHä\x9ajï=Á\x09ìåò\x9f\x7f|¹\x0dú\x98n/ëk\x85\x1cW\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,132 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('L\x98\x94¯éÌ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,132 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03;°\x9b\x06d 2&\x90Ú'XmQ§%\x01K\x86¥_\x1c,½\x9au-Lü\x1b:ã \x95EàæJj\x9cÂR,S«\x18i\x1056\x81\x07¬\x0b'S\x10ª\x1fL\x98\x94¯éÌ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,146 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request syntax ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03w')
+2025-05-21 17:09:02,147 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03w[0m" 400 -
+2025-05-21 17:09:02,427 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07S\x01\x00\x07O\x03\x03/_Ô\x82')
+2025-05-21 17:09:02,427 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03/_Ô\x82\x0cAá^/}Ê\x17\x1c[0m" 400 -
+2025-05-21 17:09:02,442 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('&[PÌ5h\x8d¬\x9aáqÆaC\x17kÚ@')
+2025-05-21 17:09:02,443 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03Ì5õ|i3%\x1fîG\x90U\x9bâÔTofÊ¨=öû[HÄËú\x09zf° &[PÌ5h\x8d¬\x9aáqÆaC\x17kÚ@[0m" 400 -
+2025-05-21 17:09:02,546 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('\x13\x0fiÕ3ý¿´r\x91K7É£\x95X¡Xc:H\\\x9e¥&\x1b²àfZTL\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,546 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03¹üZl^ÊÂõ¾\x1fºì\x92ÚòÃI·\x0b×\x0e\x14B\x07\x81õ\x97.\x86ôúø \x13\x0fiÕ3ý¿´r\x91K7É£\x95X¡Xc:H\\\x9e¥&\x1b²àfZTL\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,568 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request syntax ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03~ó$]Ò\x8b]_\x1a$c')
+2025-05-21 17:09:02,568 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03~ó$]Ò\x8b]_\x1a$c[0m" 400 -
+2025-05-21 17:09:02,688 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('8´{D\x04\x9b\x0f\x89H\x10Ú¨´zr\x8cæ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,688 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x9cbf¨\x96)Q/a)\x8f¡\x82\x8d\x9b/|ÇÉÀ\x97tz¿ÈÊÎ\x0cÆø\x1aZ öX¾fü%v¥\x06/¾_án\x098´{D\x04\x9b\x0f\x89H\x10Ú¨´zr\x8cæ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,706 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('\x92P\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,706 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x037\x12\x05ñZ©\x03ê\x16\x9e_ÿ¦öHvúBÖ¤<ö²\x8b\x1aÜn¥À=r¾ \x91£¨\x99ó\x9c\x9f\x89\x9f=\x9c\x9bA7\x7fõï1\x07«çÝ\x8f\x1a4\x10~#ã \x92P\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,836 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('è,\x94Õe\x86Äx·Ì\x8c\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,836 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x1aª\x9aþÌïßí%P/°«@_¿\x16g¶Ô}ÊDhA\x90!>´?\x15À t\x1e¸¶\x82qP=b²á\x91<|Û\x9a°\x17Í¡\x1eè,\x94Õe\x86Äx·Ì\x8c\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,864 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('\x11&Ã}Âo\x02\x18«\x16û\x1b§®û\xady\x98.cöÝ\x7f$ÿ¸\x80g2õðü\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,864 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03·\x15\x9dºE­\x93\x16\x93kå \x8c\x07M²Ì\x1f\x965\x93ç¢¥Û¹ÈçËÃû\x0c \x11&Ã}Âo\x02\x18«\x16û\x1b§®û­y\x98.cöÝ\x7f$ÿ¸\x80g2õðü\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,988 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('ë)«Å#ºdã8ð\x04Âd\x87;FÞ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,988 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x10ôÃ¬\x9eî\x17n~Ä\x06í#âóà>\x82\x1a^\x97ª\x7fU¸\x14¾¢#´\x0b\x98 j^!ÍkYpÞ\\ &\x136\x18\x0bë)«Å#ºdã8ð\x04Âd\x87;FÞ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:02,990 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:02] code 400, message Bad request version ('zäÍÈô`¶¼§\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:02,991 - INFO - 127.0.0.1 - - [21/May/2025 17:09:02] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03¾Ú\x91'pÆ\x94ôè¢\x81ý\x1a¶\x0fÍ¼P{KJùïZjéû,lV\x06ë \x18ò\x83ª\x1aàthPòsp\x8a@O\x1cØ(£î81 zäÍÈô`¶¼§\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:03,141 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:03] code 400, message Bad request version ('óßvl\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:03,141 - INFO - 127.0.0.1 - - [21/May/2025 17:09:03] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03Ú¸Í7ÓùÓÇ¾KLoã(\x09¢\x15"ÎÕf\x92\x8c¤\\\\ü\x98Õì\x97ö 4ì¹ðÃ¼\x8fV\x14_«\x1aý%.Ðå\x07Õª\x10¢.Ò.\x8a\x86\x1eóßvl\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:03,158 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03EÊ\x9fÏ')
+2025-05-21 17:09:03,158 - INFO - 127.0.0.1 - - [21/May/2025 17:09:03] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03EÊ\x9fÏ\x0dL$\x00ö\x92[0m" 400 -
+2025-05-21 17:09:03,303 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:03] code 400, message Bad request version ('2É\x9b[4¿®ÛüÏ\x12íxQô.9íg\x83\x0f\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:03,303 - INFO - 127.0.0.1 - - [21/May/2025 17:09:03] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x88môz^U\x06\x1b+\x1a7%\x97ÒÀÙ\x8bï-!ÓCÛ\x8bÙ£:\x0b´z\x1c\x8c âOC½\x1bpv\x91¼Ö\x0d2É\x9b[4¿®ÛüÏ\x12íxQô.9íg\x83\x0f\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:03,317 - ERROR - 127.0.0.1 - - [21/May/2025 17:09:03] code 400, message Bad request version ('ì\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:09:03,317 - INFO - 127.0.0.1 - - [21/May/2025 17:09:03] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03Å\\"°û\x90jØh[Ý\x85ì\x08éY¡ëeª\x06\x07÷ ûá<ÇÓ\x16 Ð \x1f{\x9dMHØB\x1a\x82Ýº?+3\x1cu\x16\x01f\x10\x16\x1d\x14´¯\x90Ì\x93f|\x1cì\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:09:58,376 - INFO - Log: Sending PINGREQ
+2025-05-21 17:09:58,449 - INFO - Log: Received PINGRESP
+2025-05-21 17:10:58,931 - INFO - Log: Sending PINGREQ
+2025-05-21 17:10:58,967 - INFO - Log: Received PINGRESP
+2025-05-21 17:11:59,430 - INFO - Log: Sending PINGREQ
+2025-05-21 17:12:09,559 - INFO - Log: Received PINGRESP
+2025-05-21 17:15:27,143 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:15:27,860 - INFO - App started
+2025-05-21 17:15:27,950 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:15:27,950 - INFO - Cleaning up and exiting.
+2025-05-21 17:15:27,950 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:15:48,033 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:15:48,524 - INFO - App started
+2025-05-21 17:15:48,565 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:15:48,565 - INFO - Cleaning up and exiting.
+2025-05-21 17:15:48,569 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:15:56,948 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:15:57,495 - INFO - App started
+2025-05-21 17:15:57,530 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:15:57,530 - INFO - Cleaning up and exiting.
+2025-05-21 17:15:57,532 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:16:08,991 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:16:09,537 - INFO - App started
+2025-05-21 17:16:09,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:16:09,553 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:16:09,572 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:16:09,573 - INFO - Cleaning up and exiting.
+2025-05-21 17:16:09,578 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:16:09,607 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:16:09,607 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:16:09,608 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:16:09,608 - INFO - Connected with result code 0
+2025-05-21 17:16:09,631 - INFO - Log: Received SUBACK
+2025-05-21 17:16:09,631 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:16:09,705 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:16:09,705 - INFO - Program started configuting subscription...
+2025-05-21 17:16:09,705 - INFO - Setting subscription to True
+2025-05-21 17:16:09,705 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:16:09,705 - INFO - Message received: / ssssss
+2025-05-21 17:16:09,706 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:16:09,706 - INFO - Message received: ss ssssss
+2025-05-21 17:16:15,735 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:15] code 400, message Bad request version ('÷\x90±')
+2025-05-21 17:16:15,736 - INFO - 127.0.0.1 - - [21/May/2025 17:16:15] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x9d\x99!YU\x0eÿ\x81?Êxõ;ÁÙ\x9aP\x1aÕcpê\x8eÇ/j\x0b­ÌX¯% ÷\x90±[0m" 400 -
+2025-05-21 17:16:15,765 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:15] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:15,765 - INFO - 127.0.0.1 - - [21/May/2025 17:16:15] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03?zÅ«ùzo*\x8eFê\x8fu¶äjÎ;öÚÆ»\x1cCÀaQ\x02à\x9aø\x19 \x99\x13Ø\x83|öe\x8f\x1dcMÜQ\x07ëU#^T.ô¯Ë\x0eÎ/\x80\x82büô\x0d\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:16,244 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:16,244 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03À^K®\x01µb\x88i·9µ\x1bÒ´·\x1d<ª\x83-X¡?O¨,P?Éñ· \x1axÃqr'\x89\x11z1j\x1f:\x0cÀw\x94Ðzý*\x82#b±Y\x85Õ\x14ÝÎ\x85\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:16,246 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request syntax ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x033')
+2025-05-21 17:16:16,247 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x033[0m" 400 -
+2025-05-21 17:16:16,717 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request version ('ï\x03^½À\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:16,717 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03ª\x9d\x16\x9e.\x9a\x12Ë\x17\x0dã_w«[\x7f\x84£sì$\x95c]úlJä\x14[_\x03 \x04¡·U\x83\x1d/ú\x11\x1e\x01`×\x82Ý\\à\x83öâ\x06\x9bþ[UÁ\x0bï\x03^½À\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:16,722 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request version ('#/\x90nÆî\xad`0XT\x15åÕ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:16,722 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03ìY>\x00[EEt\x9cTð¢®%ú5Ê\x9c\x03\x0caÞX(¿³Ð(üÁÐð F\x9fÝÝ8}Â6Ò&\x16¸f\x8b\x85º\x84 #/\x90nÆî­`0XT\x15åÕ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:16,906 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request version ('g\x00VÞ#BÌtÃ\x81ÐÍ\x96Ì·PdÇ4S3,ýï=\x8e\x99®yNÔâ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:16,906 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03\x0d\x99V\x88E\x1f\x8a¨O¾OýÉ6ë\x99\x14cm\x1fàùÑòNQ\x0b\x15ËÕ\x86\x0e g\x00VÞ#BÌtÃ\x81ÐÍ\x96Ì·PdÇ4S3,ýï=\x8e\x99®yNÔâ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:16,922 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:16] code 400, message Bad request version ('§çö×#¥o\x94\x93iºÖp?UôÙÄ\x89-{®E\x9cR2aí\x1aÝíê\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:16,923 - INFO - 127.0.0.1 - - [21/May/2025 17:16:16] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03M@\x0fáL\x82Ê%ÿÖQ\x1c\x9aÏ\x16\x9fåëÅ¤N3\x97W¶à/\x8c-Ã\x10ý §çö×#¥o\x94\x93iºÖp?UôÙÄ\x89-{®E\x9cR2aí\x1aÝíê\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:17,015 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:17] code 400, message Bad request version ('B\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:17,017 - INFO - 127.0.0.1 - - [21/May/2025 17:16:17] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03dpV=G¿a>\x19`½\x9e.öST¶¢×\x06þc\x9e\x16Ï\x88\x0eBzçI¢ ¾.\x84Á\x08Ç(f\x7fß\x9c:h^±\x05»]4:8\x9b9O\x1e¦´öpW B\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:16:17,022 - ERROR - 127.0.0.1 - - [21/May/2025 17:16:17] code 400, message Bad request version ('¦<>Â\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:16:17,023 - INFO - 127.0.0.1 - - [21/May/2025 17:16:17] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03ü\x8f\x9e\x14zRÎN^³'\x93ÍD8®~ë¿=%1\x89*lÅ\x98\x91\x9d\x96\x02\x84 Vå\x83\x97\x11c1\x7fÝ\x90·J\x17[\x93A¿ªi¦Ëü\x85¯\x1bàx\x09¦<>Â\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:17:32,767 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:17:33,223 - INFO - App started
+2025-05-21 17:18:29,892 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:18:30,440 - INFO - App started
+2025-05-21 17:18:30,457 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:18:30,457 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:18:30,485 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:18:30,485 - INFO - Cleaning up and exiting.
+2025-05-21 17:18:30,485 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:18:30,513 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:18:30,513 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:18:30,513 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:18:30,513 - INFO - Connected with result code 0
+2025-05-21 17:18:30,544 - INFO - Log: Received SUBACK
+2025-05-21 17:18:30,545 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:18:30,635 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:18:30,635 - INFO - Program started configuting subscription...
+2025-05-21 17:18:30,635 - INFO - Setting subscription to True
+2025-05-21 17:18:30,635 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:18:30,635 - INFO - Message received: / ssssss
+2025-05-21 17:18:30,636 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:18:30,636 - INFO - Message received: ss ssssss
+2025-05-21 17:19:51,110 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:19:51,808 - INFO - App started
+2025-05-21 17:19:51,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:19:51,826 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:19:51,975 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:19:51,975 - INFO - Cleaning up and exiting.
+2025-05-21 17:19:51,990 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:19:52,016 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:19:52,016 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:19:52,016 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:19:52,017 - INFO - Connected with result code 0
+2025-05-21 17:19:52,046 - INFO - Log: Received SUBACK
+2025-05-21 17:19:52,047 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:19:52,114 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:19:52,114 - INFO - Program started configuting subscription...
+2025-05-21 17:19:52,114 - INFO - Setting subscription to True
+2025-05-21 17:19:52,114 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:19:52,115 - INFO - Message received: / ssssss
+2025-05-21 17:19:52,115 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:19:52,115 - INFO - Message received: ss ssssss
+2025-05-21 17:20:55,471 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:20:55,939 - INFO - App started
+2025-05-21 17:20:55,952 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:20:55,952 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:20:55,974 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:20:55,975 - INFO - Cleaning up and exiting.
+2025-05-21 17:20:55,977 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:20:55,994 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:20:55,994 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:20:55,994 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:20:55,994 - INFO - Connected with result code 0
+2025-05-21 17:20:56,017 - INFO - Log: Received SUBACK
+2025-05-21 17:20:56,017 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:20:56,101 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:20:56,102 - INFO - Program started configuting subscription...
+2025-05-21 17:20:56,102 - INFO - Setting subscription to True
+2025-05-21 17:20:56,102 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:20:56,102 - INFO - Message received: / ssssss
+2025-05-21 17:20:56,102 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:20:56,103 - INFO - Message received: ss ssssss
+2025-05-21 17:23:10,132 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:23:10,801 - INFO - Application starting...
+2025-05-21 17:23:10,801 - INFO - Initial app.debug status: False
+2025-05-21 17:23:10,801 - INFO - Initial app.config['DEBUG']: False
+2025-05-21 17:23:10,801 - INFO - Initial app.config['HOST']: None
+2025-05-21 17:23:10,801 - INFO - Initial app.config['PORT']: None
+2025-05-21 17:23:10,801 - INFO - Initial app.config['USE_RELOADER']: None
+2025-05-21 17:23:10,801 - ERROR - !!! CRITICAL: SSL_CONTEXT not found in app.config!
+2025-05-21 17:23:10,801 - INFO - Starting MQTTThread (None)
+2025-05-21 17:23:10,802 - INFO - Starting FlaskThread (None)
+2025-05-21 17:23:10,803 - INFO - Attempting to start Flask app with SSL via app.run()...
+2025-05-21 17:23:10,803 - INFO - Main thread joining MQTTThread (39672)
+2025-05-21 17:23:10,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:23:10,824 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:23:10,839 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:23:10,839 - INFO - Cleaning up and exiting.
+2025-05-21 17:23:10,844 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:23:10,844 - INFO - MQTTThread (39672) has joined
+2025-05-21 17:23:10,845 - INFO - Main thread joining FlaskThread (15840)
+2025-05-21 17:23:10,863 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:23:10,863 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:23:10,863 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:23:10,863 - INFO - Connected with result code 0
+2025-05-21 17:23:10,886 - INFO - Log: Received SUBACK
+2025-05-21 17:23:10,887 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:23:10,958 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:23:10,958 - INFO - Program started configuting subscription...
+2025-05-21 17:23:10,958 - INFO - Setting subscription to True
+2025-05-21 17:23:10,959 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:23:10,959 - INFO - Message received: / ssssss
+2025-05-21 17:23:10,959 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:23:10,959 - INFO - Message received: ss ssssss
+2025-05-21 17:23:18,500 - ERROR - 127.0.0.1 - - [21/May/2025 17:23:18] code 400, message Bad request version ('³s\x87Uq£LÒ\x8d]\x9c\x190K#+\x9dFE\x08ögø\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-21 17:23:18,500 - INFO - 127.0.0.1 - - [21/May/2025 17:23:18] "[31m[1m\x16\x03\x01\x07S\x01\x00\x07O\x03\x03öëæècÎ\x1c^W¨À\x14Î\x1c2©\x86»Ð?}\x17\x1bØ\x08r©ÿÃîq\x91 P;!\x09l:V´\x0b³s\x87Uq£LÒ\x8d]\x9c\x190K#+\x9dFE\x08ögø\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:23:18,503 - ERROR - 127.0.0.1 - - [21/May/2025 17:23:18] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x04àt\x8cÙV>¤\x08G\x12Î0\x01_\x06\x91\x0fÄúå\x13Ø\x05º\x86Ï¿¼æCÐ')
+2025-05-21 17:23:18,503 - INFO - 127.0.0.1 - - [21/May/2025 17:23:18] "[31m[1m\x16\x03\x01\x02\x82\x01\x00\x02~\x03\x03\x04àt\x8cÙV>¤\x08G\x12Î0\x01_\x06\x91\x0fÄúå\x13Ø\x05º\x86Ï¿¼æCÐ ^>²>\x17m«OW\x9e°~®¯\x0e\x14¥´xrWjBG\x01\x87V\x15Ñ·úÊ\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-21 17:24:11,477 - INFO - Log: Sending PINGREQ
+2025-05-21 17:24:11,511 - INFO - Log: Received PINGRESP
+2025-05-21 17:25:12,028 - INFO - Log: Sending PINGREQ
+2025-05-21 17:25:12,080 - INFO - Log: Received PINGRESP
+2025-05-21 17:26:12,537 - INFO - Log: Sending PINGREQ
+2025-05-21 17:26:12,562 - INFO - Log: Received PINGRESP
+2025-05-21 17:27:13,032 - INFO - Log: Sending PINGREQ
+2025-05-21 17:27:13,053 - INFO - Log: Received PINGRESP
+2025-05-21 17:27:48,595 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:27:49,235 - INFO - Main thread: Application starting.
+2025-05-21 17:27:49,235 - INFO - Main thread: Current working directory: C:\Users\drmot\Nextcloud\CVUT\NSI\Semestralka
+2025-05-21 17:27:49,236 - INFO - Main thread: Starting FlaskServerThread
+2025-05-21 17:27:49,236 - INFO - Main thread: Starting MQTTClientThread
+2025-05-21 17:27:49,236 - INFO - Flask thread: Preparing to run app.run() with host=127.0.0.1, port=5000, debug=False, use_reloader=False, ssl_context_exists=True
+2025-05-21 17:27:49,237 - INFO - Flask thread: Certificate and Key files seem to exist: Cert='C:\Users\drmot\Nextcloud\CVUT\NSI\Semestralka\cert\certificate.pem', Key='C:\Users\drmot\Nextcloud\CVUT\NSI\Semestralka\cert\key.pem'
+2025-05-21 17:27:49,238 - INFO - Main thread: Joining FlaskServerThread
+2025-05-21 17:27:49,283 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on https://127.0.0.1:5000
-2025-05-21 17:16:40,852 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:27:49,283 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:27:49,297 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:27:49,298 - INFO - Cleaning up and exiting.
+2025-05-21 17:27:49,299 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:27:49,329 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:27:49,329 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:27:49,329 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:27:49,330 - INFO - Connected with result code 0
+2025-05-21 17:27:49,354 - INFO - Log: Received SUBACK
+2025-05-21 17:27:49,355 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:27:49,434 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:27:49,435 - INFO - Program started configuting subscription...
+2025-05-21 17:27:49,435 - INFO - Setting subscription to True
+2025-05-21 17:27:49,435 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:27:49,435 - INFO - Message received: / ssssss
+2025-05-21 17:27:49,435 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:27:49,435 - INFO - Message received: ss ssssss
+2025-05-21 17:29:21,614 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:29:22,193 - INFO - App started
+2025-05-21 17:29:22,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-21 17:29:22,213 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:29:22,229 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:29:22,229 - INFO - Cleaning up and exiting.
+2025-05-21 17:29:22,231 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:29:22,251 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:29:22,251 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:29:22,251 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:29:22,251 - INFO - Connected with result code 0
+2025-05-21 17:29:22,273 - INFO - Log: Received SUBACK
+2025-05-21 17:29:22,273 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:29:22,350 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:29:22,351 - INFO - Program started configuting subscription...
+2025-05-21 17:29:22,351 - INFO - Setting subscription to True
+2025-05-21 17:29:22,351 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:29:22,351 - INFO - Message received: / ssssss
+2025-05-21 17:29:22,351 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:29:22,351 - INFO - Message received: ss ssssss
+2025-05-21 17:31:52,189 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:31:52,832 - INFO - App started
+2025-05-21 17:31:52,889 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:31:52,889 - INFO - Cleaning up and exiting.
+2025-05-21 17:31:52,891 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:31:52,896 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:31:52,896 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:31:52,915 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:31:52,915 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:31:52,915 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:31:52,915 - INFO - Connected with result code 0
+2025-05-21 17:31:52,940 - INFO - Log: Received SUBACK
+2025-05-21 17:31:52,941 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:31:53,012 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:31:53,012 - INFO - Program started configuting subscription...
+2025-05-21 17:31:53,012 - INFO - Setting subscription to True
+2025-05-21 17:31:53,012 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:31:53,012 - INFO - Message received: / ssssss
+2025-05-21 17:31:53,013 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:31:53,013 - INFO - Message received: ss ssssss
+2025-05-21 17:32:25,876 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:32:26,366 - INFO - App started
+2025-05-21 17:32:26,406 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:32:26,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:32:26,453 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:32:26,453 - INFO - Cleaning up and exiting.
+2025-05-21 17:32:26,455 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:32:26,476 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:32:26,476 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:32:26,476 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:32:26,476 - INFO - Connected with result code 0
+2025-05-21 17:32:26,497 - INFO - Log: Received SUBACK
+2025-05-21 17:32:26,497 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:32:26,618 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:32:26,618 - INFO - Program started configuting subscription...
+2025-05-21 17:32:26,618 - INFO - Setting subscription to True
+2025-05-21 17:32:26,618 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:32:26,618 - INFO - Message received: / ssssss
+2025-05-21 17:32:26,618 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:32:26,618 - INFO - Message received: ss ssssss
+2025-05-21 17:32:50,263 - INFO - 127.0.0.1 - - [21/May/2025 17:32:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-21 17:32:50,429 - INFO - Data table created
+2025-05-21 17:32:50,431 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:32:50,432 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:32:50,432 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:32:50,434 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:32:50,435 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:32:50,435 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:32:50,436 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:32:50,437 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:32:50,438 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:32:50,439 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:32:50,440 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:32:50,441 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:32:50,442 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:32:50,442 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:32:50,443 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:32:50,444 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:32:50,444 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:32:50,445 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:32:50,445 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:32:50,446 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:32:50,447 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:32:50,447 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:32:50,448 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:32:50,448 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:32:50,448 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:32:50,449 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:32:50,449 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:32:50,450 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:32:50,450 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:32:50,451 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:32:50,451 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:32:50,451 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:32:50,452 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:32:50,454 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:32:50,455 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:32:50,456 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:32:50,457 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:32:50,458 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:32:50,458 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:32:50,459 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:32:50,460 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:32:50,461 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:32:50,462 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:32:50,462 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:32:50,463 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:32:50,463 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:32:50,464 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:32:50,464 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:32:50,465 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:32:50,465 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:32:50,466 - INFO - Users table created
+2025-05-21 17:32:50,467 - INFO - Max ID from users table fetched
+2025-05-21 17:32:50,473 - INFO - 127.0.0.1 - - [21/May/2025 17:32:50] "GET /api/login HTTP/1.1" 200 -
+2025-05-21 17:32:54,302 - INFO - Data table created
+2025-05-21 17:32:54,303 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:32:54,303 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:32:54,304 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:32:54,305 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:32:54,305 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:32:54,306 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:32:54,307 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:32:54,307 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:32:54,308 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:32:54,308 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:32:54,309 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:32:54,309 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:32:54,310 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:32:54,310 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:32:54,311 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:32:54,311 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:32:54,312 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:32:54,312 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:32:54,313 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:32:54,313 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:32:54,313 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:32:54,314 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:32:54,314 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:32:54,315 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:32:54,315 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:32:54,315 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:32:54,316 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:32:54,316 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:32:54,317 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:32:54,317 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:32:54,317 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:32:54,318 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:32:54,318 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:32:54,319 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:32:54,319 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:32:54,320 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:32:54,320 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:32:54,321 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:32:54,322 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:32:54,322 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:32:54,323 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:32:54,323 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:32:54,324 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:32:54,325 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:32:54,325 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:32:54,326 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:32:54,326 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:32:54,327 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:32:54,328 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:32:54,328 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:32:54,329 - INFO - Users table created
+2025-05-21 17:32:54,329 - INFO - Max ID from users table fetched
+2025-05-21 17:32:54,336 - INFO - User (admin) data fetched from table
+2025-05-21 17:32:54,336 - INFO - User admin logged in successfully
+2025-05-21 17:32:54,340 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-21 17:32:54,394 - INFO - Fetched 15 rows from data table
+2025-05-21 17:32:54,395 - INFO - Displaying dashboard
+2025-05-21 17:32:54,551 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:32:54,651 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:32:54,658 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:32:54,721 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:32:54,734 - INFO - 127.0.0.1 - - [21/May/2025 17:32:54] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:32:56,515 - INFO - Deleted data point with ID: 35
+2025-05-21 17:32:56,516 - INFO - 127.0.0.1 - - [21/May/2025 17:32:56] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:32:56,780 - INFO - Deleted data point with ID: 36
+2025-05-21 17:32:56,781 - INFO - 127.0.0.1 - - [21/May/2025 17:32:56] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:32:56,910 - INFO - Deleted data point with ID: 37
+2025-05-21 17:32:56,910 - INFO - 127.0.0.1 - - [21/May/2025 17:32:56] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:33:10,558 - INFO - 127.0.0.1 - - [21/May/2025 17:33:10] "[33mGET /terminal HTTP/1.1[0m" 404 -
+2025-05-21 17:33:27,110 - INFO - Log: Sending PINGREQ
+2025-05-21 17:33:27,139 - INFO - Log: Received PINGRESP
+2025-05-21 17:34:27,562 - INFO - Log: Sending PINGREQ
+2025-05-21 17:34:27,585 - INFO - Log: Received PINGRESP
+2025-05-21 17:35:28,040 - INFO - Log: Sending PINGREQ
+2025-05-21 17:35:28,059 - INFO - Log: Received PINGRESP
+2025-05-21 17:36:28,531 - INFO - Log: Sending PINGREQ
+2025-05-21 17:36:29,559 - INFO - Log: Received PINGRESP
+2025-05-21 17:37:17,378 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:37:18,038 - INFO - App started
+2025-05-21 17:37:18,083 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:37:18,083 - INFO - Cleaning up and exiting.
+2025-05-21 17:37:18,086 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:37:18,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:37:18,091 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:37:18,109 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:37:18,109 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:37:18,109 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:37:18,110 - INFO - Connected with result code 0
+2025-05-21 17:37:18,134 - INFO - Log: Received SUBACK
+2025-05-21 17:37:18,134 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:37:18,214 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:37:18,215 - INFO - Program started configuting subscription...
+2025-05-21 17:37:18,215 - INFO - Setting subscription to True
+2025-05-21 17:37:18,215 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:37:18,215 - INFO - Message received: / ssssss
+2025-05-21 17:37:18,215 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:37:18,215 - INFO - Message received: ss ssssss
+2025-05-21 17:37:35,705 - INFO - 127.0.0.1 - - [21/May/2025 17:37:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-21 17:37:35,754 - INFO - Data table created
+2025-05-21 17:37:35,756 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:37:35,757 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:37:35,758 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:37:35,759 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:37:35,759 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:37:35,760 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:37:35,761 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:37:35,761 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:37:35,764 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:37:35,764 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:37:35,766 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:37:35,778 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:37:35,778 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:37:35,780 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:37:35,781 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:37:35,782 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:37:35,782 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:37:35,783 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:37:35,784 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:37:35,784 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:37:35,785 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:37:35,785 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:37:35,786 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:37:35,786 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:37:35,787 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:37:35,788 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:37:35,788 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:37:35,789 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:37:35,789 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:37:35,790 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:37:35,790 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:37:35,791 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:37:35,791 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:37:35,792 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:37:35,792 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:37:35,793 - INFO - Users table created
+2025-05-21 17:37:35,793 - INFO - Max ID from users table fetched
+2025-05-21 17:37:35,802 - INFO - 127.0.0.1 - - [21/May/2025 17:37:35] "GET /api/login HTTP/1.1" 200 -
+2025-05-21 17:37:39,167 - INFO - Data table created
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:37:39,167 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:37:39,180 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:37:39,192 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:37:39,196 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:37:39,201 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:37:39,201 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:37:39,203 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:37:39,203 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:37:39,205 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:37:39,205 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:37:39,207 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:37:39,207 - INFO - Users table created
+2025-05-21 17:37:39,209 - INFO - Max ID from users table fetched
+2025-05-21 17:37:39,211 - INFO - User (admin) data fetched from table
+2025-05-21 17:37:39,211 - INFO - User admin logged in successfully
+2025-05-21 17:37:39,217 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-21 17:37:39,231 - INFO - Fetched 15 rows from data table
+2025-05-21 17:37:39,231 - INFO - Displaying dashboard
+2025-05-21 17:37:39,241 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:37:39,302 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:37:39,314 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:37:39,363 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:37:39,374 - INFO - 127.0.0.1 - - [21/May/2025 17:37:39] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:37:42,789 - INFO - Fetched 15 rows from data table
+2025-05-21 17:37:42,793 - INFO - Displaying dashboard
+2025-05-21 17:37:42,793 - INFO - 127.0.0.1 - - [21/May/2025 17:37:42] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:37:42,854 - INFO - 127.0.0.1 - - [21/May/2025 17:37:42] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:37:42,854 - INFO - 127.0.0.1 - - [21/May/2025 17:37:42] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:37:49,212 - INFO - Displaying terminal page
+2025-05-21 17:37:49,388 - INFO - 127.0.0.1 - - [21/May/2025 17:37:49] "[35m[1mGET /api/terminal HTTP/1.1[0m" 500 -
+2025-05-21 17:37:49,574 - INFO - 127.0.0.1 - - [21/May/2025 17:37:49] "GET /api/terminal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-21 17:37:49,574 - INFO - 127.0.0.1 - - [21/May/2025 17:37:49] "GET /api/terminal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-21 17:37:49,595 - INFO - 127.0.0.1 - - [21/May/2025 17:37:49] "GET /api/terminal?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-21 17:37:49,609 - INFO - 127.0.0.1 - - [21/May/2025 17:37:49] "GET /api/terminal?__debugger__=yes&cmd=resource&f=console.png&s=f8jcznjR7A9PPkehefZJ HTTP/1.1" 200 -
+2025-05-21 17:38:18,680 - INFO - Log: Sending PINGREQ
+2025-05-21 17:38:18,708 - INFO - Log: Received PINGRESP
+2025-05-21 17:39:19,097 - INFO - Log: Sending PINGREQ
+2025-05-21 17:39:19,168 - INFO - Log: Received PINGRESP
+2025-05-21 17:40:19,592 - INFO - Log: Sending PINGREQ
+2025-05-21 17:40:19,623 - INFO - Log: Received PINGRESP
+2025-05-21 17:41:20,059 - INFO - Log: Sending PINGREQ
+2025-05-21 17:41:20,087 - INFO - Log: Received PINGRESP
+2025-05-21 17:42:19,768 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:42:20,374 - INFO - App started
+2025-05-21 17:42:20,408 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:42:20,408 - INFO - Cleaning up and exiting.
+2025-05-21 17:42:20,410 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:42:20,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:42:20,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:42:20,432 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:42:20,432 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:42:20,432 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:42:20,432 - INFO - Connected with result code 0
+2025-05-21 17:42:20,459 - INFO - Log: Received SUBACK
+2025-05-21 17:42:20,459 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:42:20,528 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:42:20,528 - INFO - Program started configuting subscription...
+2025-05-21 17:42:20,528 - INFO - Setting subscription to True
+2025-05-21 17:42:20,528 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:42:20,529 - INFO - Message received: / ssssss
+2025-05-21 17:42:20,529 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:42:20,529 - INFO - Message received: ss ssssss
+2025-05-21 17:42:23,207 - INFO - User not logged in - redirecting to login
+2025-05-21 17:42:23,207 - INFO - 127.0.0.1 - - [21/May/2025 17:42:23] "[32mGET /api/terminal HTTP/1.1[0m" 302 -
+2025-05-21 17:42:23,223 - INFO - Data table created
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:42:23,223 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:42:23,237 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:42:23,237 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:42:23,239 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:42:23,255 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:42:23,255 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:42:23,255 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:42:23,255 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:42:23,255 - INFO - Users table created
+2025-05-21 17:42:23,255 - INFO - Max ID from users table fetched
+2025-05-21 17:42:23,255 - INFO - 127.0.0.1 - - [21/May/2025 17:42:23] "GET /api/login HTTP/1.1" 200 -
+2025-05-21 17:42:27,004 - INFO - Data table created
+2025-05-21 17:42:27,012 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:42:27,012 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:42:27,012 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:42:27,014 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:42:27,014 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:42:27,014 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:42:27,014 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:42:27,016 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:42:27,016 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:42:27,016 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:42:27,016 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:42:27,018 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:42:27,018 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:42:27,018 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:42:27,020 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:42:27,020 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:42:27,022 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:42:27,022 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:42:27,022 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:42:27,024 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:42:27,024 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:42:27,024 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:42:27,024 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:42:27,024 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:42:27,026 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:42:27,026 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:42:27,026 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:42:27,026 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:42:27,028 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:42:27,028 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:42:27,028 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:42:27,028 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:42:27,028 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:42:27,030 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:42:27,030 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:42:27,031 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:42:27,031 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:42:27,031 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:42:27,031 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:42:27,033 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:42:27,033 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:42:27,033 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:42:27,033 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:42:27,033 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:42:27,035 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:42:27,035 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:42:27,036 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:42:27,036 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:42:27,036 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:42:27,038 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:42:27,038 - INFO - Users table created
+2025-05-21 17:42:27,038 - INFO - Max ID from users table fetched
+2025-05-21 17:42:27,040 - INFO - User (admin) data fetched from table
+2025-05-21 17:42:27,040 - INFO - User admin logged in successfully
+2025-05-21 17:42:27,040 - INFO - 127.0.0.1 - - [21/May/2025 17:42:27] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-21 17:42:27,087 - INFO - Fetched 15 rows from data table
+2025-05-21 17:42:27,087 - INFO - Displaying dashboard
+2025-05-21 17:42:27,099 - INFO - 127.0.0.1 - - [21/May/2025 17:42:27] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:42:27,185 - INFO - 127.0.0.1 - - [21/May/2025 17:42:27] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:42:27,189 - INFO - 127.0.0.1 - - [21/May/2025 17:42:27] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:42:32,943 - INFO - Displaying terminal page
+2025-05-21 17:42:32,946 - INFO - 127.0.0.1 - - [21/May/2025 17:42:32] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:42:33,001 - INFO - 127.0.0.1 - - [21/May/2025 17:42:33] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:42:33,006 - INFO - 127.0.0.1 - - [21/May/2025 17:42:33] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:42:38,141 - INFO - Fetched 15 rows from data table
+2025-05-21 17:42:38,142 - INFO - Displaying dashboard
+2025-05-21 17:42:38,142 - INFO - 127.0.0.1 - - [21/May/2025 17:42:38] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:42:38,211 - INFO - 127.0.0.1 - - [21/May/2025 17:42:38] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:42:38,215 - INFO - 127.0.0.1 - - [21/May/2025 17:42:38] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:43:03,083 - INFO - Displaying terminal page
+2025-05-21 17:43:03,090 - INFO - 127.0.0.1 - - [21/May/2025 17:43:03] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:43:03,146 - INFO - 127.0.0.1 - - [21/May/2025 17:43:03] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:43:03,151 - INFO - 127.0.0.1 - - [21/May/2025 17:43:03] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:43:03,197 - INFO - 127.0.0.1 - - [21/May/2025 17:43:03] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:43:03,209 - INFO - 127.0.0.1 - - [21/May/2025 17:43:03] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:43:06,135 - INFO - Fetched 15 rows from data table
+2025-05-21 17:43:06,136 - INFO - Displaying dashboard
+2025-05-21 17:43:06,138 - INFO - 127.0.0.1 - - [21/May/2025 17:43:06] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:43:06,187 - INFO - 127.0.0.1 - - [21/May/2025 17:43:06] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:43:06,191 - INFO - 127.0.0.1 - - [21/May/2025 17:43:06] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:43:06,229 - INFO - 127.0.0.1 - - [21/May/2025 17:43:06] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:43:06,245 - INFO - 127.0.0.1 - - [21/May/2025 17:43:06] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:43:21,022 - INFO - Log: Sending PINGREQ
+2025-05-21 17:43:21,053 - INFO - Log: Received PINGRESP
+2025-05-21 17:44:02,411 - INFO - Fetched 15 rows from data table
+2025-05-21 17:44:02,412 - INFO - Displaying dashboard
+2025-05-21 17:44:02,512 - INFO - 127.0.0.1 - - [21/May/2025 17:44:02] "[35m[1mGET /api/dashboard HTTP/1.1[0m" 500 -
+2025-05-21 17:44:02,689 - INFO - 127.0.0.1 - - [21/May/2025 17:44:02] "GET /api/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-21 17:44:02,690 - INFO - 127.0.0.1 - - [21/May/2025 17:44:02] "GET /api/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-21 17:44:02,746 - INFO - 127.0.0.1 - - [21/May/2025 17:44:02] "GET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-21 17:44:02,748 - INFO - 127.0.0.1 - - [21/May/2025 17:44:02] "GET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=3c9KKgTvu0HOLCSKF9Rp HTTP/1.1" 200 -
+2025-05-21 17:44:21,522 - INFO - Log: Sending PINGREQ
+2025-05-21 17:44:21,548 - INFO - Log: Received PINGRESP
+2025-05-21 17:44:48,184 - INFO - Fetched 15 rows from data table
+2025-05-21 17:44:48,184 - INFO - Displaying dashboard
+2025-05-21 17:44:48,240 - INFO - 127.0.0.1 - - [21/May/2025 17:44:48] "[35m[1mGET /api/dashboard HTTP/1.1[0m" 500 -
+2025-05-21 17:44:48,317 - INFO - 127.0.0.1 - - [21/May/2025 17:44:48] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:44:48,317 - INFO - 127.0.0.1 - - [21/May/2025 17:44:48] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-21 17:44:48,390 - INFO - 127.0.0.1 - - [21/May/2025 17:44:48] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=3c9KKgTvu0HOLCSKF9Rp HTTP/1.1[0m" 304 -
+2025-05-21 17:45:16,248 - INFO - Fetched 15 rows from data table
+2025-05-21 17:45:16,248 - INFO - Displaying dashboard
+2025-05-21 17:45:16,263 - INFO - 127.0.0.1 - - [21/May/2025 17:45:16] "[35m[1mGET /api/dashboard HTTP/1.1[0m" 500 -
+2025-05-21 17:45:16,321 - INFO - 127.0.0.1 - - [21/May/2025 17:45:16] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:45:16,325 - INFO - 127.0.0.1 - - [21/May/2025 17:45:16] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-21 17:45:16,382 - INFO - 127.0.0.1 - - [21/May/2025 17:45:16] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=3c9KKgTvu0HOLCSKF9Rp HTTP/1.1[0m" 304 -
+2025-05-21 17:45:17,142 - INFO - Fetched 15 rows from data table
+2025-05-21 17:45:17,142 - INFO - Displaying dashboard
+2025-05-21 17:45:17,150 - INFO - 127.0.0.1 - - [21/May/2025 17:45:17] "[35m[1mGET /api/dashboard HTTP/1.1[0m" 500 -
+2025-05-21 17:45:17,218 - INFO - 127.0.0.1 - - [21/May/2025 17:45:17] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-21 17:45:17,220 - INFO - 127.0.0.1 - - [21/May/2025 17:45:17] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-21 17:45:17,263 - INFO - 127.0.0.1 - - [21/May/2025 17:45:17] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=3c9KKgTvu0HOLCSKF9Rp HTTP/1.1[0m" 304 -
+2025-05-21 17:45:21,993 - INFO - Log: Sending PINGREQ
+2025-05-21 17:45:22,025 - INFO - Log: Received PINGRESP
+2025-05-21 17:45:44,933 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:45:45,664 - INFO - App started
+2025-05-21 17:45:45,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:45:45,752 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:45:45,823 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:45:45,823 - INFO - Cleaning up and exiting.
+2025-05-21 17:45:45,824 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:45:45,895 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:45:45,895 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:45:45,895 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:45:45,896 - INFO - Connected with result code 0
+2025-05-21 17:45:45,922 - INFO - Log: Received SUBACK
+2025-05-21 17:45:45,922 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:45:46,011 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:45:46,012 - INFO - Program started configuting subscription...
+2025-05-21 17:45:46,012 - INFO - Setting subscription to True
+2025-05-21 17:45:46,012 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:45:46,012 - INFO - Message received: / ssssss
+2025-05-21 17:45:46,013 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:45:46,013 - INFO - Message received: ss ssssss
+2025-05-21 17:45:47,466 - INFO - User not logged in - redirecting to login
+2025-05-21 17:45:47,466 - INFO - 127.0.0.1 - - [21/May/2025 17:45:47] "[32mGET /api/dashboard HTTP/1.1[0m" 302 -
+2025-05-21 17:45:47,483 - INFO - Data table created
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:45:47,491 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:45:47,499 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:45:47,499 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:45:47,499 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:45:47,499 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:45:47,502 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:45:47,512 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:45:47,512 - INFO - Users table created
+2025-05-21 17:45:47,522 - INFO - Max ID from users table fetched
+2025-05-21 17:45:47,525 - INFO - 127.0.0.1 - - [21/May/2025 17:45:47] "GET /api/login HTTP/1.1" 200 -
+2025-05-21 17:45:51,104 - INFO - Data table created
+2025-05-21 17:45:51,105 - INFO - Data inserted into database with ID: 0
+2025-05-21 17:45:51,105 - INFO - Data inserted into database with ID: 1
+2025-05-21 17:45:51,106 - INFO - Data inserted into database with ID: 2
+2025-05-21 17:45:51,106 - INFO - Data inserted into database with ID: 3
+2025-05-21 17:45:51,107 - INFO - Data inserted into database with ID: 4
+2025-05-21 17:45:51,107 - INFO - Data inserted into database with ID: 5
+2025-05-21 17:45:51,108 - INFO - Data inserted into database with ID: 6
+2025-05-21 17:45:51,108 - INFO - Data inserted into database with ID: 7
+2025-05-21 17:45:51,109 - INFO - Data inserted into database with ID: 8
+2025-05-21 17:45:51,109 - INFO - Data inserted into database with ID: 9
+2025-05-21 17:45:51,110 - INFO - Data inserted into database with ID: 10
+2025-05-21 17:45:51,110 - INFO - Data inserted into database with ID: 11
+2025-05-21 17:45:51,111 - INFO - Data inserted into database with ID: 12
+2025-05-21 17:45:51,112 - INFO - Data inserted into database with ID: 13
+2025-05-21 17:45:51,112 - INFO - Data inserted into database with ID: 14
+2025-05-21 17:45:51,113 - INFO - Data inserted into database with ID: 15
+2025-05-21 17:45:51,114 - INFO - Data inserted into database with ID: 16
+2025-05-21 17:45:51,114 - INFO - Data inserted into database with ID: 17
+2025-05-21 17:45:51,115 - INFO - Data inserted into database with ID: 18
+2025-05-21 17:45:51,116 - INFO - Data inserted into database with ID: 19
+2025-05-21 17:45:51,117 - INFO - Data inserted into database with ID: 20
+2025-05-21 17:45:51,117 - INFO - Data inserted into database with ID: 21
+2025-05-21 17:45:51,118 - INFO - Data inserted into database with ID: 22
+2025-05-21 17:45:51,119 - INFO - Data inserted into database with ID: 23
+2025-05-21 17:45:51,119 - INFO - Data inserted into database with ID: 24
+2025-05-21 17:45:51,120 - INFO - Data inserted into database with ID: 25
+2025-05-21 17:45:51,120 - INFO - Data inserted into database with ID: 26
+2025-05-21 17:45:51,121 - INFO - Data inserted into database with ID: 27
+2025-05-21 17:45:51,121 - INFO - Data inserted into database with ID: 28
+2025-05-21 17:45:51,122 - INFO - Data inserted into database with ID: 29
+2025-05-21 17:45:51,123 - INFO - Data inserted into database with ID: 30
+2025-05-21 17:45:51,123 - INFO - Data inserted into database with ID: 32
+2025-05-21 17:45:51,124 - INFO - Data inserted into database with ID: 31
+2025-05-21 17:45:51,124 - INFO - Data inserted into database with ID: 33
+2025-05-21 17:45:51,125 - INFO - Data inserted into database with ID: 34
+2025-05-21 17:45:51,125 - INFO - Data inserted into database with ID: 35
+2025-05-21 17:45:51,126 - INFO - Data inserted into database with ID: 36
+2025-05-21 17:45:51,126 - INFO - Data inserted into database with ID: 37
+2025-05-21 17:45:51,127 - INFO - Data inserted into database with ID: 38
+2025-05-21 17:45:51,127 - INFO - Data inserted into database with ID: 39
+2025-05-21 17:45:51,128 - INFO - Data inserted into database with ID: 40
+2025-05-21 17:45:51,128 - INFO - Data inserted into database with ID: 41
+2025-05-21 17:45:51,129 - INFO - Data inserted into database with ID: 42
+2025-05-21 17:45:51,130 - INFO - Data inserted into database with ID: 43
+2025-05-21 17:45:51,130 - INFO - Data inserted into database with ID: 44
+2025-05-21 17:45:51,130 - INFO - Data inserted into database with ID: 45
+2025-05-21 17:45:51,132 - INFO - Data inserted into database with ID: 46
+2025-05-21 17:45:51,133 - INFO - Data inserted into database with ID: 47
+2025-05-21 17:45:51,133 - INFO - Data inserted into database with ID: 48
+2025-05-21 17:45:51,134 - INFO - Data inserted into database with ID: 49
+2025-05-21 17:45:51,134 - INFO - Users table created
+2025-05-21 17:45:51,135 - INFO - Max ID from users table fetched
+2025-05-21 17:45:51,143 - INFO - User (admin) data fetched from table
+2025-05-21 17:45:51,143 - INFO - User admin logged in successfully
+2025-05-21 17:45:51,144 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-21 17:45:51,185 - INFO - Fetched 15 rows from data table
+2025-05-21 17:45:51,186 - INFO - Displaying dashboard
+2025-05-21 17:45:51,197 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:45:51,253 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:51,257 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:51,307 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:51,334 - INFO - 127.0.0.1 - - [21/May/2025 17:45:51] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:53,033 - INFO - Displaying terminal page
+2025-05-21 17:45:53,037 - INFO - 127.0.0.1 - - [21/May/2025 17:45:53] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:45:53,149 - INFO - 127.0.0.1 - - [21/May/2025 17:45:53] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:53,155 - INFO - 127.0.0.1 - - [21/May/2025 17:45:53] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:53,195 - INFO - 127.0.0.1 - - [21/May/2025 17:45:53] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:53,209 - INFO - 127.0.0.1 - - [21/May/2025 17:45:53] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:54,845 - INFO - Displaying terminal page
+2025-05-21 17:45:54,846 - INFO - 127.0.0.1 - - [21/May/2025 17:45:54] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:45:54,894 - INFO - 127.0.0.1 - - [21/May/2025 17:45:54] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:54,898 - INFO - 127.0.0.1 - - [21/May/2025 17:45:54] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:54,932 - INFO - 127.0.0.1 - - [21/May/2025 17:45:54] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:54,942 - INFO - 127.0.0.1 - - [21/May/2025 17:45:54] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,399 - INFO - Displaying terminal page
+2025-05-21 17:45:55,400 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:45:55,458 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,464 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,486 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,497 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,689 - INFO - Displaying terminal page
+2025-05-21 17:45:55,689 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:45:55,721 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,725 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,766 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:55,795 - INFO - 127.0.0.1 - - [21/May/2025 17:45:55] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,014 - INFO - Displaying terminal page
+2025-05-21 17:45:56,015 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-21 17:45:56,065 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,071 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,126 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,393 - INFO - Fetched 15 rows from data table
+2025-05-21 17:45:56,393 - INFO - Displaying dashboard
+2025-05-21 17:45:56,394 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:45:56,470 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,477 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,519 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,528 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:45:56,970 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: terminal.terminal_page
+2025-05-21 17:45:56,971 - INFO - 127.0.0.1 - - [21/May/2025 17:45:56] "[31m[1mGET /api/terminal HTTP/1.1[0m" 429 -
+2025-05-21 17:45:57,116 - INFO - 127.0.0.1 - - [21/May/2025 17:45:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:45:59,666 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: terminal.terminal_page
+2025-05-21 17:45:59,667 - INFO - 127.0.0.1 - - [21/May/2025 17:45:59] "[31m[1mGET /api/terminal HTTP/1.1[0m" 429 -
+2025-05-21 17:45:59,703 - INFO - 127.0.0.1 - - [21/May/2025 17:45:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:02,237 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: terminal.terminal_page
+2025-05-21 17:46:02,238 - INFO - 127.0.0.1 - - [21/May/2025 17:46:02] "[31m[1mGET /api/terminal HTTP/1.1[0m" 429 -
+2025-05-21 17:46:02,302 - INFO - 127.0.0.1 - - [21/May/2025 17:46:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:03,618 - INFO - Fetched 15 rows from data table
+2025-05-21 17:46:03,618 - INFO - Displaying dashboard
+2025-05-21 17:46:03,619 - INFO - 127.0.0.1 - - [21/May/2025 17:46:03] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:46:03,667 - INFO - 127.0.0.1 - - [21/May/2025 17:46:03] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:46:03,673 - INFO - 127.0.0.1 - - [21/May/2025 17:46:03] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:46:04,253 - INFO - Fetched 15 rows from data table
+2025-05-21 17:46:04,254 - INFO - Displaying dashboard
+2025-05-21 17:46:04,256 - INFO - 127.0.0.1 - - [21/May/2025 17:46:04] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 17:46:04,327 - INFO - 127.0.0.1 - - [21/May/2025 17:46:04] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 17:46:04,332 - INFO - 127.0.0.1 - - [21/May/2025 17:46:04] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 17:46:04,608 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: dash.dashboard
+2025-05-21 17:46:04,609 - INFO - 127.0.0.1 - - [21/May/2025 17:46:04] "[31m[1mGET /api/dashboard HTTP/1.1[0m" 429 -
+2025-05-21 17:46:04,679 - INFO - 127.0.0.1 - - [21/May/2025 17:46:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:07,712 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: terminal.terminal_page
+2025-05-21 17:46:07,713 - INFO - 127.0.0.1 - - [21/May/2025 17:46:07] "[31m[1mGET /api/terminal HTTP/1.1[0m" 429 -
+2025-05-21 17:46:07,749 - INFO - 127.0.0.1 - - [21/May/2025 17:46:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:10,890 - INFO - Max ID from data table fetched
+2025-05-21 17:46:10,891 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:10,891 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:10,891 - INFO - 127.0.0.1 - - [21/May/2025 17:46:10] "POST /api/fetch_data_by_id HTTP/1.1" 200 -
+2025-05-21 17:46:10,929 - INFO - 127.0.0.1 - - [21/May/2025 17:46:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:12,799 - INFO - Max ID from data table fetched
+2025-05-21 17:46:12,801 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:12,801 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:12,801 - INFO - 127.0.0.1 - - [21/May/2025 17:46:12] "POST /api/fetch_data_by_id HTTP/1.1" 200 -
+2025-05-21 17:46:12,844 - INFO - 127.0.0.1 - - [21/May/2025 17:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:14,274 - INFO - Max ID from data table fetched
+2025-05-21 17:46:14,275 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:14,275 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:14,275 - INFO - 127.0.0.1 - - [21/May/2025 17:46:14] "POST /api/fetch_data_by_id HTTP/1.1" 200 -
+2025-05-21 17:46:14,336 - INFO - 127.0.0.1 - - [21/May/2025 17:46:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:15,342 - INFO - Max ID from data table fetched
+2025-05-21 17:46:15,343 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:15,343 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:15,344 - INFO - 127.0.0.1 - - [21/May/2025 17:46:15] "POST /api/fetch_data_by_id HTTP/1.1" 200 -
+2025-05-21 17:46:15,439 - INFO - 127.0.0.1 - - [21/May/2025 17:46:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:16,787 - INFO - Max ID from data table fetched
+2025-05-21 17:46:16,788 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:16,788 - INFO - Fetched data point with ID: 49
+2025-05-21 17:46:16,789 - INFO - 127.0.0.1 - - [21/May/2025 17:46:16] "POST /api/fetch_data_by_id HTTP/1.1" 200 -
+2025-05-21 17:46:16,926 - INFO - 127.0.0.1 - - [21/May/2025 17:46:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:18,068 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: data_manipulation.data_by_id
+2025-05-21 17:46:18,068 - INFO - 127.0.0.1 - - [21/May/2025 17:46:18] "[31m[1mPOST /api/fetch_data_by_id HTTP/1.1[0m" 429 -
+2025-05-21 17:46:18,100 - INFO - 127.0.0.1 - - [21/May/2025 17:46:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:21,522 - INFO - Deleted data point with ID: 35
+2025-05-21 17:46:21,522 - INFO - 127.0.0.1 - - [21/May/2025 17:46:21] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:46:21,675 - INFO - Deleted data point with ID: 36
+2025-05-21 17:46:21,675 - INFO - 127.0.0.1 - - [21/May/2025 17:46:21] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:46:21,792 - INFO - Deleted data point with ID: 37
+2025-05-21 17:46:21,792 - INFO - 127.0.0.1 - - [21/May/2025 17:46:21] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:46:21,935 - INFO - Deleted data point with ID: 38
+2025-05-21 17:46:21,935 - INFO - 127.0.0.1 - - [21/May/2025 17:46:21] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:46:22,078 - INFO - Deleted data point with ID: 39
+2025-05-21 17:46:22,078 - INFO - 127.0.0.1 - - [21/May/2025 17:46:22] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-21 17:46:22,205 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: data_manipulation.delete_one_data_point
+2025-05-21 17:46:22,205 - INFO - 127.0.0.1 - - [21/May/2025 17:46:22] "[31m[1mGET /api/delete_one HTTP/1.1[0m" 429 -
+2025-05-21 17:46:27,052 - INFO - ratelimit 5 per 1 minute (127.0.0.1) exceeded at endpoint: terminal.terminal_page
+2025-05-21 17:46:27,052 - INFO - 127.0.0.1 - - [21/May/2025 17:46:27] "[31m[1mGET /api/terminal HTTP/1.1[0m" 429 -
+2025-05-21 17:46:27,110 - INFO - 127.0.0.1 - - [21/May/2025 17:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-21 17:46:46,480 - INFO - Log: Sending PINGREQ
+2025-05-21 17:46:46,496 - INFO - Log: Received PINGRESP
