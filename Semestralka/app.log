@@ -8725,3 +8725,161 @@ TypeError: 'NoneType' object is not subscriptable
 2025-05-21 19:24:45,281 - INFO - Flask received message via HTTP POST: ss ddddd
 2025-05-21 19:24:45,281 - INFO - 127.0.0.1 - - [21/May/2025 19:24:45] "POST /api/mqtt-message HTTP/1.1" 200 -
 2025-05-21 19:24:45,291 - INFO - Message sent to Flask: ss ddddd
+2025-05-21 19:26:04,635 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 19:26:05,517 - INFO - App started
+2025-05-21 19:26:05,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 19:26:05,551 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 19:26:05,560 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 19:26:05,562 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 19:26:05,601 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 19:26:05,602 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-21 19:26:05,602 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 2)]
+2025-05-21 19:26:05,602 - INFO - Connected with result code 0
+2025-05-21 19:26:05,625 - INFO - Log: Received SUBACK
+2025-05-21 19:26:05,625 - INFO - Subscribed: 1 (2,)
+2025-05-21 19:26:05,694 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 19:26:05,694 - INFO - Program started configuting subscription...
+2025-05-21 19:26:05,694 - INFO - Setting subscription to True
+2025-05-21 19:26:05,695 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 19:26:05,695 - INFO - Message received: / ssssss
+2025-05-21 19:26:05,985 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-21 19:26:05,985 - INFO - 127.0.0.1 - - [21/May/2025 19:26:05] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-21 19:26:05,988 - INFO - Message sent to Flask: / ssssss
+2025-05-21 19:26:05,988 - INFO - Log: Received PUBLISH (d0, q1, r1, m1), '/1/2', ...  (5 bytes)
+2025-05-21 19:26:05,988 - INFO - Message received: /1/2 ddddd
+2025-05-21 19:26:06,263 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-21 19:26:06,263 - INFO - 127.0.0.1 - - [21/May/2025 19:26:06] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-21 19:26:06,266 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-21 19:26:06,266 - INFO - Log: Sending PUBACK (Mid: 1)
+2025-05-21 19:26:06,267 - INFO - Log: Received PUBLISH (d0, q1, r1, m2), 'ss', ...  (6 bytes)
+2025-05-21 19:26:06,267 - INFO - Message received: ss ssssss
+2025-05-21 19:26:06,566 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-21 19:26:06,566 - INFO - 127.0.0.1 - - [21/May/2025 19:26:06] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-21 19:26:06,580 - INFO - Message sent to Flask: ss ssssss
+2025-05-21 19:26:06,580 - INFO - Log: Sending PUBACK (Mid: 2)
+2025-05-21 19:26:10,300 - INFO - 127.0.0.1 - - [21/May/2025 19:26:10] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-21 19:26:15,641 - INFO - User not logged in - redirecting to login
+2025-05-21 19:26:15,642 - INFO - 127.0.0.1 - - [21/May/2025 19:26:15] "[32mGET /api/terminal HTTP/1.1[0m" 302 -
+2025-05-21 19:26:15,672 - INFO - Data table created
+2025-05-21 19:26:15,673 - INFO - Data inserted into database with ID: 0
+2025-05-21 19:26:15,673 - INFO - Data inserted into database with ID: 1
+2025-05-21 19:26:15,674 - INFO - Data inserted into database with ID: 2
+2025-05-21 19:26:15,674 - INFO - Data inserted into database with ID: 3
+2025-05-21 19:26:15,675 - INFO - Data inserted into database with ID: 4
+2025-05-21 19:26:15,675 - INFO - Data inserted into database with ID: 5
+2025-05-21 19:26:15,675 - INFO - Data inserted into database with ID: 6
+2025-05-21 19:26:15,676 - INFO - Data inserted into database with ID: 7
+2025-05-21 19:26:15,677 - INFO - Data inserted into database with ID: 8
+2025-05-21 19:26:15,678 - INFO - Data inserted into database with ID: 9
+2025-05-21 19:26:15,678 - INFO - Data inserted into database with ID: 10
+2025-05-21 19:26:15,679 - INFO - Data inserted into database with ID: 11
+2025-05-21 19:26:15,679 - INFO - Data inserted into database with ID: 12
+2025-05-21 19:26:15,680 - INFO - Data inserted into database with ID: 13
+2025-05-21 19:26:15,680 - INFO - Data inserted into database with ID: 14
+2025-05-21 19:26:15,681 - INFO - Data inserted into database with ID: 15
+2025-05-21 19:26:15,681 - INFO - Data inserted into database with ID: 16
+2025-05-21 19:26:15,682 - INFO - Data inserted into database with ID: 17
+2025-05-21 19:26:15,683 - INFO - Data inserted into database with ID: 18
+2025-05-21 19:26:15,684 - INFO - Data inserted into database with ID: 19
+2025-05-21 19:26:15,684 - INFO - Data inserted into database with ID: 20
+2025-05-21 19:26:15,685 - INFO - Data inserted into database with ID: 21
+2025-05-21 19:26:15,685 - INFO - Data inserted into database with ID: 22
+2025-05-21 19:26:15,686 - INFO - Data inserted into database with ID: 23
+2025-05-21 19:26:15,686 - INFO - Data inserted into database with ID: 24
+2025-05-21 19:26:15,687 - INFO - Data inserted into database with ID: 25
+2025-05-21 19:26:15,688 - INFO - Data inserted into database with ID: 26
+2025-05-21 19:26:15,689 - INFO - Data inserted into database with ID: 27
+2025-05-21 19:26:15,689 - INFO - Data inserted into database with ID: 28
+2025-05-21 19:26:15,690 - INFO - Data inserted into database with ID: 29
+2025-05-21 19:26:15,690 - INFO - Data inserted into database with ID: 30
+2025-05-21 19:26:15,690 - INFO - Data inserted into database with ID: 32
+2025-05-21 19:26:15,691 - INFO - Data inserted into database with ID: 31
+2025-05-21 19:26:15,691 - INFO - Data inserted into database with ID: 33
+2025-05-21 19:26:15,692 - INFO - Data inserted into database with ID: 34
+2025-05-21 19:26:15,693 - INFO - Data inserted into database with ID: 35
+2025-05-21 19:26:15,694 - INFO - Data inserted into database with ID: 36
+2025-05-21 19:26:15,694 - INFO - Data inserted into database with ID: 37
+2025-05-21 19:26:15,695 - INFO - Data inserted into database with ID: 38
+2025-05-21 19:26:15,695 - INFO - Data inserted into database with ID: 39
+2025-05-21 19:26:15,696 - INFO - Data inserted into database with ID: 40
+2025-05-21 19:26:15,696 - INFO - Data inserted into database with ID: 41
+2025-05-21 19:26:15,697 - INFO - Data inserted into database with ID: 42
+2025-05-21 19:26:15,697 - INFO - Data inserted into database with ID: 43
+2025-05-21 19:26:15,697 - INFO - Data inserted into database with ID: 44
+2025-05-21 19:26:15,698 - INFO - Data inserted into database with ID: 45
+2025-05-21 19:26:15,700 - INFO - Data inserted into database with ID: 46
+2025-05-21 19:26:15,701 - INFO - Data inserted into database with ID: 47
+2025-05-21 19:26:15,701 - INFO - Data inserted into database with ID: 48
+2025-05-21 19:26:15,701 - INFO - Data inserted into database with ID: 49
+2025-05-21 19:26:15,702 - INFO - Users table created
+2025-05-21 19:26:15,702 - INFO - Max ID from users table fetched
+2025-05-21 19:26:15,705 - INFO - 127.0.0.1 - - [21/May/2025 19:26:15] "GET /api/login HTTP/1.1" 200 -
+2025-05-21 19:26:18,908 - INFO - Data table created
+2025-05-21 19:26:18,909 - INFO - Data inserted into database with ID: 0
+2025-05-21 19:26:18,910 - INFO - Data inserted into database with ID: 1
+2025-05-21 19:26:18,911 - INFO - Data inserted into database with ID: 2
+2025-05-21 19:26:18,913 - INFO - Data inserted into database with ID: 3
+2025-05-21 19:26:18,913 - INFO - Data inserted into database with ID: 4
+2025-05-21 19:26:18,914 - INFO - Data inserted into database with ID: 5
+2025-05-21 19:26:18,914 - INFO - Data inserted into database with ID: 6
+2025-05-21 19:26:18,915 - INFO - Data inserted into database with ID: 7
+2025-05-21 19:26:18,915 - INFO - Data inserted into database with ID: 8
+2025-05-21 19:26:18,916 - INFO - Data inserted into database with ID: 9
+2025-05-21 19:26:18,917 - INFO - Data inserted into database with ID: 10
+2025-05-21 19:26:18,918 - INFO - Data inserted into database with ID: 11
+2025-05-21 19:26:18,918 - INFO - Data inserted into database with ID: 12
+2025-05-21 19:26:18,919 - INFO - Data inserted into database with ID: 13
+2025-05-21 19:26:18,920 - INFO - Data inserted into database with ID: 14
+2025-05-21 19:26:18,920 - INFO - Data inserted into database with ID: 15
+2025-05-21 19:26:18,921 - INFO - Data inserted into database with ID: 16
+2025-05-21 19:26:18,921 - INFO - Data inserted into database with ID: 17
+2025-05-21 19:26:18,922 - INFO - Data inserted into database with ID: 18
+2025-05-21 19:26:18,923 - INFO - Data inserted into database with ID: 19
+2025-05-21 19:26:18,924 - INFO - Data inserted into database with ID: 20
+2025-05-21 19:26:18,925 - INFO - Data inserted into database with ID: 21
+2025-05-21 19:26:18,926 - INFO - Data inserted into database with ID: 22
+2025-05-21 19:26:18,928 - INFO - Data inserted into database with ID: 23
+2025-05-21 19:26:18,929 - INFO - Data inserted into database with ID: 24
+2025-05-21 19:26:18,930 - INFO - Data inserted into database with ID: 25
+2025-05-21 19:26:18,931 - INFO - Data inserted into database with ID: 26
+2025-05-21 19:26:18,932 - INFO - Data inserted into database with ID: 27
+2025-05-21 19:26:18,934 - INFO - Data inserted into database with ID: 28
+2025-05-21 19:26:18,935 - INFO - Data inserted into database with ID: 29
+2025-05-21 19:26:18,935 - INFO - Data inserted into database with ID: 30
+2025-05-21 19:26:18,936 - INFO - Data inserted into database with ID: 32
+2025-05-21 19:26:18,937 - INFO - Data inserted into database with ID: 31
+2025-05-21 19:26:18,937 - INFO - Data inserted into database with ID: 33
+2025-05-21 19:26:18,941 - INFO - Data inserted into database with ID: 34
+2025-05-21 19:26:18,942 - INFO - Data inserted into database with ID: 35
+2025-05-21 19:26:18,943 - INFO - Data inserted into database with ID: 36
+2025-05-21 19:26:18,944 - INFO - Data inserted into database with ID: 37
+2025-05-21 19:26:18,945 - INFO - Data inserted into database with ID: 38
+2025-05-21 19:26:18,945 - INFO - Data inserted into database with ID: 39
+2025-05-21 19:26:18,946 - INFO - Data inserted into database with ID: 40
+2025-05-21 19:26:18,947 - INFO - Data inserted into database with ID: 41
+2025-05-21 19:26:18,948 - INFO - Data inserted into database with ID: 42
+2025-05-21 19:26:18,948 - INFO - Data inserted into database with ID: 43
+2025-05-21 19:26:18,949 - INFO - Data inserted into database with ID: 44
+2025-05-21 19:26:18,950 - INFO - Data inserted into database with ID: 45
+2025-05-21 19:26:18,950 - INFO - Data inserted into database with ID: 46
+2025-05-21 19:26:18,951 - INFO - Data inserted into database with ID: 47
+2025-05-21 19:26:18,952 - INFO - Data inserted into database with ID: 48
+2025-05-21 19:26:18,952 - INFO - Data inserted into database with ID: 49
+2025-05-21 19:26:18,953 - INFO - Users table created
+2025-05-21 19:26:18,953 - INFO - Max ID from users table fetched
+2025-05-21 19:26:18,957 - INFO - User (admin) data fetched from table
+2025-05-21 19:26:18,957 - INFO - User admin logged in successfully
+2025-05-21 19:26:18,959 - INFO - 127.0.0.1 - - [21/May/2025 19:26:18] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-21 19:26:18,979 - INFO - Fetched 15 rows from data table
+2025-05-21 19:26:18,980 - INFO - Displaying dashboard
+2025-05-21 19:26:18,990 - INFO - 127.0.0.1 - - [21/May/2025 19:26:18] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-21 19:26:19,084 - INFO - 127.0.0.1 - - [21/May/2025 19:26:19] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 19:26:19,087 - INFO - 127.0.0.1 - - [21/May/2025 19:26:19] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 19:26:19,129 - INFO - 127.0.0.1 - - [21/May/2025 19:26:19] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-21 19:26:19,167 - INFO - 127.0.0.1 - - [21/May/2025 19:26:19] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-21 19:26:20,416 - INFO - Displaying terminal page
+2025-05-21 19:26:20,474 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "[35m[1mGET /api/terminal HTTP/1.1[0m" 500 -
+2025-05-21 19:26:20,784 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "[36mGET /api/terminal?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-21 19:26:20,785 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "[36mGET /api/terminal?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-21 19:26:20,823 - INFO - 127.0.0.1 - - [21/May/2025 19:26:20] "GET /api/terminal?__debugger__=yes&cmd=resource&f=console.png&s=kppn8HgIgEggbbKn3EOH HTTP/1.1" 200 -
