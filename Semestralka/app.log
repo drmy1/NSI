@@ -5012,3 +5012,28 @@
 2025-05-21 17:46:27,110 - INFO - 127.0.0.1 - - [21/May/2025 17:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2025-05-21 17:46:46,480 - INFO - Log: Sending PINGREQ
 2025-05-21 17:46:46,496 - INFO - Log: Received PINGRESP
+2025-05-21 17:46:58,315 - INFO - NumExpr defaulting to 16 threads.
+2025-05-21 17:46:58,865 - INFO - App started
+2025-05-21 17:46:58,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-21 17:46:58,904 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-21 17:46:58,905 - INFO - Log: Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k60) client_id=b'NSI_semestralka'
+2025-05-21 17:46:58,905 - INFO - Cleaning up and exiting.
+2025-05-21 17:46:58,907 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-21 17:46:58,924 - INFO - Log: Received CONNACK (0, 0)
+2025-05-21 17:46:58,924 - INFO - Subscribing to topics: [('#', 0)]
+2025-05-21 17:46:58,924 - INFO - Log: Sending SUBSCRIBE (d0, m1) [(b'#', 0)]
+2025-05-21 17:46:58,925 - INFO - Connected with result code 0
+2025-05-21 17:46:58,946 - INFO - Log: Received SUBACK
+2025-05-21 17:46:58,946 - INFO - Subscribed: 1 (0,)
+2025-05-21 17:46:59,090 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/test2', ...  (6 bytes)
+2025-05-21 17:46:59,090 - INFO - Program started configuting subscription...
+2025-05-21 17:46:59,090 - INFO - Setting subscription to True
+2025-05-21 17:46:59,091 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), '/', ...  (6 bytes)
+2025-05-21 17:46:59,091 - INFO - Message received: / ssssss
+2025-05-21 17:46:59,091 - INFO - Log: Received PUBLISH (d0, q0, r1, m0), 'ss', ...  (6 bytes)
+2025-05-21 17:46:59,091 - INFO - Message received: ss ssssss
+2025-05-21 17:47:59,513 - INFO - Log: Sending PINGREQ
+2025-05-21 17:47:59,535 - INFO - Log: Received PINGRESP
+2025-05-21 17:48:59,986 - INFO - Log: Sending PINGREQ
+2025-05-21 17:49:00,016 - INFO - Log: Received PINGRESP
