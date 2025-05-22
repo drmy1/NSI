@@ -10121,3 +10121,949 @@ AttributeError: 'Mqtt' object has no attribute 'publish_message'
 2025-05-22 10:11:57,155 - INFO - Flask received message via HTTP POST: ss ddddd
 2025-05-22 10:11:57,156 - INFO - 127.0.0.1 - - [22/May/2025 10:11:57] "POST /api/mqtt-message HTTP/1.1" 200 -
 2025-05-22 10:11:57,161 - INFO - Message sent to Flask: ss ddddd
+2025-05-22 10:40:55,920 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:40:57,219 - INFO - App started
+2025-05-22 10:40:57,252 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:40:57,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:40:57,271 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:40:57,283 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:40:57,283 - INFO - Connected with result code 0
+2025-05-22 10:40:57,409 - INFO - Program started configuting subscription...
+2025-05-22 10:40:57,409 - INFO - Setting subscription to True
+2025-05-22 10:40:57,409 - INFO - Message received: / ssssss
+2025-05-22 10:40:57,711 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-22 10:40:57,711 - INFO - 127.0.0.1 - - [22/May/2025 10:40:57] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:40:57,724 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:40:57,724 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:40:57,793 - INFO - 127.0.0.1 - - [22/May/2025 10:40:57] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-22 10:40:58,067 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-22 10:40:58,068 - INFO - 127.0.0.1 - - [22/May/2025 10:40:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:40:58,070 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:40:58,071 - INFO - Message received: ss ssssss
+2025-05-22 10:40:58,360 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-22 10:40:58,360 - INFO - 127.0.0.1 - - [22/May/2025 10:40:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:40:58,363 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:41:01,243 - INFO - User not logged in - redirecting to login
+2025-05-22 10:41:01,243 - INFO - 127.0.0.1 - - [22/May/2025 10:41:01] "[32mGET /api/terminal HTTP/1.1[0m" 302 -
+2025-05-22 10:41:01,342 - INFO - Data table created
+2025-05-22 10:41:01,344 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:41:01,345 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:41:01,345 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:41:01,346 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:41:01,346 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:41:01,347 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:41:01,347 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:41:01,348 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:41:01,348 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:41:01,349 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:41:01,350 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:41:01,350 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:41:01,351 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:41:01,351 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:41:01,352 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:41:01,352 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:41:01,353 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:41:01,354 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:41:01,354 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:41:01,355 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:41:01,355 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:41:01,356 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:41:01,356 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:41:01,357 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:41:01,357 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:41:01,358 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:41:01,358 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:41:01,359 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:41:01,359 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:41:01,360 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:41:01,360 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:41:01,361 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:41:01,361 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:41:01,362 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:41:01,362 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:41:01,363 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:41:01,363 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:41:01,364 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:41:01,365 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:41:01,365 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:41:01,366 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:41:01,366 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:41:01,366 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:41:01,369 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:41:01,370 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:41:01,371 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:41:01,379 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:41:01,380 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:41:01,380 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:41:01,381 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:41:01,381 - INFO - Users table created
+2025-05-22 10:41:01,448 - INFO - Max ID from users table fetched
+2025-05-22 10:41:01,454 - INFO - 127.0.0.1 - - [22/May/2025 10:41:01] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:41:01,547 - INFO - User not logged in - redirecting to login
+2025-05-22 10:41:01,548 - INFO - 127.0.0.1 - - [22/May/2025 10:41:01] "[32mGET /api/terminal HTTP/1.1[0m" 302 -
+2025-05-22 10:41:01,578 - INFO - Data table created
+2025-05-22 10:41:01,578 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:41:01,579 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:41:01,579 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:41:01,580 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:41:01,580 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:41:01,581 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:41:01,581 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:41:01,582 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:41:01,583 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:41:01,584 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:41:01,585 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:41:01,585 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:41:01,586 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:41:01,587 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:41:01,587 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:41:01,588 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:41:01,588 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:41:01,589 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:41:01,589 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:41:01,590 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:41:01,590 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:41:01,591 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:41:01,591 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:41:01,592 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:41:01,592 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:41:01,593 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:41:01,593 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:41:01,594 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:41:01,594 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:41:01,595 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:41:01,596 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:41:01,596 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:41:01,597 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:41:01,597 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:41:01,599 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:41:01,600 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:41:01,600 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:41:01,603 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:41:01,605 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:41:01,605 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:41:01,605 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:41:01,605 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:41:01,606 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:41:01,606 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:41:01,608 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:41:01,608 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:41:01,608 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:41:01,608 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:41:01,609 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:41:01,609 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:41:01,610 - INFO - Users table created
+2025-05-22 10:41:01,610 - INFO - Max ID from users table fetched
+2025-05-22 10:41:01,611 - INFO - 127.0.0.1 - - [22/May/2025 10:41:01] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:41:08,522 - INFO - Data table created
+2025-05-22 10:41:08,522 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:41:08,523 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:41:08,523 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:41:08,524 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:41:08,524 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:41:08,525 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:41:08,525 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:41:08,526 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:41:08,526 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:41:08,526 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:41:08,527 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:41:08,527 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:41:08,528 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:41:08,528 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:41:08,529 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:41:08,529 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:41:08,530 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:41:08,530 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:41:08,531 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:41:08,532 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:41:08,533 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:41:08,534 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:41:08,534 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:41:08,536 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:41:08,536 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:41:08,538 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:41:08,538 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:41:08,539 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:41:08,539 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:41:08,540 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:41:08,541 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:41:08,541 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:41:08,541 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:41:08,542 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:41:08,543 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:41:08,543 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:41:08,544 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:41:08,545 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:41:08,545 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:41:08,546 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:41:08,546 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:41:08,547 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:41:08,548 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:41:08,549 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:41:08,550 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:41:08,551 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:41:08,552 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:41:08,553 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:41:08,557 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:41:08,557 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:41:08,558 - INFO - Users table created
+2025-05-22 10:41:08,558 - INFO - Max ID from users table fetched
+2025-05-22 10:41:08,563 - INFO - User (admin) data fetched from table
+2025-05-22 10:41:08,563 - INFO - User admin logged in successfully
+2025-05-22 10:41:08,566 - INFO - 127.0.0.1 - - [22/May/2025 10:41:08] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-22 10:41:08,619 - INFO - Fetched 15 rows from data table
+2025-05-22 10:41:08,619 - INFO - Displaying dashboard
+2025-05-22 10:41:08,727 - INFO - 127.0.0.1 - - [22/May/2025 10:41:08] "[35m[1mGET /api/dashboard HTTP/1.1[0m" 500 -
+2025-05-22 10:41:09,022 - INFO - 127.0.0.1 - - [22/May/2025 10:41:09] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-22 10:41:09,023 - INFO - 127.0.0.1 - - [22/May/2025 10:41:09] "[36mGET /api/dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-22 10:41:09,069 - INFO - 127.0.0.1 - - [22/May/2025 10:41:09] "GET /api/dashboard?__debugger__=yes&cmd=resource&f=console.png&s=MDJuh1R3Fe8k9Y3qgt4J HTTP/1.1" 200 -
+2025-05-22 10:41:52,427 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:41:53,501 - INFO - App started
+2025-05-22 10:41:53,557 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:41:53,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:41:53,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:41:53,585 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:41:53,585 - INFO - Connected with result code 0
+2025-05-22 10:41:53,703 - INFO - Program started configuting subscription...
+2025-05-22 10:41:53,703 - INFO - Setting subscription to True
+2025-05-22 10:41:53,703 - INFO - Message received: / ssssss
+2025-05-22 10:41:54,043 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-22 10:41:54,044 - INFO - 127.0.0.1 - - [22/May/2025 10:41:54] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:41:54,047 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:41:54,048 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:41:54,373 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-22 10:41:54,373 - INFO - 127.0.0.1 - - [22/May/2025 10:41:54] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:41:54,376 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:41:54,376 - INFO - Message received: ss ssssss
+2025-05-22 10:41:54,679 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-22 10:41:54,679 - INFO - 127.0.0.1 - - [22/May/2025 10:41:54] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:41:54,682 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:41:56,465 - INFO - User not logged in - redirecting to login
+2025-05-22 10:41:56,466 - INFO - 127.0.0.1 - - [22/May/2025 10:41:56] "[32mGET /api/dashboard HTTP/1.1[0m" 302 -
+2025-05-22 10:41:56,480 - INFO - Data table created
+2025-05-22 10:41:56,481 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:41:56,482 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:41:56,483 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:41:56,484 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:41:56,484 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:41:56,484 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:41:56,485 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:41:56,485 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:41:56,486 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:41:56,486 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:41:56,487 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:41:56,487 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:41:56,488 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:41:56,488 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:41:56,488 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:41:56,489 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:41:56,489 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:41:56,490 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:41:56,490 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:41:56,491 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:41:56,491 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:41:56,492 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:41:56,492 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:41:56,492 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:41:56,493 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:41:56,493 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:41:56,494 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:41:56,494 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:41:56,494 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:41:56,495 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:41:56,495 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:41:56,496 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:41:56,496 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:41:56,496 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:41:56,497 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:41:56,498 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:41:56,498 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:41:56,499 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:41:56,500 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:41:56,500 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:41:56,501 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:41:56,502 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:41:56,502 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:41:56,503 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:41:56,503 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:41:56,504 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:41:56,504 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:41:56,505 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:41:56,506 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:41:56,507 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:41:56,508 - INFO - Users table created
+2025-05-22 10:41:56,509 - INFO - Max ID from users table fetched
+2025-05-22 10:41:56,513 - INFO - 127.0.0.1 - - [22/May/2025 10:41:56] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:41:59,596 - INFO - Data table created
+2025-05-22 10:41:59,597 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:41:59,598 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:41:59,599 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:41:59,600 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:41:59,601 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:41:59,601 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:41:59,605 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:41:59,605 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:41:59,606 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:41:59,606 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:41:59,607 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:41:59,608 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:41:59,608 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:41:59,609 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:41:59,610 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:41:59,611 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:41:59,612 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:41:59,612 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:41:59,614 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:41:59,615 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:41:59,616 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:41:59,617 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:41:59,618 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:41:59,619 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:41:59,620 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:41:59,622 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:41:59,623 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:41:59,624 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:41:59,625 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:41:59,625 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:41:59,626 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:41:59,627 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:41:59,628 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:41:59,628 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:41:59,629 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:41:59,630 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:41:59,630 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:41:59,631 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:41:59,632 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:41:59,632 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:41:59,634 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:41:59,634 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:41:59,637 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:41:59,638 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:41:59,638 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:41:59,639 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:41:59,639 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:41:59,640 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:41:59,641 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:41:59,641 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:41:59,642 - INFO - Users table created
+2025-05-22 10:41:59,642 - INFO - Max ID from users table fetched
+2025-05-22 10:41:59,645 - INFO - User (admin) data fetched from table
+2025-05-22 10:41:59,645 - INFO - User admin logged in successfully
+2025-05-22 10:41:59,646 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-22 10:41:59,671 - INFO - Fetched 15 rows from data table
+2025-05-22 10:41:59,671 - INFO - Displaying dashboard
+2025-05-22 10:41:59,689 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-22 10:41:59,788 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:41:59,791 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:41:59,870 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:41:59,904 - INFO - 127.0.0.1 - - [22/May/2025 10:41:59] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:42:01,672 - INFO - Displaying terminal page
+2025-05-22 10:42:01,756 - INFO - 127.0.0.1 - - [22/May/2025 10:42:01] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-22 10:42:01,861 - INFO - 127.0.0.1 - - [22/May/2025 10:42:01] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-22 10:42:02,572 - INFO - Found existing meteo device IDs: []
+2025-05-22 10:42:02,573 - INFO - Found existing meteo device IDs: []
+2025-05-22 10:42:02,573 - INFO - Displaying meteo page. Devices: []. Next ID: 1
+2025-05-22 10:42:02,627 - INFO - 127.0.0.1 - - [22/May/2025 10:42:02] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:42:06,314 - INFO - Found existing meteo device IDs: []
+2025-05-22 10:42:06,323 - INFO - Table meteo_device_1 created or already exists for meteo device 1.
+2025-05-22 10:42:06,324 - INFO - Successfully created meteo device table for ID: 1
+2025-05-22 10:42:06,324 - INFO - 127.0.0.1 - - [22/May/2025 10:42:06] "POST /api/meteo/add_device HTTP/1.1" 200 -
+2025-05-22 10:42:16,005 - INFO - 127.0.0.1 - - [22/May/2025 10:42:16] "[35m[1mPOST /api/meteo/add_device HTTP/1.1[0m" 500 -
+2025-05-22 10:42:20,362 - INFO - 127.0.0.1 - - [22/May/2025 10:42:20] "[35m[1mGET /api/meteo/all_data?limit=100 HTTP/1.1[0m" 500 -
+2025-05-22 10:42:23,221 - INFO - 127.0.0.1 - - [22/May/2025 10:42:23] "[35m[1mPOST /api/meteo/add_device HTTP/1.1[0m" 500 -
+2025-05-22 10:42:27,674 - INFO - 127.0.0.1 - - [22/May/2025 10:42:27] "[35m[1mGET /api/meteo HTTP/1.1[0m" 500 -
+2025-05-22 10:42:27,879 - INFO - 127.0.0.1 - - [22/May/2025 10:42:27] "GET /api/meteo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-22 10:42:27,879 - INFO - 127.0.0.1 - - [22/May/2025 10:42:27] "GET /api/meteo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-22 10:42:27,895 - INFO - 127.0.0.1 - - [22/May/2025 10:42:27] "GET /api/meteo?__debugger__=yes&cmd=resource&f=console.png&s=2PFbw4PJKvaYt218TzB5 HTTP/1.1" 200 -
+2025-05-22 10:42:27,911 - INFO - 127.0.0.1 - - [22/May/2025 10:42:27] "GET /api/meteo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-22 10:48:05,335 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:48:06,428 - INFO - App started
+2025-05-22 10:48:06,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:48:06,477 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:48:06,479 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:48:06,498 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:48:06,499 - INFO - Connected with result code 0
+2025-05-22 10:48:06,598 - INFO - Program started configuting subscription...
+2025-05-22 10:48:06,598 - INFO - Setting subscription to True
+2025-05-22 10:48:06,598 - INFO - Message received: / ssssss
+2025-05-22 10:48:06,913 - INFO - 127.0.0.1 - - [22/May/2025 10:48:06] "[35m[1mPOST /api/mqtt-message HTTP/1.1[0m" 500 -
+2025-05-22 10:48:06,917 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:48:06,917 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:48:07,273 - INFO - 127.0.0.1 - - [22/May/2025 10:48:07] "[35m[1mPOST /api/mqtt-message HTTP/1.1[0m" 500 -
+2025-05-22 10:48:07,279 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:48:07,280 - INFO - Message received: ss ssssss
+2025-05-22 10:48:07,593 - INFO - 127.0.0.1 - - [22/May/2025 10:48:07] "[35m[1mPOST /api/mqtt-message HTTP/1.1[0m" 500 -
+2025-05-22 10:48:07,597 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:48:57,156 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:48:58,003 - INFO - App started
+2025-05-22 10:48:58,033 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:48:58,033 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:48:58,047 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:48:58,069 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:48:58,069 - INFO - Connected with result code 0
+2025-05-22 10:48:58,169 - INFO - Program started configuting subscription...
+2025-05-22 10:48:58,169 - INFO - Setting subscription to True
+2025-05-22 10:48:58,169 - INFO - Message received: / ssssss
+2025-05-22 10:48:58,434 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:48:58,435 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-22 10:48:58,435 - INFO - 127.0.0.1 - - [22/May/2025 10:48:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:48:58,437 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:48:58,437 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:48:58,722 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:48:58,723 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-22 10:48:58,723 - INFO - 127.0.0.1 - - [22/May/2025 10:48:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:48:58,725 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:48:58,726 - INFO - Message received: ss ssssss
+2025-05-22 10:48:59,017 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:48:59,017 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-22 10:48:59,017 - INFO - 127.0.0.1 - - [22/May/2025 10:48:59] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:48:59,021 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:49:01,565 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:01,565 - INFO - User not logged in - redirecting to login
+2025-05-22 10:49:01,566 - INFO - 127.0.0.1 - - [22/May/2025 10:49:01] "[32mGET /api/meteo HTTP/1.1[0m" 302 -
+2025-05-22 10:49:01,617 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:01,619 - INFO - Data table created
+2025-05-22 10:49:01,622 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:49:01,622 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:49:01,623 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:49:01,624 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:49:01,625 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:49:01,626 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:49:01,626 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:49:01,627 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:49:01,628 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:49:01,628 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:49:01,630 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:49:01,631 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:49:01,631 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:49:01,632 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:49:01,632 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:49:01,633 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:49:01,634 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:49:01,634 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:49:01,636 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:49:01,636 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:49:01,637 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:49:01,638 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:49:01,638 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:49:01,639 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:49:01,640 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:49:01,641 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:49:01,642 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:49:01,642 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:49:01,643 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:49:01,644 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:49:01,644 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:49:01,645 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:49:01,646 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:49:01,646 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:49:01,647 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:49:01,648 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:49:01,648 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:49:01,649 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:49:01,649 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:49:01,650 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:49:01,650 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:49:01,651 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:49:01,653 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:49:01,654 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:49:01,655 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:49:01,655 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:49:01,656 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:49:01,657 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:49:01,657 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:49:01,658 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:49:01,659 - INFO - Users table created
+2025-05-22 10:49:01,660 - INFO - Max ID from users table fetched
+2025-05-22 10:49:01,664 - INFO - 127.0.0.1 - - [22/May/2025 10:49:01] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:49:05,093 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,094 - INFO - Data table created
+2025-05-22 10:49:05,095 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:49:05,096 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:49:05,096 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:49:05,097 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:49:05,098 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:49:05,098 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:49:05,099 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:49:05,103 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:49:05,103 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:49:05,104 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:49:05,105 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:49:05,105 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:49:05,106 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:49:05,106 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:49:05,106 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:49:05,107 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:49:05,107 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:49:05,107 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:49:05,108 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:49:05,108 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:49:05,109 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:49:05,109 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:49:05,109 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:49:05,110 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:49:05,111 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:49:05,112 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:49:05,113 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:49:05,113 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:49:05,114 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:49:05,115 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:49:05,115 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:49:05,116 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:49:05,116 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:49:05,117 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:49:05,118 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:49:05,118 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:49:05,119 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:49:05,120 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:49:05,121 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:49:05,121 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:49:05,122 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:49:05,122 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:49:05,122 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:49:05,123 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:49:05,123 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:49:05,124 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:49:05,124 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:49:05,124 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:49:05,125 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:49:05,125 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:49:05,126 - INFO - Users table created
+2025-05-22 10:49:05,126 - INFO - Max ID from users table fetched
+2025-05-22 10:49:05,134 - INFO - User (admin) data fetched from table
+2025-05-22 10:49:05,135 - INFO - User admin logged in successfully
+2025-05-22 10:49:05,138 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-22 10:49:05,156 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,156 - INFO - Fetched 15 rows from data table
+2025-05-22 10:49:05,157 - INFO - Displaying dashboard
+2025-05-22 10:49:05,176 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-22 10:49:05,261 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,262 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:49:05,277 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,277 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:49:05,301 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,302 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:49:05,317 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:05,317 - INFO - 127.0.0.1 - - [22/May/2025 10:49:05] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:49:06,925 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:06,925 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:06,926 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:49:06,926 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:06,927 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:49:06,938 - INFO - 127.0.0.1 - - [22/May/2025 10:49:06] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:49:17,945 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:17,945 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:17,945 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:49:17,945 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:17,945 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:49:17,945 - INFO - 127.0.0.1 - - [22/May/2025 10:49:17] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:49:28,653 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:28,653 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:28,653 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:49:28,653 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:28,653 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:49:28,653 - INFO - 127.0.0.1 - - [22/May/2025 10:49:28] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:49:29,049 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:29,049 - INFO - Displaying terminal page
+2025-05-22 10:49:29,049 - INFO - 127.0.0.1 - - [22/May/2025 10:49:29] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-22 10:49:29,277 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:29,277 - INFO - 127.0.0.1 - - [22/May/2025 10:49:29] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-22 10:49:29,379 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:29,381 - INFO - Displaying terminal page
+2025-05-22 10:49:29,381 - INFO - 127.0.0.1 - - [22/May/2025 10:49:29] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-22 10:49:29,538 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:29,538 - INFO - 127.0.0.1 - - [22/May/2025 10:49:29] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-22 10:49:30,089 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:30,089 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:30,094 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:49:30,094 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:49:30,094 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:49:30,094 - INFO - 127.0.0.1 - - [22/May/2025 10:49:30] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:50:58,044 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:50:59,077 - INFO - App started
+2025-05-22 10:50:59,106 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:50:59,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:50:59,116 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:50:59,127 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:50:59,127 - INFO - Connected with result code 0
+2025-05-22 10:50:59,234 - INFO - Program started configuting subscription...
+2025-05-22 10:50:59,234 - INFO - Setting subscription to True
+2025-05-22 10:50:59,234 - INFO - Message received: / ssssss
+2025-05-22 10:50:59,600 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:50:59,600 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-22 10:50:59,601 - INFO - 127.0.0.1 - - [22/May/2025 10:50:59] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:50:59,605 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:50:59,606 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:51:00,058 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:00,058 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-22 10:51:00,059 - INFO - 127.0.0.1 - - [22/May/2025 10:51:00] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:51:00,062 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:51:00,062 - INFO - Message received: ss ssssss
+2025-05-22 10:51:00,379 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:00,379 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-22 10:51:00,380 - INFO - 127.0.0.1 - - [22/May/2025 10:51:00] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:51:00,384 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:51:00,733 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:00,733 - INFO - User not logged in - redirecting to login
+2025-05-22 10:51:00,733 - INFO - 127.0.0.1 - - [22/May/2025 10:51:00] "[32mGET /api/meteo HTTP/1.1[0m" 302 -
+2025-05-22 10:51:00,758 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:00,759 - INFO - Data table created
+2025-05-22 10:51:00,760 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:51:00,761 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:51:00,761 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:51:00,761 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:51:00,762 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:51:00,762 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:51:00,763 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:51:00,763 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:51:00,764 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:51:00,764 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:51:00,765 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:51:00,767 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:51:00,767 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:51:00,767 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:51:00,768 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:51:00,769 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:51:00,769 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:51:00,770 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:51:00,770 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:51:00,771 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:51:00,771 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:51:00,773 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:51:00,773 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:51:00,774 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:51:00,774 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:51:00,774 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:51:00,775 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:51:00,775 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:51:00,776 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:51:00,776 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:51:00,776 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:51:00,777 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:51:00,777 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:51:00,778 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:51:00,778 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:51:00,778 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:51:00,780 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:51:00,780 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:51:00,780 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:51:00,781 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:51:00,781 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:51:00,782 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:51:00,782 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:51:00,783 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:51:00,784 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:51:00,785 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:51:00,786 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:51:00,787 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:51:00,787 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:51:00,788 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:51:00,788 - INFO - Users table created
+2025-05-22 10:51:00,788 - INFO - Max ID from users table fetched
+2025-05-22 10:51:00,793 - INFO - 127.0.0.1 - - [22/May/2025 10:51:00] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:51:03,864 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:03,866 - INFO - Data table created
+2025-05-22 10:51:03,867 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:51:03,868 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:51:03,869 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:51:03,870 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:51:03,872 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:51:03,873 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:51:03,877 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:51:03,878 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:51:03,879 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:51:03,879 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:51:03,882 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:51:03,884 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:51:03,886 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:51:03,887 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:51:03,888 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:51:03,889 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:51:03,889 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:51:03,890 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:51:03,890 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:51:03,891 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:51:03,892 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:51:03,892 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:51:03,892 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:51:03,893 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:51:03,893 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:51:03,894 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:51:03,894 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:51:03,895 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:51:03,895 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:51:03,896 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:51:03,896 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:51:03,896 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:51:03,897 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:51:03,897 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:51:03,898 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:51:03,899 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:51:03,901 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:51:03,903 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:51:03,904 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:51:03,904 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:51:03,904 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:51:03,906 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:51:03,907 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:51:03,907 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:51:03,908 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:51:03,908 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:51:03,908 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:51:03,909 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:51:03,909 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:51:03,910 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:51:03,911 - INFO - Users table created
+2025-05-22 10:51:03,911 - INFO - Max ID from users table fetched
+2025-05-22 10:51:03,915 - INFO - User (admin) data fetched from table
+2025-05-22 10:51:03,915 - INFO - User admin logged in successfully
+2025-05-22 10:51:03,917 - INFO - 127.0.0.1 - - [22/May/2025 10:51:03] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-22 10:51:03,954 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:03,955 - INFO - Fetched 15 rows from data table
+2025-05-22 10:51:03,956 - INFO - Displaying dashboard
+2025-05-22 10:51:03,973 - INFO - 127.0.0.1 - - [22/May/2025 10:51:03] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-22 10:51:04,045 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:04,046 - INFO - 127.0.0.1 - - [22/May/2025 10:51:04] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:51:04,050 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:04,051 - INFO - 127.0.0.1 - - [22/May/2025 10:51:04] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:51:04,088 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:04,089 - INFO - 127.0.0.1 - - [22/May/2025 10:51:04] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:51:04,100 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:04,101 - INFO - 127.0.0.1 - - [22/May/2025 10:51:04] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:51:05,426 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:05,427 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:05,428 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:51:05,428 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:51:05,428 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:51:05,438 - INFO - 127.0.0.1 - - [22/May/2025 10:51:05] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:52:57,382 - INFO - NumExpr defaulting to 16 threads.
+2025-05-22 10:52:58,160 - INFO - App started
+2025-05-22 10:52:58,185 - INFO - Connected to MQTT broker at 192.168.88.155:1883
+2025-05-22 10:52:58,201 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-22 10:52:58,201 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-22 10:52:58,207 - INFO - Subscribing to topics: [('#', 2)]
+2025-05-22 10:52:58,208 - INFO - Connected with result code 0
+2025-05-22 10:52:58,309 - INFO - Program started configuting subscription...
+2025-05-22 10:52:58,309 - INFO - Setting subscription to True
+2025-05-22 10:52:58,309 - INFO - Message received: / ssssss
+2025-05-22 10:52:58,571 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:52:58,571 - INFO - Flask received message via HTTP POST: / ssssss
+2025-05-22 10:52:58,571 - INFO - 127.0.0.1 - - [22/May/2025 10:52:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:52:58,574 - INFO - Message sent to Flask: / ssssss
+2025-05-22 10:52:58,574 - INFO - Message received: /1/2 ddddd
+2025-05-22 10:52:58,890 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:52:58,891 - INFO - Flask received message via HTTP POST: /1/2 ddddd
+2025-05-22 10:52:58,891 - INFO - 127.0.0.1 - - [22/May/2025 10:52:58] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:52:58,893 - INFO - Message sent to Flask: /1/2 ddddd
+2025-05-22 10:52:58,894 - INFO - Message received: ss ssssss
+2025-05-22 10:52:59,184 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:52:59,185 - INFO - Flask received message via HTTP POST: ss ssssss
+2025-05-22 10:52:59,185 - INFO - 127.0.0.1 - - [22/May/2025 10:52:59] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:52:59,187 - INFO - Message sent to Flask: ss ssssss
+2025-05-22 10:53:00,932 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:00,932 - INFO - User not logged in - redirecting to login
+2025-05-22 10:53:00,932 - INFO - 127.0.0.1 - - [22/May/2025 10:53:00] "[32mGET /api/meteo HTTP/1.1[0m" 302 -
+2025-05-22 10:53:00,972 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:00,973 - INFO - Data table created
+2025-05-22 10:53:00,973 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:53:00,974 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:53:00,974 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:53:00,975 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:53:00,975 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:53:00,975 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:53:00,976 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:53:00,976 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:53:00,977 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:53:00,977 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:53:00,978 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:53:00,978 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:53:00,978 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:53:00,979 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:53:00,980 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:53:00,980 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:53:00,981 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:53:00,981 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:53:00,982 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:53:00,983 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:53:00,984 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:53:00,985 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:53:00,985 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:53:00,986 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:53:00,986 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:53:00,987 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:53:00,988 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:53:00,988 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:53:00,989 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:53:00,989 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:53:00,989 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:53:00,990 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:53:00,990 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:53:00,991 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:53:00,991 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:53:00,991 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:53:00,992 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:53:00,992 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:53:00,992 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:53:00,993 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:53:00,993 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:53:00,994 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:53:00,994 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:53:00,995 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:53:00,995 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:53:00,996 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:53:00,997 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:53:00,997 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:53:00,998 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:53:00,999 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:53:01,000 - INFO - Users table created
+2025-05-22 10:53:01,000 - INFO - Max ID from users table fetched
+2025-05-22 10:53:01,004 - INFO - 127.0.0.1 - - [22/May/2025 10:53:01] "GET /api/login HTTP/1.1" 200 -
+2025-05-22 10:53:04,147 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,147 - INFO - Data table created
+2025-05-22 10:53:04,148 - INFO - Data inserted into database with ID: 0
+2025-05-22 10:53:04,149 - INFO - Data inserted into database with ID: 1
+2025-05-22 10:53:04,150 - INFO - Data inserted into database with ID: 2
+2025-05-22 10:53:04,150 - INFO - Data inserted into database with ID: 3
+2025-05-22 10:53:04,151 - INFO - Data inserted into database with ID: 4
+2025-05-22 10:53:04,152 - INFO - Data inserted into database with ID: 5
+2025-05-22 10:53:04,158 - INFO - Data inserted into database with ID: 6
+2025-05-22 10:53:04,159 - INFO - Data inserted into database with ID: 7
+2025-05-22 10:53:04,160 - INFO - Data inserted into database with ID: 8
+2025-05-22 10:53:04,160 - INFO - Data inserted into database with ID: 9
+2025-05-22 10:53:04,161 - INFO - Data inserted into database with ID: 10
+2025-05-22 10:53:04,163 - INFO - Data inserted into database with ID: 11
+2025-05-22 10:53:04,164 - INFO - Data inserted into database with ID: 12
+2025-05-22 10:53:04,165 - INFO - Data inserted into database with ID: 13
+2025-05-22 10:53:04,166 - INFO - Data inserted into database with ID: 14
+2025-05-22 10:53:04,167 - INFO - Data inserted into database with ID: 15
+2025-05-22 10:53:04,167 - INFO - Data inserted into database with ID: 16
+2025-05-22 10:53:04,168 - INFO - Data inserted into database with ID: 17
+2025-05-22 10:53:04,169 - INFO - Data inserted into database with ID: 18
+2025-05-22 10:53:04,169 - INFO - Data inserted into database with ID: 19
+2025-05-22 10:53:04,170 - INFO - Data inserted into database with ID: 20
+2025-05-22 10:53:04,170 - INFO - Data inserted into database with ID: 21
+2025-05-22 10:53:04,171 - INFO - Data inserted into database with ID: 22
+2025-05-22 10:53:04,172 - INFO - Data inserted into database with ID: 23
+2025-05-22 10:53:04,172 - INFO - Data inserted into database with ID: 24
+2025-05-22 10:53:04,173 - INFO - Data inserted into database with ID: 25
+2025-05-22 10:53:04,174 - INFO - Data inserted into database with ID: 26
+2025-05-22 10:53:04,174 - INFO - Data inserted into database with ID: 27
+2025-05-22 10:53:04,175 - INFO - Data inserted into database with ID: 28
+2025-05-22 10:53:04,175 - INFO - Data inserted into database with ID: 29
+2025-05-22 10:53:04,175 - INFO - Data inserted into database with ID: 30
+2025-05-22 10:53:04,176 - INFO - Data inserted into database with ID: 32
+2025-05-22 10:53:04,176 - INFO - Data inserted into database with ID: 31
+2025-05-22 10:53:04,177 - INFO - Data inserted into database with ID: 33
+2025-05-22 10:53:04,177 - INFO - Data inserted into database with ID: 34
+2025-05-22 10:53:04,178 - INFO - Data inserted into database with ID: 35
+2025-05-22 10:53:04,178 - INFO - Data inserted into database with ID: 36
+2025-05-22 10:53:04,179 - INFO - Data inserted into database with ID: 37
+2025-05-22 10:53:04,180 - INFO - Data inserted into database with ID: 38
+2025-05-22 10:53:04,181 - INFO - Data inserted into database with ID: 39
+2025-05-22 10:53:04,182 - INFO - Data inserted into database with ID: 40
+2025-05-22 10:53:04,182 - INFO - Data inserted into database with ID: 41
+2025-05-22 10:53:04,183 - INFO - Data inserted into database with ID: 42
+2025-05-22 10:53:04,183 - INFO - Data inserted into database with ID: 43
+2025-05-22 10:53:04,184 - INFO - Data inserted into database with ID: 44
+2025-05-22 10:53:04,184 - INFO - Data inserted into database with ID: 45
+2025-05-22 10:53:04,185 - INFO - Data inserted into database with ID: 46
+2025-05-22 10:53:04,185 - INFO - Data inserted into database with ID: 47
+2025-05-22 10:53:04,186 - INFO - Data inserted into database with ID: 48
+2025-05-22 10:53:04,186 - INFO - Data inserted into database with ID: 49
+2025-05-22 10:53:04,187 - INFO - Users table created
+2025-05-22 10:53:04,187 - INFO - Max ID from users table fetched
+2025-05-22 10:53:04,191 - INFO - User (admin) data fetched from table
+2025-05-22 10:53:04,191 - INFO - User admin logged in successfully
+2025-05-22 10:53:04,192 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "[32mPOST /api/login HTTP/1.1[0m" 302 -
+2025-05-22 10:53:04,214 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,216 - INFO - Fetched 15 rows from data table
+2025-05-22 10:53:04,216 - INFO - Displaying dashboard
+2025-05-22 10:53:04,230 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-22 10:53:04,295 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,296 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:53:04,300 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,300 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:53:04,358 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,359 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:53:04,399 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:04,400 - INFO - 127.0.0.1 - - [22/May/2025 10:53:04] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:53:05,802 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:05,803 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:05,803 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:53:05,804 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:05,804 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:53:05,873 - INFO - 127.0.0.1 - - [22/May/2025 10:53:05] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:53:08,791 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:08,792 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:08,793 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:53:08,793 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:08,793 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:53:08,794 - INFO - 127.0.0.1 - - [22/May/2025 10:53:08] "GET /api/meteo HTTP/1.1" 200 -
+2025-05-22 10:53:16,583 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:16,583 - INFO - Displaying terminal page
+2025-05-22 10:53:16,589 - INFO - 127.0.0.1 - - [22/May/2025 10:53:16] "GET /api/terminal HTTP/1.1" 200 -
+2025-05-22 10:53:16,715 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:16,716 - INFO - 127.0.0.1 - - [22/May/2025 10:53:16] "GET /api/terminal-stream HTTP/1.1" 200 -
+2025-05-22 10:53:22,769 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:22,769 - INFO - Publishing message to topic 'test' with QoS 0. Payload: 'test'
+2025-05-22 10:53:22,769 - INFO - Message (mid: 2) accepted for publishing to topic 'test'.
+2025-05-22 10:53:22,769 - INFO - Successfully published MQTT message to topic 'test' via shared client: test
+2025-05-22 10:53:22,770 - INFO - 127.0.0.1 - - [22/May/2025 10:53:22] "POST /api/send-mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:22,781 - INFO - Message received: test test
+2025-05-22 10:53:23,213 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:23,213 - INFO - Flask received message via HTTP POST: test test
+2025-05-22 10:53:23,213 - INFO - 127.0.0.1 - - [22/May/2025 10:53:23] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:23,213 - INFO - Message sent to Flask: test test
+2025-05-22 10:53:25,685 - INFO - Message received: ss ddddd
+2025-05-22 10:53:26,114 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:26,114 - INFO - Flask received message via HTTP POST: ss ddddd
+2025-05-22 10:53:26,114 - INFO - 127.0.0.1 - - [22/May/2025 10:53:26] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:26,114 - INFO - Message sent to Flask: ss ddddd
+2025-05-22 10:53:26,114 - INFO - Message received: ss ddddd
+2025-05-22 10:53:26,601 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:26,610 - INFO - Flask received message via HTTP POST: ss ddddd
+2025-05-22 10:53:26,611 - INFO - 127.0.0.1 - - [22/May/2025 10:53:26] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:26,611 - INFO - Message sent to Flask: ss ddddd
+2025-05-22 10:53:26,611 - INFO - Message received: ss ddddd
+2025-05-22 10:53:27,201 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,211 - INFO - Flask received message via HTTP POST: ss ddddd
+2025-05-22 10:53:27,211 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:27,221 - INFO - Message sent to Flask: ss ddddd
+2025-05-22 10:53:27,221 - INFO - Message received: ss ddddd
+2025-05-22 10:53:27,718 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,718 - INFO - Flask received message via HTTP POST: ss ddddd
+2025-05-22 10:53:27,718 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "POST /api/mqtt-message HTTP/1.1" 200 -
+2025-05-22 10:53:27,728 - INFO - Message sent to Flask: ss ddddd
+2025-05-22 10:53:27,770 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,770 - INFO - Fetched 15 rows from data table
+2025-05-22 10:53:27,780 - INFO - Displaying dashboard
+2025-05-22 10:53:27,782 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "GET /api/dashboard HTTP/1.1" 200 -
+2025-05-22 10:53:27,935 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,935 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:53:27,937 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,937 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:53:27,993 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:27,993 - INFO - 127.0.0.1 - - [22/May/2025 10:53:27] "[33mGET /api/js/input-numspin.min.js HTTP/1.1[0m" 404 -
+2025-05-22 10:53:28,017 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:28,021 - INFO - 127.0.0.1 - - [22/May/2025 10:53:28] "[33mGET /api/css/input-numspin.min.css HTTP/1.1[0m" 404 -
+2025-05-22 10:53:29,119 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:29,121 - INFO - Deleted data point with ID: 35
+2025-05-22 10:53:29,121 - INFO - 127.0.0.1 - - [22/May/2025 10:53:29] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-22 10:53:29,236 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:29,236 - INFO - Deleted data point with ID: 36
+2025-05-22 10:53:29,236 - INFO - 127.0.0.1 - - [22/May/2025 10:53:29] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-22 10:53:29,388 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:29,388 - INFO - Deleted data point with ID: 37
+2025-05-22 10:53:29,388 - INFO - 127.0.0.1 - - [22/May/2025 10:53:29] "GET /api/delete_one HTTP/1.1" 200 -
+2025-05-22 10:53:31,685 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:31,685 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:31,685 - INFO - Fetched 0 readings from meteo_device_1
+2025-05-22 10:53:31,685 - INFO - Found existing meteo device IDs: [1]
+2025-05-22 10:53:31,685 - INFO - Displaying meteo page. Devices: [1]. Next ID: 2
+2025-05-22 10:53:31,695 - INFO - 127.0.0.1 - - [22/May/2025 10:53:31] "GET /api/meteo HTTP/1.1" 200 -

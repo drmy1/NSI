@@ -5,6 +5,12 @@ import os
 import logging
 import threading
 from utills import mqtt_client_handler
+from db import (
+    get_existing_meteo_device_ids,
+    insert_meteo_device_reading,
+    create_meteo_device_table,
+)
+from datetime import datetime
 
 ssl_context = ("./cert/certificate.pem", "./cert/key.pem")
 
@@ -47,6 +53,12 @@ def main():
 
 @app.before_request
 def redirect_to_https():
+    if not get_existing_meteo_device_ids():
+        create_meteo_device_table(1)
+        #     Add a default timestamp using datetime
+        insert_meteo_device_reading(
+            1, datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3], 20.5
+        )  # Sample data
     if not request.is_secure:
         url = request.url.replace("http://", "https://", 1)
         return redirect(url, code=301)

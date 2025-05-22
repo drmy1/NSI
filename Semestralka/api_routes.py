@@ -21,6 +21,11 @@ from db import (
     fetch_min_data_from_table,
     insert_data_into_db,
     fetch_all_data_by_order,
+    get_existing_meteo_device_ids,
+    get_next_meteo_device_id,
+    create_meteo_device_table,
+    fetch_meteo_device_data,
+    insert_meteo_device_reading,
 )
 from typing import Dict
 from extensions import jsonify_data, logged_in
@@ -347,10 +352,126 @@ def send_mqtt_message_route():
         return jsonify(status="error", message=f"Server error: {e}"), 500
 
 
-@meteo_bp.route("/meteo", methods=["GET", "POST"])
+@meteo_bp.route("/meteo", methods=["GET"])
 def meteo():
     if not logged_in():
         logging.info(NOT_LOGGED_IN)
-        return redirect("/api/login")
-    logging.info("Displaying meteo page")
-    return render_template("meteo.html", active_page="meteo")
+        return redirect(url_for("creds.login"))
+
+    # Initial data for the meteo page
+    device_ids = get_existing_meteo_device_ids()
+    meteo_data_all_devices = {}
+    for device_id in device_ids:
+        # Fetch last N readings, e.g., 50, for initial display. Client can request more.
+        meteo_data_all_devices[device_id] = fetch_meteo_device_data(device_id, limit=50)
+
+    next_device_id = get_next_meteo_device_id()
+
+    logging.info(
+        f"Displaying meteo page. Devices: {device_ids}. Next ID: {next_device_id}"
+    )
+    return render_template(
+        "meteo.html",
+        active_page="meteo",
+        device_ids=device_ids,  # Pass existing device IDs
+        meteo_data=meteo_data_all_devices,  # Pass their initial data
+        next_device_id=next_device_id,  # Pass the next ID for the "Add" button
+    )
+
+
+@meteo_bp.route("/meteo/devices", methods=["GET"])
+def get_meteo_devices():
+    if not logged_in():
+        return jsonify({"error": NOT_LOGGED_IN}), 401
+    device_ids = get_existing_meteo_device_ids()
+    next_id = get_next_meteo_device_id()
+    return jsonify({"device_ids": device_ids, "next_device_id": next_id})
+
+
+@meteo_bp.route("/meteo/add_device", methods=["POST"])
+def add_meteo_device():
+    if not logged_in():
+        return jsonify({"error": NOT_LOGGED_IN}), 401
+
+    new_device_id = get_next_meteo_device_id()
+    if create_meteo_device_table(new_device_id):
+        logging.info(f"Successfully created meteo device table for ID: {new_device_id}")
+        # Optionally, add a dummy first reading
+        # insert_meteo_device_reading(new_device_id, datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3], 0.0)
+        return jsonify(
+            {
+                "success": True,
+                "new_device_id": new_device_id,
+                "message": f"Device {new_device_id} added.",
+            }
+        )
+    else:
+        logging.error(f"Failed to create meteo device table for ID: {new_device_id}")
+        return jsonify({"success": False, "message": "Failed to add device."}), 500
+
+
+@meteo_bp.route("/meteo/data/<int:device_id>", methods=["GET"])
+def get_meteo_data_for_device(device_id):
+    if not logged_in():
+        return jsonify({"error": NOT_LOGGED_IN}), 401
+
+    # You might want to add a 'limit' or 'since' query parameter here for pagination/updates
+    limit = request.args.get("limit", type=int, default=None)  # Get all data by default
+
+    data = fetch_meteo_device_data(device_id, limit=limit)
+    if data is None:  # fetch_meteo_device_data returns [] on error/no table
+        return jsonify(
+            {"error": f"Device with ID {device_id} not found or no data."}
+        ), 404
+    return jsonify({"device_id": device_id, "data": data})
+
+
+@meteo_bp.route("/meteo/all_data", methods=["GET"])
+def get_all_meteo_data():
+    if not logged_in():
+        return jsonify({"error": NOT_LOGGED_IN}), 401
+
+    device_ids = get_existing_meteo_device_ids()
+    all_data = {}
+    limit = request.args.get(
+        "limit", type=int, default=50
+    )  # Default to last 50 for overview
+
+    for did in device_ids:
+        all_data[did] = fetch_meteo_device_data(did, limit=limit)
+
+    return jsonify(all_data)
+
+
+# Example route to manually add a reading to a meteo device (for testing)
+@meteo_bp.route("/meteo/add_reading/<int:device_id>", methods=["POST"])
+def add_meteo_reading_manual(device_id):
+    if not logged_in():
+        return jsonify({"error": NOT_LOGGED_IN}), 401
+
+    try:
+        data = request.get_json()
+        temperature = float(data.get("temperature"))
+        # Timestamp can be provided or generated
+        timestamp_str = data.get(
+            "timestamp", datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+        )  # Milliseconds
+    except Exception as e:
+        return jsonify({"error": f"Invalid data format: {e}"}), 400
+
+    # Check if device exists (optional, insert_meteo_device_reading handles table non-existence by failing)
+    # existing_ids = get_existing_meteo_device_ids()
+    # if device_id not in existing_ids:
+    #     return jsonify({"error": f"Device {device_id} does not exist."}), 404
+
+    if insert_meteo_device_reading(device_id, timestamp_str, temperature):
+        return jsonify(
+            {"success": True, "message": f"Reading added to device {device_id}"}
+        )
+    else:
+        return jsonify(
+            {
+                "success": False,
+                "message": f"Failed to add reading to device {device_id}",
+            }
+        ), 500
