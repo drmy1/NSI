@@ -420,8 +420,8 @@ def get_all_meteo_data():
     all_data = {}
     limit = request.args.get("limit", type=int, default=50)
 
-    for did in device_ids:
-        all_data[did] = fetch_meteo_device_data(did, limit=limit)
+    for div in device_ids:
+        all_data[div] = fetch_meteo_device_data(div, limit=limit)
 
     return jsonify(all_data)
 
