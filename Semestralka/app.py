@@ -5,12 +5,6 @@ import os
 import logging
 import threading
 from utills import mqtt_client_handler
-from db import (
-    get_existing_meteo_device_ids,
-    insert_meteo_device_reading,
-    create_meteo_device_table,
-)
-from datetime import datetime
 
 ssl_context = ("./cert/certificate.pem", "./cert/key.pem")
 

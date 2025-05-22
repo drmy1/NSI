@@ -149,7 +149,6 @@ def fetch_all_data_by_order(order):
 
 
 def create_meteo_device_table(device_id: int):
-    """Creates a new table for a meteo device if it doesn't exist."""
     table_name = f"{METEO_DEVICE_TABLE_PREFIX}{device_id}"
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
@@ -175,7 +174,6 @@ def create_meteo_device_table(device_id: int):
 
 
 def insert_meteo_device_reading(device_id: int, timestamp: str, temperature: float):
-    """Inserts a new temperature reading for a specific meteo device."""
     table_name = f"{METEO_DEVICE_TABLE_PREFIX}{device_id}"
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
@@ -198,9 +196,9 @@ def insert_meteo_device_reading(device_id: int, timestamp: str, temperature: flo
 
 
 def fetch_meteo_device_data(device_id: int, limit: Optional[int] = None):
-    """Fetches data for a specific meteo device, optionally limited."""
     table_name = f"{METEO_DEVICE_TABLE_PREFIX}{device_id}"
     connection = sqlite3.connect("miniproject.db")
+    connection.row_factory = sqlite3.Row
     cur = connection.cursor()
     try:
         query = (
@@ -221,7 +219,6 @@ def fetch_meteo_device_data(device_id: int, limit: Optional[int] = None):
 
 
 def get_existing_meteo_device_ids():
-    """Returns a list of existing meteo device IDs by inspecting table names."""
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
     try:
@@ -256,7 +253,6 @@ def get_existing_meteo_device_ids():
 
 
 def get_next_meteo_device_id():
-    """Determines the next available ID for a new meteo device."""
     existing_ids = get_existing_meteo_device_ids()
     if not existing_ids:
         return 1

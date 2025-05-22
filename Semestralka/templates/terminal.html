@@ -179,9 +179,9 @@
               if (data.status === "success") {
                 mqttSendStatus.textContent = `Message sent to topic '${topic}'!`;
                 mqttSendStatus.style.color = "lightgreen";
-                // Optionally clear inputs
-                mqttTopicInput.value = "";
-                mqttMessageInput.value = "";
+                // clear inputs
+                // mqttTopicInput.value = "";
+                // mqttMessageInput.value = "";
               } else {
                 mqttSendStatus.textContent = `Error: ${data.message}`;
                 mqttSendStatus.style.color = "red";

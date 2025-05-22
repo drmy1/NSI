@@ -263,7 +263,6 @@ def receive_mqtt_message():
         logging.info(
             f"Flask received message via HTTP POST: {data['topic']} {data['payload']}"
         )
-        # Use the message_queue from extensions
         message_queue.put(
             {
                 "topic": data["topic"],

@@ -15,7 +15,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
     <style>
       body {
-        /* Assuming data-bs-theme="dark" will be on body or html from base.html */
       }
       .device-section {
         border: 1px solid #444;
@@ -46,7 +45,7 @@
         border-radius: 0.25rem;
         background-color: #2c2f33;
         margin-bottom: 20px;
-        min-height: 400px; /* Ensure chart has space */
+        min-height: 400px;
       }
       .arrow-icon {
         transition: transform 0.3s ease;
@@ -91,7 +90,6 @@
         let meteoChart;
         let currentNextDeviceId = null;
 
-        // --- Color Generation for Chart ---
         const colorPalette = [
           "rgba(255, 99, 132, 0.8)",
           "rgba(54, 162, 235, 0.8)",
@@ -109,7 +107,6 @@
           return color;
         }
 
-        // --- Chart Initialization and Update ---
         function initializeChart(datasets = []) {
           if (meteoChart) {
             meteoChart.destroy();
@@ -162,7 +159,6 @@
           };
         }
 
-        // --- UI Rendering ---
         function createDeviceSectionHTML(deviceId, data = []) {
           const sectionId = `deviceSection-${deviceId}`;
           const collapseId = `collapseDevice-${deviceId}`;
@@ -195,7 +191,6 @@
                     </div>
                 </div>`;
 
-          // Initialize collapse and event listener for arrow
           const header = section.querySelector(".device-header");
           const collapseElement = section.querySelector(`#${collapseId}`);
           new bootstrap.Collapse(collapseElement, { toggle: false });
@@ -240,7 +235,7 @@
             if (nextDeviceIdDisplay) {
               nextDeviceIdDisplay.textContent = currentNextDeviceId;
             }
-            return data.device_ids || []; // Returns list of device IDs
+            return data.device_ids || [];
           } catch (error) {
             console.error("Error fetching device list and next ID:", error);
             if (nextDeviceIdDisplay) {
@@ -253,11 +248,11 @@
 
         async function fetchAllMeteoData() {
           try {
-            const response = await fetch("/api/meteo/all_data?limit=100"); // Or your preferred limit
+            const response = await fetch("/api/meteo/all_data?limit=100");
             if (!response.ok) {
               throw new Error(`HTTP error! status: ${response.status}`);
             }
-            return await response.json(); // Expected: { device_id1: [data], device_id2: [data] }
+            return await response.json();
           } catch (error) {
             console.error("Error fetching all meteo data:", error);
             alert("Error fetching data: " + error.message);
@@ -268,15 +263,13 @@
         // --- Core Logic ---
         async function loadInitialData() {
           console.log("Loading initial data...");
-          // First, get the list of devices and the next ID
           await fetchDeviceAndNextId();
 
-          // Then, fetch all data for these devices
           const allData = await fetchAllMeteoData();
 
-          devicesContainer.innerHTML = ""; // Clear existing device sections
+          devicesContainer.innerHTML = "";
           const chartDatasets = [];
-          colorIndex = 0; // Reset color index for consistent coloring on refresh
+          colorIndex = 0;
 
           const deviceIds = Object.keys(allData).sort(
             (a, b) => parseInt(a) - parseInt(b)
@@ -322,22 +315,17 @@
               const newId = result.new_device_id;
               alert(`Device ${newId} added successfully!`);
 
-              // Add new device section (initially empty or with placeholder)
               const newDeviceSection = createDeviceSectionHTML(newId, []);
               devicesContainer.appendChild(newDeviceSection);
 
-              // Add to chart (initially empty)
               meteoChart.data.datasets.push(
                 createChartDataset(newId, [], getNextColor())
               );
               meteoChart.update();
 
-              // Update next device ID display
-              await fetchDeviceAndNextId(); // Fetches the new next_device_id
+              await fetchDeviceAndNextId();
 
-              // Optionally, fetch data specifically for the new device or refresh all
-              // For simplicity, let's refresh all data to include the new device properly
-              await loadInitialData(); // This will re-render everything correctly
+              await loadInitialData();
             } else {
               throw new Error(
                 result.message || "Failed to add device for an unknown reason."
@@ -351,10 +339,9 @@
 
         updateAllDataBtn.addEventListener("click", function () {
           console.log("Update All Data button clicked.");
-          loadInitialData(); // Reloads all device info and data
+          loadInitialData();
         });
 
-        // --- Initial Load ---
         loadInitialData();
       });
     </script>

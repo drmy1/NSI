@@ -4,6 +4,12 @@ import os
 from extensions import is_valid_ipv4
 from dotenv import load_dotenv
 import requests  # type: ignore
+from datetime import datetime
+import json
+from db import (
+    get_existing_meteo_device_ids,
+    insert_meteo_device_reading,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -114,36 +120,111 @@ class Mqtt:
         if rc == 0:
             logging.info(f"Subscribing to topics: {self.topics_to_subscribe}")
             client.subscribe(self.topics_to_subscribe)
-            # print(f"Connected with result code {rc}")
 
         else:
             logging.error(f"Connection failed, not subscribing. Result code: {rc}")
         logging.info(f"Connected with result code {rc}")
 
     def on_message(self, client, userdata, msg):
-        match self.subscribed:
-            case True:
-                message_content = msg.payload.decode()
-                topic = msg.topic
-                logging.info(f"Message received: {topic} {message_content}")
-                # print(f"Message received: {topic} {message_content}")
+        if not self.subscribed:
+            logging.info("Program started, configuring subscription...")
+            self.setsub()
+
+        topic = msg.topic
+        try:
+            message_content_str = msg.payload.decode()
+
+            logging.info(f"Message received: {topic} {message_content_str}")
+        except UnicodeDecodeError:
+            logging.error(
+                f"Could not decode payload for topic {topic}. Payload: {msg.payload}"
+            )
+
+            return
+
+        # --- Logic for /meteo/* topics (database insertion) ---
+        if topic.startswith("/meteo/"):
+            parts = topic.split("/")
+            if len(parts) == 3 and parts[1] == "meteo":
                 try:
-                    requests.post(
-                        self.FLASK_MESSAGE_ENDPOINT,
-                        json={
-                            "topic": topic,
-                            "payload": message_content,
-                            "qos": msg.qos,
-                        },
-                        verify=False,
+                    device_id_str = parts[2]
+                    device_id = int(device_id_str)
+                except ValueError:
+                    logging.warning(
+                        f"Invalid device ID format in topic: {topic}. Expected integer."
                     )
-                    logging.info(f"Message sent to Flask: {topic} {message_content}")
-                except requests.exceptions.RequestException as e:
-                    logging.error(f"Error sending message to Flask: {e}")
-                    print(f"Error sending message to Flask: {e}")
-            case False:
-                logging.info("Program started configuting subscription...")
-                self.setsub()
+
+                if "device_id" in locals() or "device_id" in globals():
+                    try:
+                        payload_data = json.loads(message_content_str)
+                        temperature = payload_data.get("temperature")
+                        timestamp_str = payload_data.get("timestamp")
+                        if timestamp_str:
+                            pass
+                        else:
+                            timestamp_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                        if temperature is None:
+                            logging.warning(
+                                f"No 'temperature' field in payload for {topic}: {message_content_str}"
+                            )
+
+                        else:
+                            temperature = float(temperature)
+                            existing_device_ids = get_existing_meteo_device_ids()
+                            if device_id in existing_device_ids:
+                                logging.info(
+                                    f"Device ID {device_id} found in DB. Inserting data: T={temperature}, Time={timestamp_str}"
+                                )
+                                if insert_meteo_device_reading(
+                                    device_id, timestamp_str, temperature
+                                ):
+                                    logging.info(
+                                        f"Successfully inserted data for meteo device {device_id}."
+                                    )
+                                else:
+                                    logging.error(
+                                        f"Failed to insert data for meteo device {device_id}."
+                                    )
+                            else:
+                                logging.warning(
+                                    f"Meteo device ID {device_id} from topic {topic} not found in the database. Data not inserted."
+                                )
+
+                    except json.JSONDecodeError:
+                        logging.error(
+                            f"Could not parse JSON payload for meteo device {device_id_str} on topic {topic}: {message_content_str}"
+                        )
+
+                    except ValueError:
+                        logging.error(
+                            f"Invalid temperature format for meteo device {device_id_str} on topic {topic}. Expected float."
+                        )
+
+                    except Exception as e:
+                        logging.error(
+                            f"Error processing meteo payload for {topic}: {e}"
+                        )
+
+            else:
+                logging.warning(
+                    f"Received message on a /meteo/ topic with unexpected structure: {topic}"
+                )
+
+        if self.subscribed:
+            try:
+                requests.post(
+                    self.FLASK_MESSAGE_ENDPOINT,
+                    json={
+                        "topic": topic,
+                        "payload": message_content_str,
+                        "qos": msg.qos,
+                    },
+                    verify=False,
+                )
+                logging.info(f"Message sent to Flask: {topic} {message_content_str}")
+            except requests.exceptions.RequestException as e:
+                logging.error(f"Error sending message to Flask: {e}")
 
     # TODO For the future maybe
     # def on_publish(self, client, userdata, mid):
@@ -173,7 +254,6 @@ class Mqtt:
             print(f"An error occurred: {e}")
         self.client.loop_start()
         logging.info(f"Connected to MQTT broker at {self.host}:{self.port}")
-        # print(f"Connected to MQTT broker at {self.host}:{self.port}")
 
     def publish_message(
         self, topic: str, payload: str, qos: int = 0, retain: bool = False
