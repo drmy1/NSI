@@ -1,6 +1,5 @@
 import sqlite3
 import logging
-import json  # Added for parsing temperature_timestamp if it's stored as JSON
 from typing import Optional
 
 logging.basicConfig(
@@ -155,9 +154,6 @@ def create_meteo_device_table(device_id: int):
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
     try:
-        # id will be auto-incrementing for each device's readings
-        # timestamp will store the time of the reading
-        # temperature will store the temperature value
         cur.execute(f"""
             CREATE TABLE IF NOT EXISTS {table_name} (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -207,19 +203,18 @@ def fetch_meteo_device_data(device_id: int, limit: Optional[int] = None):
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
     try:
-        query = f"SELECT timestamp, temperature FROM {table_name} ORDER BY timestamp ASC"  # Fetch in chronological order
+        query = (
+            f"SELECT timestamp, temperature FROM {table_name} ORDER BY timestamp ASC"
+        )
         if limit and isinstance(limit, int) and limit > 0:
             query += f" LIMIT {limit}"
         cur.execute(query)
-        data = cur.fetchall()  # Should be a list of sqlite3.Row objects
+        data = cur.fetchall()
         logging.info(f"Fetched {len(data)} readings from {table_name}")
-        return [
-            dict(row) for row in data
-        ]  # Convert list of sqlite3.Row to list of dicts
+        return [dict(row) for row in data]
     except sqlite3.Error as e:
-        # This will also catch cases where the table doesn't exist
         logging.warning(f"Could not fetch data from {table_name}: {e}")
-        return []  # Return empty list if table doesn't exist or other error
+        return []
     finally:
         cur.close()
         connection.close()
@@ -230,20 +225,14 @@ def get_existing_meteo_device_ids():
     connection = sqlite3.connect("miniproject.db")
     cur = connection.cursor()
     try:
-        # Querying sqlite_master for table names.
-        # The 'name' column is the first column (index 0).
         cur.execute(
             "SELECT name FROM sqlite_master WHERE type='table' AND name LIKE ?",
             (f"{METEO_DEVICE_TABLE_PREFIX}%",),
         )
-        tables = (
-            cur.fetchall()
-        )  # This will be a list of tuples (or sqlite3.Row objects if factory works)
+        tables = cur.fetchall()
         device_ids = []
-        for table_row in tables:  # table_row is a single row from the fetchall result
+        for table_row in tables:
             try:
-                # Access the table name by index 0, as it's the first column selected.
-                # This is safer if row_factory isn't consistently returning dict-like rows.
                 table_name_str = table_row[0]
                 device_id = int(table_name_str.replace(METEO_DEVICE_TABLE_PREFIX, ""))
                 device_ids.append(device_id)
@@ -251,12 +240,11 @@ def get_existing_meteo_device_ids():
                 ValueError,
                 TypeError,
                 IndexError,
-            ) as e:  # Catch potential errors during parsing
-                # Log the problematic row and the error
+            ) as e:
                 logging.warning(
                     f"Found table row '{table_row}' matching prefix but could not parse ID. Error: {e}"
                 )
-        device_ids.sort()  # Ensure they are in order
+        device_ids.sort()
         logging.info(f"Found existing meteo device IDs: {device_ids}")
         return device_ids
     except sqlite3.Error as e:

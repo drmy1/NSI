@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meteo Station</title>
+    <title>Meteo Station (Rebuilt)</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,10 +21,10 @@
         border: 1px solid #444;
         border-radius: 0.25rem;
         margin-bottom: 1rem;
-        background-color: #2c2f33; /* Darker background for sections */
+        background-color: #2c2f33;
       }
       .device-header {
-        background-color: #36393f; /* Slightly lighter for header */
+        background-color: #36393f;
         padding: 0.75rem 1.25rem;
         border-bottom: 1px solid #444;
         cursor: pointer;
@@ -46,6 +46,7 @@
         border-radius: 0.25rem;
         background-color: #2c2f33;
         margin-bottom: 20px;
+        min-height: 400px; /* Ensure chart has space */
       }
       .arrow-icon {
         transition: transform 0.3s ease;
@@ -59,112 +60,61 @@
     </style>
   </head>
   <body class="container mt-5" data-bs-theme="dark">
-    {% extends "base.html" %} {% block title %}Meteo Station{% endblock %} {%
-    block content %}
-    <h2 class="mb-4">Meteo Station Monitoring</h2>
+    {% extends "base.html" %} {% block title %}Meteo Station (Rebuilt){%
+    endblock %} {% block content %}
+    <h2 class="mb-4">Meteo Station Monitoring (Rebuilt)</h2>
 
     <div class="mb-3">
       <button id="addDeviceBtn" class="btn btn-success">
-        Add Device (Next ID:
-        <span id="nextDeviceIdCounter">{{ next_device_id }}</span>)
+        Add Device (Next ID: <span id="nextDeviceIdDisplay">Loading...</span>)
       </button>
       <button id="updateAllDataBtn" class="btn btn-info">
-        Update All Data
+        Refresh All Data
       </button>
     </div>
 
     <div class="chart-container">
-      <canvas id="meteoChart" style="width: 100%"></canvas>
+      <canvas id="meteoChart"></canvas>
     </div>
 
-    <div id="devicesContainer">
-      {% for device_id in device_ids %}
-      <div class="device-section" id="deviceSection-{{ device_id }}">
-        <div
-          class="device-header"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseDevice-{{ device_id }}"
-          aria-expanded="false"
-          aria-controls="collapseDevice-{{ device_id }}"
-        >
-          <h5>Temperature Sensor - Device {{ device_id }}</h5>
-          <i class="fas fa-chevron-down arrow-icon collapsed"></i>
-        </div>
-        <div class="collapse" id="collapseDevice-{{ device_id }}">
-          <div class="device-table-container">
-            <table class="table table-dark table-striped table-sm">
-              <thead>
-                <tr>
-                  <th>Timestamp</th>
-                  <th>Temperature (°C)</th>
-                </tr>
-              </thead>
-              <tbody id="deviceTableBody-{{ device_id }}">
-                {% if meteo_data and device_id in meteo_data %} {% for reading
-                in meteo_data[device_id] %}
-                <tr>
-                  <td>{{ reading.timestamp }}</td>
-                  <td>{{ reading.temperature }}</td>
-                </tr>
-                {% endfor %} {% else %}
-                <tr>
-                  <td colspan="2">No data available.</td>
-                </tr>
-                {% endif %}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+    <div id="devicesContainer"></div>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        const ctx = document.getElementById("meteoChart").getContext("2d");
-        let meteoChart;
-        let currentDeviceData =
-          JSON.parse("{{ meteo_data | tojson | safe}}") || {};
-        let currentDeviceIds =
-          JSON.parse("{{ device_ids | tojson | safe }}") || [];
-        let nextDeviceId = parseInt("{{ next_device_id }}") || 1;
-
-        const nextDeviceIdCounterEl = document.getElementById(
-          "nextDeviceIdCounter"
+        const devicesContainer = document.getElementById("devicesContainer");
+        const nextDeviceIdDisplay = document.getElementById(
+          "nextDeviceIdDisplay"
         );
-        if (nextDeviceIdCounterEl) {
-          nextDeviceIdCounterEl.textContent = nextDeviceId;
+        const addDeviceBtn = document.getElementById("addDeviceBtn");
+        const updateAllDataBtn = document.getElementById("updateAllDataBtn");
+        const chartCtx = document.getElementById("meteoChart").getContext("2d");
+        let meteoChart;
+        let currentNextDeviceId = null;
+
+        // --- Color Generation for Chart ---
+        const colorPalette = [
+          "rgba(255, 99, 132, 0.8)",
+          "rgba(54, 162, 235, 0.8)",
+          "rgba(255, 206, 86, 0.8)",
+          "rgba(75, 192, 192, 0.8)",
+          "rgba(153, 102, 255, 0.8)",
+          "rgba(255, 159, 64, 0.8)",
+          "rgba(199, 199, 199, 0.8)",
+          "rgba(83, 102, 255, 0.8)",
+        ];
+        let colorIndex = 0;
+        function getNextColor() {
+          const color = colorPalette[colorIndex % colorPalette.length];
+          colorIndex++;
+          return color;
         }
 
-        function getRandomColor() {
-          const r = Math.floor(Math.random() * 200);
-          const g = Math.floor(Math.random() * 200);
-          const b = Math.floor(Math.random() * 200);
-          return `rgba(${r}, ${g}, ${b}, 0.8)`;
-        }
-
-        function initializeChart() {
-          const datasets = [];
-          currentDeviceIds.forEach((id) => {
-            const deviceSpecificData = currentDeviceData[id] || [];
-            datasets.push({
-              label: `Device ${id} Temp (°C)`,
-              data: deviceSpecificData.map((d) => ({
-                x: d.timestamp,
-                y: d.temperature,
-              })),
-              borderColor: getRandomColor(),
-              borderWidth: 2,
-              fill: false,
-              tension: 0.1,
-            });
-          });
-
+        // --- Chart Initialization and Update ---
+        function initializeChart(datasets = []) {
           if (meteoChart) {
             meteoChart.destroy();
           }
-
-          meteoChart = new Chart(ctx, {
+          meteoChart = new Chart(chartCtx, {
             type: "line",
             data: { datasets: datasets },
             options: {
@@ -184,17 +134,6 @@
                   time: {
                     tooltipFormat: "yyyy-MM-dd HH:mm:ss",
                     unit: "minute",
-                    displayFormats: {
-                      millisecond: "HH:mm:ss.SSS",
-                      second: "HH:mm:ss",
-                      minute: "HH:mm",
-                      hour: "HH:00",
-                      day: "MMM dd",
-                      week: "ll",
-                      month: "MMM yyyy",
-                      quarter: "[Q]Q - yyyy",
-                      year: "yyyy",
-                    },
                   },
                   title: { display: true, text: "Time", color: "#fff" },
                   ticks: { color: "#ccc" },
@@ -208,18 +147,28 @@
                   ticks: { color: "#ccc", beginAtZero: false },
                 },
               },
-              interaction: { mode: "index", intersect: false },
             },
           });
         }
 
-        function createDeviceSectionHTML(deviceId, data = []) {
-          const section = document.createElement("div");
-          section.className = "device-section";
-          section.id = `deviceSection-${deviceId}`;
+        function createChartDataset(deviceId, data, color) {
+          return {
+            label: `Device ${deviceId} Temp (°C)`,
+            data: data.map((d) => ({ x: d.timestamp, y: d.temperature })),
+            borderColor: color || getNextColor(),
+            borderWidth: 2,
+            fill: false,
+            tension: 0.1,
+          };
+        }
 
-          let tableRows =
-            '<tr><td colspan="2">No data available yet.</td></tr>';
+        // --- UI Rendering ---
+        function createDeviceSectionHTML(deviceId, data = []) {
+          const sectionId = `deviceSection-${deviceId}`;
+          const collapseId = `collapseDevice-${deviceId}`;
+          const tableBodyId = `deviceTableBody-${deviceId}`;
+
+          let tableRows = '<tr><td colspan="2">No data available.</td></tr>';
           if (data && data.length > 0) {
             tableRows = data
               .map(
@@ -229,27 +178,29 @@
               .join("");
           }
 
+          const section = document.createElement("div");
+          section.className = "device-section";
+          section.id = sectionId;
           section.innerHTML = `
-                    <div class="device-header" data-bs-toggle="collapse" data-bs-target="#collapseDevice-${deviceId}" aria-expanded="false" aria-controls="collapseDevice-${deviceId}">
-                        <h5>Temperature Sensor - Device ${deviceId}</h5>
-                        <i class="fas fa-chevron-down arrow-icon collapsed"></i>
+                <div class="device-header" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false">
+                    <h5>Temperature Sensor - Device ${deviceId}</h5>
+                    <i class="fas fa-chevron-down arrow-icon collapsed"></i>
+                </div>
+                <div class="collapse" id="${collapseId}">
+                    <div class="device-table-container">
+                        <table class="table table-dark table-striped table-sm">
+                            <thead><tr><th>Timestamp</th><th>Temperature (°C)</th></tr></thead>
+                            <tbody id="${tableBodyId}">${tableRows}</tbody>
+                        </table>
                     </div>
-                    <div class="collapse" id="collapseDevice-${deviceId}">
-                        <div class="device-table-container">
-                            <table class="table table-dark table-striped table-sm">
-                                <thead><tr><th>Timestamp</th><th>Temperature (°C)</th></tr></thead>
-                                <tbody id="deviceTableBody-${deviceId}">${tableRows}</tbody>
-                            </table>
-                        </div>
-                    </div>`;
+                </div>`;
+
+          // Initialize collapse and event listener for arrow
           const header = section.querySelector(".device-header");
-          new bootstrap.Collapse(
-            section.querySelector(`#collapseDevice-${deviceId}`),
-            { toggle: false }
-          ); // Initialize collapse
+          const collapseElement = section.querySelector(`#${collapseId}`);
+          new bootstrap.Collapse(collapseElement, { toggle: false });
           header.addEventListener("click", function () {
-            const icon = this.querySelector(".arrow-icon");
-            icon.classList.toggle("collapsed"); // Bootstrap will handle aria-expanded
+            this.querySelector(".arrow-icon").classList.toggle("collapsed");
           });
           return section;
         }
@@ -277,213 +228,134 @@
           }
         }
 
-        async function fetchAllMeteoData() {
-          console.log("Fetching all meteo data...");
+        // --- API Calls ---
+        async function fetchDeviceAndNextId() {
           try {
-            const response = await fetch("/api/meteo/all_data?limit=100");
+            const response = await fetch("/api/meteo/devices");
             if (!response.ok) {
-              const errorData = await response.json();
-              console.error(
-                "Error fetching all meteo data (API):",
-                errorData.error || response.statusText
-              );
-              alert(
-                "Error fetching data: " +
-                  (errorData.error || response.statusText)
-              );
-              return null;
+              throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-            console.log("Fetched all meteo data successfully:", data);
-            return data;
+            currentNextDeviceId = data.next_device_id;
+            if (nextDeviceIdDisplay) {
+              nextDeviceIdDisplay.textContent = currentNextDeviceId;
+            }
+            return data.device_ids || []; // Returns list of device IDs
           } catch (error) {
-            console.error("Network error fetching all meteo data:", error);
-            alert("Network error. Please check console.");
-            return null;
-          }
-        }
-
-        async function refreshAllData() {
-          console.log("Starting refreshAllData...");
-          const newData = await fetchAllMeteoData();
-          if (newData) {
-            currentDeviceData = newData;
-
-            meteoChart.data.datasets = []; // Clear and rebuild datasets
-
-            Object.keys(currentDeviceData).forEach((id_str) => {
-              const id = parseInt(id_str);
-              const deviceSpecificData = currentDeviceData[id] || [];
-
-              console.log(
-                `Processing data for device ${id} in refreshAllData.`
-              );
-              meteoChart.data.datasets.push({
-                label: `Device ${id} Temp (°C)`,
-                data: deviceSpecificData.map((d) => ({
-                  x: d.timestamp,
-                  y: d.temperature,
-                })),
-                borderColor: getRandomColor(),
-                borderWidth: 2,
-                fill: false,
-                tension: 0.1,
-              });
-              // Ensure the device section exists before trying to update its table
-              if (document.getElementById(`deviceTableBody-${id}`)) {
-                updateDeviceTable(id, deviceSpecificData);
-              } else {
-                console.warn(
-                  `Device section for ${id} not found during refresh, chart updated but table not.`
-                );
-              }
-            });
-            meteoChart.update();
-            console.log("Chart updated in refreshAllData.");
-
-            try {
-              const devicesInfoResponse = await fetch("/api/meteo/devices");
-              if (devicesInfoResponse.ok) {
-                const devicesInfo = await devicesInfoResponse.json();
-                nextDeviceId = devicesInfo.next_device_id;
-                if (nextDeviceIdCounterEl)
-                  nextDeviceIdCounterEl.textContent = nextDeviceId;
-                console.log(`Next device ID updated to: ${nextDeviceId}`);
-              } else {
-                console.error("Failed to fetch updated device info (next ID).");
-              }
-            } catch (e) {
-              console.error("Error fetching device info for next ID:", e);
+            console.error("Error fetching device list and next ID:", error);
+            if (nextDeviceIdDisplay) {
+              nextDeviceIdDisplay.textContent = "Error";
             }
-          } else {
-            console.log("No new data received in refreshAllData.");
+            alert("Error fetching device info: " + error.message);
+            return [];
           }
         }
 
-        document
-          .getElementById("addDeviceBtn")
-          .addEventListener("click", async function () {
-            console.log(
-              "Add Device button clicked. Current nextDeviceId (frontend state):",
-              nextDeviceId
+        async function fetchAllMeteoData() {
+          try {
+            const response = await fetch("/api/meteo/all_data?limit=100"); // Or your preferred limit
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return await response.json(); // Expected: { device_id1: [data], device_id2: [data] }
+          } catch (error) {
+            console.error("Error fetching all meteo data:", error);
+            alert("Error fetching data: " + error.message);
+            return {};
+          }
+        }
+
+        // --- Core Logic ---
+        async function loadInitialData() {
+          console.log("Loading initial data...");
+          // First, get the list of devices and the next ID
+          await fetchDeviceAndNextId();
+
+          // Then, fetch all data for these devices
+          const allData = await fetchAllMeteoData();
+
+          devicesContainer.innerHTML = ""; // Clear existing device sections
+          const chartDatasets = [];
+          colorIndex = 0; // Reset color index for consistent coloring on refresh
+
+          const deviceIds = Object.keys(allData).sort(
+            (a, b) => parseInt(a) - parseInt(b)
+          );
+
+          deviceIds.forEach((deviceId) => {
+            const deviceSpecificData = allData[deviceId] || [];
+            const deviceSection = createDeviceSectionHTML(
+              deviceId,
+              deviceSpecificData
             );
-            try {
-              const response = await fetch("/api/meteo/add_device", {
-                method: "POST",
-              });
-              if (!response.ok) {
-                const errorData = await response.json();
-                console.error(
-                  "Error adding device (API response):",
-                  errorData.message || response.statusText
-                );
-                alert(
-                  "Error adding device: " +
-                    (errorData.message || response.statusText)
-                );
-                return;
-              }
-              const result = await response.json();
-              console.log("Add device API call result:", result);
-
-              if (result.success) {
-                const newId = result.new_device_id;
-                console.log(`Backend reported new device ID: ${newId}`);
-                alert(`Device ${newId} added successfully by backend!`);
-
-                if (document.getElementById(`deviceSection-${newId}`)) {
-                  console.warn(
-                    `UI section for device ${newId} already exists. Attempting to refresh data only.`
-                  );
-                } else {
-                  const devicesContainer =
-                    document.getElementById("devicesContainer");
-                  const newDeviceSection = createDeviceSectionHTML(newId, []);
-                  devicesContainer.appendChild(newDeviceSection);
-                  console.log(`Created and appended UI for device ${newId}`);
-                }
-
-                if (!currentDeviceIds.includes(newId)) {
-                  currentDeviceIds.push(newId);
-                  console.log("Updated currentDeviceIds:", currentDeviceIds);
-                }
-                currentDeviceData[newId] = [];
-
-                // Check if chart dataset for this device already exists before adding
-                let chartDataset = meteoChart.data.datasets.find(
-                  (ds) => ds.label === `Device ${newId} Temp (°C)`
-                );
-                if (chartDataset) {
-                  console.warn(
-                    `Chart dataset for device ${newId} already exists. It will be updated by refreshAllData.`
-                  );
-                } else {
-                  meteoChart.data.datasets.push({
-                    label: `Device ${newId} Temp (°C)`,
-                    data: [],
-                    borderColor: getRandomColor(),
-                    borderWidth: 2,
-                    fill: false,
-                    tension: 0.1,
-                  });
-                  console.log(
-                    `Added new dataset to chart for device ${newId} (provisional). Full update by refreshAllData.`
-                  );
-                }
-                // meteoChart.update(); // refreshAllData will handle this more reliably
-
-                await refreshAllData();
-                console.log(
-                  `refreshAllData completed after attempting to add device ${newId}.`
-                );
-              } else {
-                alert(
-                  "Failed to add device (backend reported failure): " +
-                    result.message
-                );
-                console.error(
-                  "Failed to add device (backend reported failure):",
-                  result.message
-                );
-              }
-            } catch (error) {
-              console.error(
-                "Network error or other JS error during add device:",
-                error
-              );
-              alert(
-                "Network error or JS processing error. Please check console."
-              );
-            }
+            devicesContainer.appendChild(deviceSection);
+            chartDatasets.push(
+              createChartDataset(deviceId, deviceSpecificData, getNextColor())
+            );
           });
 
-        document
-          .getElementById("updateAllDataBtn")
-          .addEventListener("click", refreshAllData);
+          initializeChart(chartDatasets);
+          console.log("Initial data loaded and UI rendered.");
+        }
 
-        document.querySelectorAll(".device-header").forEach((header) => {
-          const targetId = header.getAttribute("data-bs-target");
-          const targetCollapseElement = document.querySelector(targetId);
-          if (targetCollapseElement) {
-            new bootstrap.Collapse(targetCollapseElement, { toggle: false }); // Initialize collapse
-            header.addEventListener("click", function () {
-              const icon = this.querySelector(".arrow-icon");
-              icon.classList.toggle("collapsed");
+        addDeviceBtn.addEventListener("click", async function () {
+          console.log("Attempting to add new device...");
+          if (currentNextDeviceId === null) {
+            alert("Device IDs not loaded yet. Please wait or refresh.");
+            return;
+          }
+          try {
+            const response = await fetch("/api/meteo/add_device", {
+              method: "POST",
             });
+            if (!response.ok) {
+              const errorData = await response
+                .json()
+                .catch(() => ({ message: "Unknown error" }));
+              throw new Error(
+                errorData.message || `HTTP error! status: ${response.status}`
+              );
+            }
+            const result = await response.json();
+
+            if (result.success && result.new_device_id) {
+              const newId = result.new_device_id;
+              alert(`Device ${newId} added successfully!`);
+
+              // Add new device section (initially empty or with placeholder)
+              const newDeviceSection = createDeviceSectionHTML(newId, []);
+              devicesContainer.appendChild(newDeviceSection);
+
+              // Add to chart (initially empty)
+              meteoChart.data.datasets.push(
+                createChartDataset(newId, [], getNextColor())
+              );
+              meteoChart.update();
+
+              // Update next device ID display
+              await fetchDeviceAndNextId(); // Fetches the new next_device_id
+
+              // Optionally, fetch data specifically for the new device or refresh all
+              // For simplicity, let's refresh all data to include the new device properly
+              await loadInitialData(); // This will re-render everything correctly
+            } else {
+              throw new Error(
+                result.message || "Failed to add device for an unknown reason."
+              );
+            }
+          } catch (error) {
+            console.error("Error adding device:", error);
+            alert("Error adding device: " + error.message);
           }
         });
 
-        initializeChart();
-        console.log(
-          "Meteo page initialized. Initial device IDs:",
-          currentDeviceIds,
-          "Next ID for button:",
-          nextDeviceId
-        );
-        console.log(
-          "Initial currentDeviceData from server:",
-          currentDeviceData
-        );
+        updateAllDataBtn.addEventListener("click", function () {
+          console.log("Update All Data button clicked.");
+          loadInitialData(); // Reloads all device info and data
+        });
+
+        // --- Initial Load ---
+        loadInitialData();
       });
     </script>
     {% endblock %}
