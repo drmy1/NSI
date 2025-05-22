@@ -29,7 +29,7 @@ from datetime import datetime
 import logging
 import queue
 import time
-from utills import message_queue
+from utills import message_queue, mqtt_client_handler
 
 logging.basicConfig(
     level=logging.INFO,  # Set the logging level to DEBUG
@@ -49,6 +49,7 @@ creds = Blueprint("creds", __name__)
 data_manipulation = Blueprint("data_manipulation", __name__)
 dash = Blueprint("dash", __name__)
 terminal_bp = Blueprint("terminal_bp", __name__)
+meteo_bp = Blueprint("meteo_bp", __name__)
 
 
 @creds.route("/login", methods=["GET", "POST"])
@@ -218,7 +219,9 @@ def dashboard():
         return redirect("/api/login")
     get_last_measurements()
     logging.info("Displaying dashboard")
-    return render_template("dashboard.html", data=DATA.values())
+    return render_template(
+        "dashboard.html", data=DATA.values(), active_page="dashboard"
+    )
 
 
 @creds.route("/register", methods=["GET", "POST"])
@@ -245,7 +248,7 @@ def terminal_page():
         logging.info(NOT_LOGGED_IN)
         return redirect("/api/login")
     logging.info("Displaying terminal page")
-    return render_template("terminal.html")
+    return render_template("terminal.html", active_page="terminal")
 
 
 @terminal_bp.route("/mqtt-message", methods=["POST"])
@@ -287,3 +290,67 @@ def terminal_stream():
             time.sleep(0.1)
 
     return Response(event_stream(), mimetype="text/event-stream")
+
+
+@terminal_bp.route("/send-mqtt-message", methods=["POST"])
+def send_mqtt_message_route():
+    if not logged_in():
+        logging.warning("Attempt to send MQTT message while not logged in.")
+        return jsonify(status="error", message="User not logged in"), 401
+
+    data = request.json
+    topic = data.get("topic")
+    payload = data.get("payload")
+    qos = data.get("qos", 0)
+
+    if not topic or payload is None:
+        logging.warning(
+            f"Missing topic or payload for sending MQTT message. Data: {data}"
+        )
+        return jsonify(status="error", message="Topic and payload are required"), 400
+
+    try:
+        qos = int(qos)
+        if qos not in [0, 1, 2]:
+            logging.warning(f"Invalid QoS value: {qos}. Defaulting to 0.")
+            qos = 0
+    except ValueError:
+        logging.warning(f"QoS value not an integer: {qos}. Defaulting to 0.")
+        qos = 0
+
+    # Use the imported mqtt_client_handler from utills.py
+    if not mqtt_client_handler or not mqtt_client_handler.client.is_connected():
+        logging.error("MQTT client (from utills) not connected. Cannot send message.")
+        # Optional: Attempt to reconnect, but this should ideally be managed globally
+        # mqtt_client_handler.connect()
+        # if not mqtt_client_handler.client.is_connected():
+        #     return jsonify(status="error", message="MQTT client reconnection failed"), 503
+        return jsonify(status="error", message="MQTT client not connected"), 503
+
+    try:
+        success = mqtt_client_handler.publish_message(topic, payload, qos)
+        if success:
+            logging.info(
+                f"Successfully published MQTT message to topic '{topic}' via shared client: {payload}"
+            )
+            return jsonify(status="success", message="Message published"), 200
+        else:
+            logging.error(
+                f"Failed to publish MQTT message to topic '{topic}' via shared client."
+            )
+            return jsonify(status="error", message="Failed to publish message"), 500
+    except Exception as e:
+        logging.error(
+            f"Exception when trying to publish MQTT message via shared client: {e}",
+            exc_info=True,
+        )
+        return jsonify(status="error", message=f"Server error: {e}"), 500
+
+
+@meteo_bp.route("/meteo", methods=["GET", "POST"])
+def meteo():
+    if not logged_in():
+        logging.info(NOT_LOGGED_IN)
+        return redirect("/api/login")
+    logging.info("Displaying meteo page")
+    return render_template("meteo.html", active_page="meteo")

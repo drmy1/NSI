@@ -40,6 +40,16 @@
         color: #f05959;
         margin-right: 10px;
       }
+      .mqtt-input-form {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #3e3e3e;
+        border: 1px solid #ffbe1b;
+      }
+      .mqtt-input-form label {
+        color: #ffbe1b;
+      }
     </style>
   </head>
   <body class="container mt-5" data-bs-theme="dark">
@@ -50,10 +60,43 @@
       <p>Waiting for messages...</p>
     </div>
 
+    <div class="mqtt-input-form mt-4">
+      <h4 class="mb-3" style="color: #ffbe1b">Send MQTT Message</h4>
+      <div class="mb-3">
+        <label for="mqtt-topic" class="form-label">Topic</label>
+        <input
+          type="text"
+          class="form-control"
+          id="mqtt-topic"
+          placeholder="e.g., home/livingroom/light"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="mqtt-qos" class="form-label">QoS</label>
+        <select class="form-select" id="mqtt-qos">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="mqtt-message" class="form-label">Message</label>
+        <textarea
+          class="form-control"
+          id="mqtt-message"
+          rows="3"
+          placeholder="Enter message payload"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-warning" id="send-mqtt-btn">
+        Send Message
+      </button>
+      <div id="mqtt-send-status" class="mt-2" style="color: #ffbe1b"></div>
+    </div>
+
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const terminalOutput = document.getElementById("terminal-output");
-        // Clear the initial "Waiting for messages..."
         let firstMessage = true;
         const eventSource = new EventSource("/api/terminal-stream");
 
@@ -64,9 +107,9 @@
           }
           const connectMsg = document.createElement("p");
           connectMsg.textContent = `[${new Date().toLocaleTimeString()}] Connected to message stream.`;
-          connectMsg.style.color = "#00c5c7"; // A different color for system messages
+          connectMsg.style.color = "#00c5c7";
           terminalOutput.appendChild(connectMsg);
-          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Scroll to bottom
+          terminalOutput.scrollTop = terminalOutput.scrollHeight;
         };
 
         eventSource.onmessage = function (event) {
@@ -78,7 +121,7 @@
           const timestamp = `<span class="message-time">[${new Date().toLocaleTimeString()}]</span>`;
           messageElement.innerHTML = `${timestamp}${event.data}`;
           terminalOutput.appendChild(messageElement);
-          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Auto-scroll to the latest message
+          terminalOutput.scrollTop = terminalOutput.scrollHeight;
         };
 
         eventSource.onerror = function (err) {
@@ -91,8 +134,66 @@
           errorMsg.textContent = `[${new Date().toLocaleTimeString()}] Connection error. Attempting to reconnect...`;
           errorMsg.style.color = "red";
           terminalOutput.appendChild(errorMsg);
-          terminalOutput.scrollTop = terminalOutput.scrollHeight; // Scroll to bottom
+          terminalOutput.scrollTop = terminalOutput.scrollHeight;
         };
+
+        // MQTT Send Functionality
+        const sendMqttBtn = document.getElementById("send-mqtt-btn");
+        const mqttTopicInput = document.getElementById("mqtt-topic");
+        const mqttQosInput = document.getElementById("mqtt-qos");
+        const mqttMessageInput = document.getElementById("mqtt-message");
+        const mqttSendStatus = document.getElementById("mqtt-send-status");
+
+        sendMqttBtn.addEventListener("click", function () {
+          const topic = mqttTopicInput.value.trim();
+          const qos = parseInt(mqttQosInput.value, 10);
+          const message = mqttMessageInput.value;
+
+          if (!topic) {
+            mqttSendStatus.textContent = "Topic cannot be empty.";
+            mqttSendStatus.style.color = "red";
+            return;
+          }
+          if (!message) {
+            mqttSendStatus.textContent = "Message cannot be empty.";
+            mqttSendStatus.style.color = "red";
+            return;
+          }
+
+          mqttSendStatus.textContent = "Sending...";
+          mqttSendStatus.style.color = "#ffbe1b";
+
+          fetch("/api/send-mqtt-message", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              topic: topic,
+              payload: message,
+              qos: qos,
+            }),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              if (data.status === "success") {
+                mqttSendStatus.textContent = `Message sent to topic '${topic}'!`;
+                mqttSendStatus.style.color = "lightgreen";
+                // Optionally clear inputs
+                mqttTopicInput.value = "";
+                mqttMessageInput.value = "";
+              } else {
+                mqttSendStatus.textContent = `Error: ${data.message}`;
+                mqttSendStatus.style.color = "red";
+              }
+            })
+            .catch((error) => {
+              console.error("Error sending MQTT message:", error);
+              mqttSendStatus.textContent =
+                "Failed to send message. Check console.";
+              mqttSendStatus.style.color = "red";
+            });
+        });
       });
     </script>
     {% endblock %}

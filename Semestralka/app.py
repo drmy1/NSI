@@ -1,4 +1,4 @@
-from api_routes import creds, data_manipulation, dash, terminal_bp
+from api_routes import creds, data_manipulation, dash, terminal_bp, meteo_bp
 from extensions import limiter
 from flask import Flask, redirect, request, jsonify
 import os
@@ -26,6 +26,7 @@ app.register_blueprint(creds, url_prefix="/api")
 app.register_blueprint(data_manipulation, url_prefix="/api")
 app.register_blueprint(dash, url_prefix="/api")
 app.register_blueprint(terminal_bp, url_prefix="/api")
+app.register_blueprint(meteo_bp, url_prefix="/api")
 
 
 logging.basicConfig(

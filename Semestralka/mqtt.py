@@ -94,9 +94,10 @@ class Mqtt:
         self.client = mqtt.Client(clean_session=True, client_id="NSI_semestralka")
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
-        self.client.on_publish = self.on_publish
-        self.client.on_subscribe = self.on_subscribe
-        self.client.on_log = self.on_log
+        # TODO For the future maybe
+        # self.client.on_publish = self.on_publish
+        # self.client.on_subscribe = self.on_subscribe
+        # self.client.on_log = self.on_log
         env_settings = Env()
         self.username = env_settings.getuser
         self.password = env_settings.getpassword
@@ -144,16 +145,17 @@ class Mqtt:
                 logging.info("Program started configuting subscription...")
                 self.setsub()
 
-    def on_publish(self, client, userdata, mid):
-        logging.info(f"Message published: {mid}")
-        print(f"Message published: {mid}")
+    # TODO For the future maybe
+    # def on_publish(self, client, userdata, mid):
+    #     logging.info(f"Message published: {mid}")
+    #     print(f"Message published: {mid}")
 
-    def on_subscribe(self, client, userdata, mid, granted_qos):
-        logging.info(f"Subscribed: {mid} {granted_qos}")
-        print(f"Subscribed: {mid} {granted_qos}")
+    # def on_subscribe(self, client, userdata, mid, granted_qos):
+    #     logging.info(f"Subscribed: {mid} {granted_qos}")
+    #     print(f"Subscribed: {mid} {granted_qos}")
 
-    def on_log(self, client, userdata, level, buf):
-        logging.info(f"Log: {buf}")
+    # def on_log(self, client, userdata, level, buf):
+    #     logging.info(f"Log: {buf}")
 
     def connect(self):
         self.client.username_pw_set(self.username, self.password)
@@ -172,3 +174,41 @@ class Mqtt:
         self.client.loop_start()
         logging.info(f"Connected to MQTT broker at {self.host}:{self.port}")
         # print(f"Connected to MQTT broker at {self.host}:{self.port}")
+
+    def publish_message(
+        self, topic: str, payload: str, qos: int = 0, retain: bool = False
+    ) -> bool:
+        if not self.client.is_connected():
+            logging.error("Cannot publish message, MQTT client is not connected.")
+            return False
+
+        if not topic:
+            logging.error("Cannot publish message, topic is empty.")
+            return False
+
+        if qos not in [0, 1, 2]:
+            logging.warning(f"Invalid QoS value {qos} provided. Using QoS 0.")
+            qos = 0
+
+        try:
+            logging.info(
+                f"Publishing message to topic '{topic}' with QoS {qos}. Payload: '{payload}'"
+            )
+            msg_info = self.client.publish(topic, payload, qos=qos, retain=retain)
+
+            if msg_info.rc == mqtt.MQTT_ERR_SUCCESS:
+                logging.info(
+                    f"Message (mid: {msg_info.mid}) accepted for publishing to topic '{topic}'."
+                )
+                return True
+            else:
+                logging.error(
+                    f"Failed to publish message to topic '{topic}'. Publish rc: {msg_info.rc}"
+                )
+                return False
+        except Exception as e:
+            logging.error(
+                f"Exception during MQTT publish to topic '{topic}': {e}",
+                exc_info=True,
+            )
+            return False
